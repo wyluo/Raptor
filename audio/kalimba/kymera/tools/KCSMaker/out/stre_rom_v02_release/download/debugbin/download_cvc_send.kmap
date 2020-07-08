@@ -1,0 +1,2937 @@
+
+========================================================================
+disasm
+========================================================================
+
+------------------------------------------------------------------------
+Region: .text_minim
+------------------------------------------------------------------------
+
+ <$_cvc_send_create>
+0x84200000        1CF3                       pushm <FP(=SP), r4, r5, r6, rLink>;
+0x84200002        0017                       r5 = r0 + Null;
+0x84200004        0928                       r6 = r3 + Null;
+0x84200006        993E                       r4 = M[r5 + 48];
+0x84200008        EE20                       M[r2 + Null] = Null;
+0x8420000A        887A                       r0 = M[r5 + 4];
+0x8420000C        F003 E82F                  call (m) $_MakeStandardResponse_SND;
+0x84200010        F082 EE00                  M[r6 + Null] = r0;
+0x84200014        F081 E800                  rMAC = M[r6 + Null];
+0x84200018        6206                       if NE jump (m) Lc_cvc_send_create_3;
+
+ <Lc_cvc_send_create_2>
+0x8420001A        003A                       r0 = r5 + Null;
+0x8420001C        F003 ED2B                  call (m) $_cvc_send_release_constants;
+0x84200020        0002                       r0 = Null + Null;
+0x84200022        6E4B                       jump (m) Lc_cvc_send_create_12;
+
+ <Lc_cvc_send_create_3>
+0x84200024        8979                       rMAC = M[r5 + 20];
+0x84200026        E809                       rMAC = M[rMAC + Null];
+0x84200028        BEB1                       M[r4 + 104] = rMAC;
+0x8420002A        0032                       r0 = r4 + Null;
+0x8420002C        F003 EC3D                  call (m) Lc_cvc_send_config_1;
+0x84200030        0410                       Null = r0 - Null;
+0x84200032        601A                       if EQ jump (m) Lc_cvc_send_create_8;
+
+ <Lc_cvc_send_create_4>
+0x84200034        F061 8821                  rMAC = M[r4 + 132];
+0x84200038        BFF1                       M[r4 + 124] = rMAC;
+0x8420003A        FDFF F08B EF23             call (m) 0x1181c;
+0x84200040        AFB2                       M[r4 + 88] = r0;
+0x84200042        A9B1                       rMAC = M[r4 + 88];
+0x84200044        600E                       if EQ jump (m) Lc_cvc_send_create_7;
+
+ <Lc_cvc_send_create_5>
+0x84200046        0032                       r0 = r4 + Null;
+0x84200048        F004 E72D                  call (m) $_CVC_SEND_CAP_Create;
+0x8420004C        0410                       Null = r0 - Null;
+0x8420004E        600E                       if EQ jump (m) Lc_cvc_send_create_9;
+
+ <Lc_cvc_send_create_6>
+0x84200050        0032                       r0 = r4 + Null;
+0x84200052        F004 EF35                  call (m) $_CVC_SEND_CAP_Destroy;
+0x84200056        A9B2                       r0 = M[r4 + 88];
+0x84200058        FDFF F08B EF29             call (m) 0x11840;
+0x8420005E        AFB0                       M[r4 + 88] = Null;
+
+ <Lc_cvc_send_create_7>
+0x84200060        003A                       r0 = r5 + Null;
+0x84200062        F003 EB25                  call (m) $_cvc_send_release_constants;
+
+ <Lc_cvc_send_create_8>
+0x84200066        2042                       r0 = Null + 1;
+0x84200068        6E28                       jump (m) Lc_cvc_send_create_12;
+
+ <Lc_cvc_send_create_9>
+0x8420006A        0032                       r0 = r4 + Null;
+0x8420006C        FDFF F3B4 E128             call 0x76894;
+0x84200072        0410                       Null = r0 - Null;
+0x84200074        61EE                       if EQ jump (m) Lc_cvc_send_create_6;
+
+ <Lc_cvc_send_create_10>
+0x84200076        B8B2                       r0 = M[r4 + 104];
+0x84200078        FDFF F157 EC29             call (m) 0x2b000;
+0x8420007E        0013                       r1 = r0 + Null;
+0x84200080        F005 4220                  r3 = Null + 544;
+0x84200084        9934                       r2 = M[r4 + 48];
+0x84200086        F062 20D4                  r0 = r4 + 212;
+0x8420008A        FDFF F001 EC3B             call (m) 0x424;
+0x84200090        0410                       Null = r0 - Null;
+0x84200092        61DF                       if EQ jump (m) Lc_cvc_send_create_6;
+
+ <Lc_cvc_send_create_11>
+0x84200094        B8B1                       rMAC = M[r4 + 104];
+0x84200096        C68A                       r0 = rMAC AND 0xffff;
+0x84200098        5592                       r0 = r0 LSHIFT 7;
+0x8420009A        C813                       r1 = r0 OR 0x1;
+0x8420009C        F042 F005 4B47             r3 = Null + 69207879;
+0x842000A2        0004                       r2 = Null + Null;
+0x842000A4        003A                       r0 = r5 + Null;
+0x842000A6        FDFF F128 EA3F             call (m) 0x25204;
+0x842000AC        2041                       rMAC = Null + 1;
+0x842000AE        BA39                       MB[r5 + 24] = rMAC;
+0x842000B0        F081 E800                  rMAC = M[r6 + Null];
+0x842000B4        8E48                       M[rMAC + 4] = Null;
+0x842000B6        6FD8                       jump (m) Lc_cvc_send_create_8;
+
+ <Lc_cvc_send_create_12>
+0x842000B8        48F3                       popm <FP, r4, r5, r6, rLink>;
+0x842000BA        4CD8                       rts;
+
+ <$_cvc_send_destroy>
+0x842000BC        1DF3                       pushm <FP(=SP), r4, r5, r6, rLink>, SP = SP + 0x10;
+0x842000BE        0017                       r5 = r0 + Null;
+0x842000C0        0928                       r6 = r3 + Null;
+0x842000C2        993E                       r4 = M[r5 + 48];
+0x842000C4        FDEF FFFF EF29             call (m) 0xac;
+0x842000CA        0410                       Null = r0 - Null;
+0x842000CC        6206                       if NE jump (m) Lc_cvc_send_destroy_3;
+
+ <Lc_cvc_send_destroy_2>
+0x842000CE        003A                       r0 = r5 + Null;
+0x842000D0        F003 E737                  call (m) $_cvc_send_release_constants;
+0x842000D4        0002                       r0 = Null + Null;
+0x842000D6        6E26                       jump (m) Lc_cvc_send_destroy_4;
+
+ <Lc_cvc_send_destroy_3>
+0x842000D8        0032                       r0 = r4 + Null;
+0x842000DA        F004 EB2D                  call (m) $_CVC_SEND_CAP_Destroy;
+0x842000DE        A9B2                       r0 = M[r4 + 88];
+0x842000E0        FDFF F08B EB21             call (m) 0x11840;
+0x842000E6        AFB0                       M[r4 + 88] = Null;
+0x842000E8        F081 E800                  rMAC = M[r6 + Null];
+0x842000EC        8E48                       M[rMAC + 4] = Null;
+0x842000EE        B8B1                       rMAC = M[r4 + 104];
+0x842000F0        C68A                       r0 = rMAC AND 0xffff;
+0x842000F2        5592                       r0 = r0 LSHIFT 7;
+0x842000F4        C813                       r1 = r0 OR 0x1;
+0x842000F6        A9F2                       r0 = M[r4 + 92];
+0x842000F8        5292                       r0 = r0 LSHIFT -16;
+0x842000FA        DC52                       MH[FP + 20] = r0;
+0x842000FC        A9F1                       rMAC = M[r4 + 92];
+0x842000FE        C689                       rMAC = rMAC AND 0xffff;
+0x84200100        DC59                       MH[FP + 22] = rMAC;
+0x84200102        F042 F007 E35F             push Null + 69207871;
+0x84200108        1141                       rMAC = FP + 20;
+0x8420010A        1C09                       pushm <rMAC>;
+0x8420010C        2085                       r3 = Null + 2;
+0x8420010E        0004                       r2 = Null + Null;
+0x84200110        003A                       r0 = r5 + Null;
+0x84200112        FDFF F128 EA25             call (m) 0x25256;
+0x84200118        4C7E                       SP = SP + -8;
+0x8420011A        003A                       r0 = r5 + Null;
+0x8420011C        F003 E52B                  call (m) $_cvc_send_release_constants;
+0x84200120        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_destroy_4>
+0x84200122        49F3                       SP = SP - 0x10, popm <FP, r4, r5, r6, rLink>;
+0x84200124        4CD8                       rts;
+
+ <$_cvc_send_connect>
+0x84200126        1CF5                       pushm <FP(=SP), r4, r5, r6, r7, r8, rLink>;
+0x84200128        0910                       r6 = r0 + Null;
+0x8420012A        0929                       r7 = r3 + Null;
+0x8420012C        F086 880C                  r4 = M[r6 + 48];
+0x84200130        E81F                       r5 = M[r1 + Null];
+0x84200132        F03A 8801                  r8 = M[r1 + 4];
+0x84200136        2141                       rMAC = Null + 5;
+0x84200138        EE21                       M[r2 + Null] = rMAC;
+0x8420013A        F082 8801                  r0 = M[r6 + 4];
+0x8420013E        F002 EE3D                  call (m) $_MakeStandardResponse_SND;
+0x84200142        F092 EE00                  M[r7 + Null] = r0;
+0x84200146        F091 E800                  rMAC = M[r7 + Null];
+0x8420014A        6203                       if NE jump (m) Lc_cvc_send_connect_3;
+
+ <Lc_cvc_send_connect_2>
+0x8420014C        0002                       r0 = Null + Null;
+0x8420014E        6E37                       jump (m) Lc_cvc_send_connect_14;
+
+ <Lc_cvc_send_connect_3>
+0x84200150        003B                       r1 = r5 + Null;
+0x84200152        0842                       r0 = r6 + Null;
+0x84200154        FDFF F000 E42B             call (m) 0x1de;
+0x8420015A        0410                       Null = r0 - Null;
+0x8420015C        6004                       if EQ jump (m) Lc_cvc_send_connect_5;
+
+ <Lc_cvc_send_connect_4>
+0x8420015E        FA0F C200                  Null = r8 - Null;
+0x84200162        6207                       if NE jump (m) Lc_cvc_send_connect_6;
+
+ <Lc_cvc_send_connect_5>
+0x84200164        F001 6003                  rMAC = Null + 4099;
+0x84200168        F092 E800                  r0 = M[r7 + Null];
+0x8420016C        8E51                       M[r0 + 4] = rMAC;
+0x8420016E        6E26                       jump (m) Lc_cvc_send_connect_13;
+
+ <Lc_cvc_send_connect_6>
+0x84200170        BE70                       M[r4 + 100] = Null;
+0x84200172        F040 F071 0000             rMAC = r5 AND 0x800000;
+0x84200178        6014                       if EQ jump (m) Lc_cvc_send_connect_10;
+
+ <Lc_cvc_send_connect_7>
+0x8420017A        C13A                       r0 = r5 AND 0x7;
+0x8420017C        0031                       rMAC = r4 + Null;
+0x8420017E        5452                       r0 = r0 LSHIFT 2;
+0x84200180        0051                       rMAC = r0 + rMAC;
+0x84200182        8889                       rMAC = M[rMAC + 8];
+0x84200184        2809                       rMAC = rMAC + 16;
+0x84200186        E80A                       r0 = M[rMAC + Null];
+0x84200188        6204                       if NE jump (m) Lc_cvc_send_connect_9;
+
+ <Lc_cvc_send_connect_8>
+0x8420018A        F01A EE00                  M[rMAC + Null] = r8;
+0x8420018E        6E0F                       jump (m) Lc_cvc_send_connect_12;
+
+ <Lc_cvc_send_connect_9>
+0x84200190        F083 8801                  r1 = M[r6 + 4];
+0x84200194        F022 400E                  r0 = Null + 16398;
+0x84200198        FDFF F09E EB3B             call (m) 0x13f12;
+0x8420019E        6E0F                       jump (m) Lc_cvc_send_connect_14;
+
+ <Lc_cvc_send_connect_10>
+0x842001A0        89F1                       rMAC = M[r4 + 28];
+0x842001A2        2809                       rMAC = rMAC + 16;
+0x842001A4        E80A                       r0 = M[rMAC + Null];
+0x842001A6        63F5                       if NE jump (m) Lc_cvc_send_connect_9;
+
+ <Lc_cvc_send_connect_11>
+0x842001A8        F01A EE00                  M[rMAC + Null] = r8;
+
+ <Lc_cvc_send_connect_12>
+0x842001AC        0032                       r0 = r4 + Null;
+0x842001AE        F002 ED3D                  call (m) $_cvc_send_check_all_connected;
+0x842001B2        BE72                       M[r4 + 100] = r0;
+0x842001B4        F091 E800                  rMAC = M[r7 + Null];
+0x842001B8        8E48                       M[rMAC + 4] = Null;
+
+ <Lc_cvc_send_connect_13>
+0x842001BA        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_connect_14>
+0x842001BC        48F5                       popm <FP, r4, r5, r6, r7, r8, rLink>;
+0x842001BE        4CD8                       rts;
+
+ <$_cvc_send_disconnect>
+0x842001C0        1CF4                       pushm <FP(=SP), r4, r5, r6, r7, rLink>;
+0x842001C2        0911                       r7 = r0 + Null;
+0x842001C4        002E                       r4 = r3 + Null;
+0x842001C6        F098 880C                  r6 = M[r7 + 48];
+0x842001CA        E81F                       r5 = M[r1 + Null];
+0x842001CC        2181                       rMAC = Null + 6;
+0x842001CE        EE21                       M[r2 + Null] = rMAC;
+0x842001D0        F092 8801                  r0 = M[r7 + 4];
+0x842001D4        F002 EA27                  call (m) $_MakeStandardResponse_SND;
+0x842001D8        EE32                       M[r4 + Null] = r0;
+0x842001DA        E831                       rMAC = M[r4 + Null];
+0x842001DC        6203                       if NE jump (m) Lc_cvc_send_disconnect_3;
+
+ <Lc_cvc_send_disconnect_2>
+0x842001DE        0002                       r0 = Null + Null;
+0x842001E0        6E2E                       jump (m) Lc_cvc_send_disconnect_13;
+
+ <Lc_cvc_send_disconnect_3>
+0x842001E2        003B                       r1 = r5 + Null;
+0x842001E4        084A                       r0 = r7 + Null;
+0x842001E6        FDEF FFFF EF39             call (m) 0x1de;
+0x842001EC        0410                       Null = r0 - Null;
+0x842001EE        6206                       if NE jump (m) Lc_cvc_send_disconnect_5;
+
+ <Lc_cvc_send_disconnect_4>
+0x842001F0        F001 6003                  rMAC = Null + 4099;
+0x842001F4        E832                       r0 = M[r4 + Null];
+0x842001F6        8E51                       M[r0 + 4] = rMAC;
+0x842001F8        6E21                       jump (m) Lc_cvc_send_disconnect_12;
+
+ <Lc_cvc_send_disconnect_5>
+0x842001FA        F080 8E19                  M[r6 + 100] = Null;
+0x842001FE        F040 F071 0000             rMAC = r5 AND 0x800000;
+0x84200204        6013                       if EQ jump (m) Lc_cvc_send_disconnect_9;
+
+ <Lc_cvc_send_disconnect_6>
+0x84200206        C13A                       r0 = r5 AND 0x7;
+0x84200208        5452                       r0 = r0 LSHIFT 2;
+0x8420020A        0D10                       r6 = r0 + r6;
+0x8420020C        F081 8802                  rMAC = M[r6 + 8];
+0x84200210        2809                       rMAC = rMAC + 16;
+0x84200212        E80A                       r0 = M[rMAC + Null];
+0x84200214        6003                       if EQ jump (m) Lc_cvc_send_disconnect_8;
+
+ <Lc_cvc_send_disconnect_7>
+0x84200216        EE08                       M[rMAC + Null] = Null;
+0x84200218        6E0F                       jump (m) Lc_cvc_send_disconnect_11;
+
+ <Lc_cvc_send_disconnect_8>
+0x8420021A        F093 8801                  r1 = M[r7 + 4];
+0x8420021E        F022 400E                  r0 = Null + 16398;
+0x84200222        FDFF F09E E731             call (m) 0x13f12;
+0x84200228        6E0A                       jump (m) Lc_cvc_send_disconnect_13;
+
+ <Lc_cvc_send_disconnect_9>
+0x8420022A        F081 8807                  rMAC = M[r6 + 28];
+0x8420022E        2809                       rMAC = rMAC + 16;
+0x84200230        E80A                       r0 = M[rMAC + Null];
+0x84200232        61F4                       if EQ jump (m) Lc_cvc_send_disconnect_8;
+
+ <Lc_cvc_send_disconnect_10>
+0x84200234        EE08                       M[rMAC + Null] = Null;
+
+ <Lc_cvc_send_disconnect_11>
+0x84200236        E831                       rMAC = M[r4 + Null];
+0x84200238        8E48                       M[rMAC + 4] = Null;
+
+ <Lc_cvc_send_disconnect_12>
+0x8420023A        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_disconnect_13>
+0x8420023C        48F4                       popm <FP, r4, r5, r6, r7, rLink>;
+0x8420023E        4CD8                       rts;
+
+ <$_cvc_send_buffer_details>
+0x84200240        1CF3                       pushm <FP(=SP), r4, r5, r6, rLink>;
+0x84200242        002F                       r5 = r3 + Null;
+0x84200244        F028 880C                  r6 = M[r0 + 48];
+0x84200248        E81E                       r4 = M[r1 + Null];
+0x8420024A        FDEF FFFF E335             call (m) 0xbe;
+0x84200250        0410                       Null = r0 - Null;
+0x84200252        6203                       if NE jump (m) Lc_cvc_send_buffer_details_3;
+
+ <Lc_cvc_send_buffer_details_2>
+0x84200254        0002                       r0 = Null + Null;
+0x84200256        6E24                       jump (m) Lc_cvc_send_buffer_details_9;
+
+ <Lc_cvc_send_buffer_details_3>
+0x84200258        F082 882E                  r0 = M[r6 + 184];
+0x8420025C        E839                       rMAC = M[r5 + Null];
+0x8420025E        5412                       r0 = r0 LSHIFT 1;
+0x84200260        8F0A                       M[rMAC + 16] = r0;
+0x84200262        F200 F060 2400             Null = r4 - 8388608;
+0x84200268        6208                       if NE jump (m) Lc_cvc_send_buffer_details_5;
+
+ <Lc_cvc_send_buffer_details_4>
+0x8420026A        F083 882E                  r1 = M[r6 + 184];
+0x8420026E        501B                       r1 = r1 LSHIFT -1;
+0x84200270        0099                       rMAC = r1 + r0;
+0x84200272        E83A                       r0 = M[r5 + Null];
+0x84200274        8F11                       M[r0 + 16] = rMAC;
+0x84200276        6E13                       jump (m) Lc_cvc_send_buffer_details_8;
+
+ <Lc_cvc_send_buffer_details_5>
+0x84200278        F040 F061 0000             rMAC = r4 AND 0x800000;
+0x8420027E        6006                       if EQ jump (m) Lc_cvc_send_buffer_details_7;
+
+ <Lc_cvc_send_buffer_details_6>
+0x84200280        FFBF FF61 1FFF             rMAC = r4 AND 0xff7fffff;
+0x84200286        2448                       Null = rMAC - 1;
+0x84200288        620A                       if NE jump (m) Lc_cvc_send_buffer_details_8;
+
+ <Lc_cvc_send_buffer_details_7>
+0x8420028A        E839                       rMAC = M[r5 + Null];
+0x8420028C        2209                       rMAC = rMAC + 8;
+0x8420028E        E20A                       r0 = MBU[rMAC + Null];
+0x84200290        FF22 1FEF                  r0 = r0 AND 0xffffffef;
+0x84200294        C9D2                       r0 = r0 OR 0x10;
+0x84200296        EA0A                       MB[rMAC + Null] = r0;
+0x84200298        E839                       rMAC = M[r5 + Null];
+0x8420029A        8EC8                       M[rMAC + 12] = Null;
+
+ <Lc_cvc_send_buffer_details_8>
+0x8420029C        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_buffer_details_9>
+0x8420029E        48F3                       popm <FP, r4, r5, r6, rLink>;
+0x842002A0        4CD8                       rts;
+
+ <$_cvc_send_get_sched_info>
+0x842002A2        1CF3                       pushm <FP(=SP), r4, r5, r6, rLink>;
+0x842002A4        0017                       r5 = r0 + Null;
+0x842002A6        002E                       r4 = r3 + Null;
+0x842002A8        F078 880C                  r6 = M[r5 + 48];
+0x842002AC        FDEF FFFF E52D             call (m) 0x158;
+0x842002B2        0410                       Null = r0 - Null;
+0x842002B4        6209                       if NE jump (m) Lc_cvc_send_get_sched_info_3;
+
+ <Lc_cvc_send_get_sched_info_2>
+0x842002B6        887B                       r1 = M[r5 + 4];
+0x842002B8        F002 6000                  r0 = Null + 4096;
+0x842002BC        0034                       r2 = r4 + Null;
+0x842002BE        FDEF FFFF EA27             call (m) 0x204;
+0x842002C4        6E0C                       jump (m) Lc_cvc_send_get_sched_info_4;
+
+ <Lc_cvc_send_get_sched_info_3>
+0x842002C6        E831                       rMAC = M[r4 + Null];
+0x842002C8        8E48                       M[rMAC + 4] = Null;
+0x842002CA        E831                       rMAC = M[r4 + Null];
+0x842002CC        887A                       r0 = M[r5 + 4];
+0x842002CE        EE0A                       M[rMAC + Null] = r0;
+0x842002D0        F082 882E                  r0 = M[r6 + 184];
+0x842002D4        8E8A                       M[rMAC + 8] = r0;
+0x842002D6        8EC8                       M[rMAC + 12] = Null;
+0x842002D8        EE31                       M[r4 + Null] = rMAC;
+0x842002DA        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_get_sched_info_4>
+0x842002DC        48F3                       popm <FP, r4, r5, r6, rLink>;
+0x842002DE        4CD8                       rts;
+
+ <$_cvc_send_process_data>
+0x842002E0        1DF6                       pushm <FP(=SP), r4, r5, r6, r7, r8, r9, rLink>, SP = SP + 0x10;
+0x842002E2        091B                       r9 = r1 + Null;
+0x842002E4        9916                       r4 = M[r0 + 48];
+0x842002E6        F06A 882E                  r8 = M[r4 + 184];
+0x842002EA        B870                       Null = M[r4 + 100];
+0x842002EC        60CB                       if EQ jump (m) Lc_cvc_send_process_data_42;
+
+ <Lc_cvc_send_process_data_2>
+0x842002EE        88B1                       rMAC = M[r4 + 8];
+0x842002F0        890A                       r0 = M[rMAC + 16];
+0x842002F2        FDFF F15F E837             call (m) 0x2c208;
+0x842002F8        0017                       r5 = r0 + Null;
+0x842002FA        7108                       r6 = Null + 1;
+
+ <Lc_cvc_send_process_data_3>
+0x842002FC        F061 8823                  rMAC = M[r4 + 140];
+0x84200300        F81F C200                  Null = r6 - rMAC;
+0x84200304        F008 E09F                  if HI jump (m) Lc_cvc_send_process_data_7;
+
+ <Lc_cvc_send_process_data_4>
+0x84200308        2231                       rMAC = r4 + 8;
+0x8420030A        F801 C8D2                  r0 = r6 LSHIFT 2;
+0x8420030E        E889                       rMAC = M[rMAC + r0];
+0x84200310        890A                       r0 = M[rMAC + 16];
+0x84200312        FDFF F15F E737             call (m) 0x2c208;
+0x84200318        05D0                       Null = r0 - r5;
+0x8420031A        6602                       if GE jump (m) Lc_cvc_send_process_data_6;
+
+ <Lc_cvc_send_process_data_5>
+0x8420031C        0017                       r5 = r0 + Null;
+
+ <Lc_cvc_send_process_data_6>
+0x8420031E        7508                       r6 = r6 + 1;
+0x84200320        6FEE                       jump (m) Lc_cvc_send_process_data_3;
+
+ <Lc_cvc_send_process_data_7>
+0x84200322        88F1                       rMAC = M[r4 + 12];
+0x84200324        890A                       r0 = M[rMAC + 16];
+0x84200326        8951                       rMAC = M[r0 + 20];
+0x84200328        C649                       rMAC = rMAC AND 0x8000;
+0x8420032A        600B                       if EQ jump (m) Lc_cvc_send_process_data_12;
+
+ <Lc_cvc_send_process_data_8>
+0x8420032C        FDFF F08C EE39             call (m) 0x11d04;
+0x84200332        5052                       r0 = r0 LSHIFT -2;
+0x84200334        04B8                       Null = r5 - r0;
+0x84200336        F002 E089                  if C jump (m) Lc_cvc_send_process_data_10;
+
+ <Lc_cvc_send_process_data_9>
+0x8420033A        003A                       r0 = r5 + Null;
+0x8420033C        6E01                       jump (m) Lc_cvc_send_process_data_10;
+
+ <Lc_cvc_send_process_data_10>
+0x8420033E        0017                       r5 = r0 + Null;
+
+ <Lc_cvc_send_process_data_12>
+0x84200340        F7AF C200                  Null = r5 - r8;
+0x84200344        689F                       if LT jump (m) Lc_cvc_send_process_data_42;
+
+ <Lc_cvc_send_process_data_13>
+0x84200346        B971                       rMAC = M[r4 + 116];
+0x84200348        F111 0000                  rMAC = rMAC AND 0x2000;
+0x8420034C        6005                       if EQ jump (m) Lc_cvc_send_process_data_15;
+
+ <Lc_cvc_send_process_data_14>
+0x8420034E        B931                       rMAC = M[r4 + 112];
+0x84200350        F061 8E20                  M[r4 + 128] = rMAC;
+0x84200354        6E28                       jump (m) Lc_cvc_send_process_data_22;
+
+ <Lc_cvc_send_process_data_15>
+0x84200356        F060 8822                  Null = M[r4 + 136];
+0x8420035A        6005                       if EQ jump (m) Lc_cvc_send_process_data_17;
+
+ <Lc_cvc_send_process_data_16>
+0x8420035C        B8F1                       rMAC = M[r4 + 108];
+0x8420035E        F061 8E20                  M[r4 + 128] = rMAC;
+0x84200362        6E21                       jump (m) Lc_cvc_send_process_data_22;
+
+ <Lc_cvc_send_process_data_17>
+0x84200364        B8F1                       rMAC = M[r4 + 108];
+0x84200366        2488                       Null = rMAC - 2;
+0x84200368        63FA                       if NE jump (m) Lc_cvc_send_process_data_16;
+
+ <Lc_cvc_send_process_data_18>
+0x8420036A        F061 8820                  rMAC = M[r4 + 128];
+0x8420036E        2488                       Null = rMAC - 2;
+0x84200370        6003                       if EQ jump (m) Lc_cvc_send_process_data_20;
+
+ <Lc_cvc_send_process_data_19>
+0x84200372        24C8                       Null = rMAC - 3;
+0x84200374        63F4                       if NE jump (m) Lc_cvc_send_process_data_16;
+
+ <Lc_cvc_send_process_data_20>
+0x84200376        A9B2                       r0 = M[r4 + 88];
+0x84200378        F7F3 7A98                  r1 = Null + -360;
+0x8420037C        8892                       r0 = M[r0 + 8];
+0x8420037E        4C9A                       Div = r0 / r1;
+0x84200380        4CC2                       r0 = DivResult;
+0x84200382        F207 D652                  r0 = 15 - r0;
+0x84200386        9933                       r1 = M[r4 + 48];
+0x84200388        20C4                       r2 = Null + 3;
+0x8420038A        F033 8855                  r1 = M[r1 + 340];
+0x8420038E        04D0                       Null = r0 - r1;
+0x84200390        F0A2 CE44                  if C r2 = Null + 2;
+0x84200394        F064 8E20                  M[r4 + 128] = r2;
+0x84200398        F062 8820                  r0 = M[r4 + 128];
+0x8420039C        0488                       Null = rMAC - r0;
+0x8420039E        6003                       if EQ jump (m) Lc_cvc_send_process_data_22;
+
+ <Lc_cvc_send_process_data_21>
+0x842003A0        2041                       rMAC = Null + 1;
+0x842003A2        BFB1                       M[r4 + 120] = rMAC;
+
+ <Lc_cvc_send_process_data_22>
+0x842003A4        89F1                       rMAC = M[r4 + 28];
+0x842003A6        890A                       r0 = M[rMAC + 16];
+0x842003A8        FDFF F093 E831             call (m) 0x12ab8;
+0x842003AE        0017                       r5 = r0 + Null;
+0x842003B0        0032                       r0 = r4 + Null;
+0x842003B2        F003 EA27                  call (m) $_CVC_SEND_CAP_Process;
+0x842003B6        88F1                       rMAC = M[r4 + 12];
+0x842003B8        F019 8804                  r7 = M[rMAC + 16];
+0x842003BC        89F1                       rMAC = M[r4 + 28];
+0x842003BE        F018 8804                  r6 = M[rMAC + 16];
+0x842003C2        0842                       r0 = r6 + Null;
+0x842003C4        FDFF F093 E735             call (m) 0x12ab8;
+0x842003CA        0016                       r4 = r0 + Null;
+0x842003CC        05F0                       Null = r4 - r5;
+0x842003CE        6403                       if NC jump (m) Lc_cvc_send_process_data_24;
+
+ <Lc_cvc_send_process_data_23>
+0x842003D0        05F6                       r4 = r4 - r5;
+0x842003D2        6E07                       jump (m) Lc_cvc_send_process_data_25;
+
+ <Lc_cvc_send_process_data_24>
+0x842003D4        0842                       r0 = r6 + Null;
+0x842003D6        FDFF F092 E423             call (m) 0x12858;
+0x842003DC        0191                       rMAC = r0 + r4;
+0x842003DE        05CE                       r4 = rMAC - r5;
+
+ <Lc_cvc_send_process_data_25>
+0x842003E0        F091 8805                  rMAC = M[r7 + 20];
+0x842003E4        C649                       rMAC = rMAC AND 0x8000;
+0x842003E6        6038                       if EQ jump (m) Lc_cvc_send_process_data_36;
+
+ <Lc_cvc_send_process_data_26>
+0x842003E8        F6AF C200                  Null = r4 - r8;
+0x842003EC        6209                       if NE jump (m) Lc_cvc_send_process_data_28;
+
+ <Lc_cvc_send_process_data_27>
+0x842003EE        FA01 C8D4                  r2 = r8 LSHIFT 2;
+0x842003F2        0843                       r1 = r6 + Null;
+0x842003F4        084A                       r0 = r7 + Null;
+0x842003F6        FDFF F08E E421             call (m) 0x12076;
+0x842003FC        6E40                       jump (m) Lc_cvc_send_process_data_41;
+
+ <Lc_cvc_send_process_data_28>
+0x842003FE        1245                       r3 = FP + 36;
+0x84200400        1204                       r2 = FP + 32;
+0x84200402        FA01 C8D3                  r1 = r8 LSHIFT 2;
+0x84200406        084A                       r0 = r7 + Null;
+0x84200408        FDFF F08C EB33             call (m) 0x11d7a;
+0x8420040E        0017                       r5 = r0 + Null;
+0x84200410        0430                       Null = r4 - Null;
+0x84200412        601D                       if EQ jump (m) Lc_cvc_send_process_data_35;
+
+ <Lc_cvc_send_process_data_29>
+0x84200414        F081 8805                  rMAC = M[r6 + 20];
+0x84200418        C649                       rMAC = rMAC AND 0x8000;
+0x8420041A        6019                       if EQ jump (m) Lc_cvc_send_process_data_35;
+
+ <Lc_cvc_send_process_data_30>
+0x8420041C        FDFF F08A E227             call (m) 0x11862;
+0x84200422        5473                       r1 = r4 LSHIFT 2;
+0x84200424        DE4B                       M[FP + 36] = r1;
+0x84200426        0410                       Null = r0 - Null;
+0x84200428        600B                       if EQ jump (m) Lc_cvc_send_process_data_34;
+
+ <Lc_cvc_send_process_data_31>
+0x8420042A        0438                       Null = r5 - Null;
+0x8420042C        6007                       if EQ jump (m) Lc_cvc_send_process_data_33;
+
+ <Lc_cvc_send_process_data_32>
+0x8420042E        8939                       rMAC = M[r5 + 16];
+0x84200430        8F11                       M[r0 + 16] = rMAC;
+0x84200432        8879                       rMAC = M[r5 + 4];
+0x84200434        8E51                       M[r0 + 4] = rMAC;
+0x84200436        8979                       rMAC = M[r5 + 20];
+0x84200438        8F51                       M[r0 + 20] = rMAC;
+
+ <Lc_cvc_send_process_data_33>
+0x8420043A        D849                       rMAC = M[FP + 36];
+0x8420043C        8ED1                       M[r0 + 12] = rMAC;
+
+ <Lc_cvc_send_process_data_34>
+0x8420043E        D84D                       r3 = M[FP + 36];
+0x84200440        0004                       r2 = Null + Null;
+0x84200442        0013                       r1 = r0 + Null;
+0x84200444        0842                       r0 = r6 + Null;
+0x84200446        FDFF F08B E437             call (m) 0x11adc;
+
+ <Lc_cvc_send_process_data_35>
+0x8420044C        003A                       r0 = r5 + Null;
+0x8420044E        FDFF F08A E539             call (m) 0x11906;
+0x84200454        6E14                       jump (m) Lc_cvc_send_process_data_41;
+
+ <Lc_cvc_send_process_data_36>
+0x84200456        F081 8805                  rMAC = M[r6 + 20];
+0x8420045A        C649                       rMAC = rMAC AND 0x8000;
+0x8420045C        6010                       if EQ jump (m) Lc_cvc_send_process_data_41;
+
+ <Lc_cvc_send_process_data_37>
+0x8420045E        0430                       Null = r4 - Null;
+0x84200460        600E                       if EQ jump (m) Lc_cvc_send_process_data_41;
+
+ <Lc_cvc_send_process_data_38>
+0x84200462        FDFF F08A E021             call (m) 0x11862;
+0x84200468        5475                       r3 = r4 LSHIFT 2;
+0x8420046A        0410                       Null = r0 - Null;
+0x8420046C        6002                       if EQ jump (m) Lc_cvc_send_process_data_40;
+
+ <Lc_cvc_send_process_data_39>
+0x8420046E        8ED5                       M[r0 + 12] = r3;
+
+ <Lc_cvc_send_process_data_40>
+0x84200470        0004                       r2 = Null + Null;
+0x84200472        0013                       r1 = r0 + Null;
+0x84200474        0842                       r0 = r6 + Null;
+0x84200476        FDFF F08B E327             call (m) 0x11adc;
+
+ <Lc_cvc_send_process_data_41>
+0x8420047C        2041                       rMAC = Null + 1;
+0x8420047E        F0B1 EE00                  M[r9 + Null] = rMAC;
+
+ <Lc_cvc_send_process_data_42>
+0x84200482        49F6                       SP = SP - 0x10, popm <FP, r4, r5, r6, r7, r8, r9, rLink>;
+0x84200484        4CD8                       rts;
+
+ <$_cvc_send_opmsg_obpm_set_control>
+0x84200486        1DF6                       pushm <FP(=SP), r4, r5, r6, r7, r8, r9, rLink>, SP = SP + 0x10;
+0x84200488        0919                       r7 = r1 + Null;
+0x8420048A        092B                       r9 = r3 + Null;
+0x8420048C        0023                       r1 = r2 + Null;
+0x8420048E        9916                       r4 = M[r0 + 48];
+0x84200490        0902                       r8 = Null + Null;
+0x84200492        1205                       r3 = FP + 32;
+0x84200494        085C                       r2 = r9 + Null;
+0x84200496        084A                       r0 = r7 + Null;
+0x84200498        FDFF F001 E92F             call (m) 0x7c6;
+0x8420049E        0410                       Null = r0 - Null;
+0x842004A0        6203                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_3;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_2>
+0x842004A2        0002                       r0 = Null + Null;
+0x842004A4        6E7E                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_38;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_3>
+0x842004A6        7108                       r6 = Null + 1;
+0x842004A8        0007                       r5 = Null + Null;
+0x842004AA        6E09                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_7;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_4>
+0x842004AC        B971                       rMAC = M[r4 + 116];
+0x842004AE        F020 F100 D851             rMAC = rMAC OR 0x2000;
+0x842004B4        BF71                       M[r4 + 116] = rMAC;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_5>
+0x842004B6        F068 8E1E                  M[r4 + 120] = r6;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_6>
+0x842004BA        207F                       r5 = r5 + 1;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_7>
+0x842004BC        D841                       rMAC = M[FP + 32];
+0x842004BE        0478                       Null = r5 - rMAC;
+0x842004C0        F002 E0A3                  if C jump (m) Lc_cvc_send_opmsg_obpm_set_control_11;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_8>
+0x842004C4        1285                       r3 = FP + 40;
+0x842004C6        1244                       r2 = FP + 36;
+0x842004C8        003B                       r1 = r5 + Null;
+0x842004CA        084A                       r0 = r7 + Null;
+0x842004CC        FDFF F001 EA27             call (m) 0x812;
+0x842004D2        D849                       rMAC = M[FP + 36];
+0x842004D4        C389                       rMAC = rMAC AND 0xff;
+0x842004D6        DE49                       M[FP + 36] = rMAC;
+0x842004D8        2450                       Null = r0 - 1;
+0x842004DA        6218                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_16;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_9>
+0x842004DC        2608                       Null = rMAC - 8;
+0x842004DE        6409                       if NC jump (m) Lc_cvc_send_opmsg_obpm_set_control_12;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_10>
+0x842004E0        712A                       r8 = Null + 5;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_11>
+0x842004E2        0853                       r1 = r8 + Null;
+0x842004E4        085A                       r0 = r9 + Null;
+0x842004E6        FDFF F001 EB2F             call (m) 0x854;
+0x842004EC        0842                       r0 = r6 + Null;
+0x842004EE        6E59                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_38;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_12>
+0x842004F0        D142                       r0 = MBS[FP + 40];
+0x842004F2        6203                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_14;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_13>
+0x842004F4        BEF1                       M[r4 + 108] = rMAC;
+0x842004F6        6FE0                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_5;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_14>
+0x842004F8        BF31                       M[r4 + 112] = rMAC;
+0x842004FA        D141                       rMAC = MBS[FP + 40];
+0x842004FC        24C8                       Null = rMAC - 3;
+0x842004FE        63D7                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_4;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_15>
+0x84200500        B971                       rMAC = M[r4 + 116];
+0x84200502        FE11 1FFF                  rMAC = rMAC AND 0xffffdfff;
+0x84200506        BF71                       M[r4 + 116] = rMAC;
+0x84200508        6FD7                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_5;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_16>
+0x8420050A        2490                       Null = r0 - 2;
+0x8420050C        6223                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_26;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_17>
+0x8420050E        2448                       Null = rMAC - 1;
+0x84200510        FFF8 EFD1                  if HI jump (m) Lc_cvc_send_opmsg_obpm_set_control_10;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_18>
+0x84200514        D142                       r0 = MBS[FP + 40];
+0x84200516        6204                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_20;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_19>
+0x84200518        F061 8E29                  M[r4 + 164] = rMAC;
+0x8420051C        6E0E                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_23;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_20>
+0x8420051E        F061 8E2A                  M[r4 + 168] = rMAC;
+0x84200522        D141                       rMAC = MBS[FP + 40];
+0x84200524        24C8                       Null = rMAC - 3;
+0x84200526        6206                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_22;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_21>
+0x84200528        B971                       rMAC = M[r4 + 116];
+0x8420052A        FF11 1FFE                  rMAC = rMAC AND 0xfffffffe;
+0x8420052E        BF71                       M[r4 + 116] = rMAC;
+0x84200530        6E04                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_23;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_22>
+0x84200532        B971                       rMAC = M[r4 + 116];
+0x84200534        C809                       rMAC = rMAC OR 0x1;
+0x84200536        BF71                       M[r4 + 116] = rMAC;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_23>
+0x84200538        B971                       rMAC = M[r4 + 116];
+0x8420053A        C009                       rMAC = rMAC AND 0x1;
+0x8420053C        6006                       if EQ jump (m) Lc_cvc_send_opmsg_obpm_set_control_25;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_24>
+0x8420053E        F061 882A                  rMAC = M[r4 + 168];
+0x84200542        F061 8E2B                  M[r4 + 172] = rMAC;
+0x84200546        6FBA                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_6;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_25>
+0x84200548        F061 8829                  rMAC = M[r4 + 164];
+0x8420054C        F061 8E2B                  M[r4 + 172] = rMAC;
+0x84200550        6FB5                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_6;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_26>
+0x84200552        24D0                       Null = r0 - 3;
+0x84200554        6224                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_37;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_27>
+0x84200556        F062 8832                  r0 = M[r4 + 200];
+0x8420055A        61C3                       if EQ jump (m) Lc_cvc_send_opmsg_obpm_set_control_10;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_28>
+0x8420055C        2448                       Null = rMAC - 1;
+0x8420055E        FFF8 EF83                  if HI jump (m) Lc_cvc_send_opmsg_obpm_set_control_10;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_29>
+0x84200562        D143                       r1 = MBS[FP + 40];
+0x84200564        6204                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_31;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_30>
+0x84200566        F061 8E30                  M[r4 + 192] = rMAC;
+0x8420056A        6E0E                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_34;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_31>
+0x8420056C        F061 8E31                  M[r4 + 196] = rMAC;
+0x84200570        D141                       rMAC = MBS[FP + 40];
+0x84200572        24C8                       Null = rMAC - 3;
+0x84200574        6206                       if NE jump (m) Lc_cvc_send_opmsg_obpm_set_control_33;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_32>
+0x84200576        B971                       rMAC = M[r4 + 116];
+0x84200578        FF11 1FFD                  rMAC = rMAC AND 0xfffffffd;
+0x8420057C        BF71                       M[r4 + 116] = rMAC;
+0x8420057E        6E04                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_34;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_33>
+0x84200580        B971                       rMAC = M[r4 + 116];
+0x84200582        C849                       rMAC = rMAC OR 0x2;
+0x84200584        BF71                       M[r4 + 116] = rMAC;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_34>
+0x84200586        B971                       rMAC = M[r4 + 116];
+0x84200588        C049                       rMAC = rMAC AND 0x2;
+0x8420058A        6005                       if EQ jump (m) Lc_cvc_send_opmsg_obpm_set_control_36;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_35>
+0x8420058C        F061 8831                  rMAC = M[r4 + 196];
+0x84200590        EE11                       M[r0 + Null] = rMAC;
+0x84200592        6F94                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_6;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_36>
+0x84200594        F061 8830                  rMAC = M[r4 + 192];
+0x84200598        EE11                       M[r0 + Null] = rMAC;
+0x8420059A        6F90                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_6;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_37>
+0x8420059C        7122                       r8 = Null + 4;
+0x8420059E        6FA2                       jump (m) Lc_cvc_send_opmsg_obpm_set_control_11;
+
+ <Lc_cvc_send_opmsg_obpm_set_control_38>
+0x842005A0        49F6                       SP = SP - 0x10, popm <FP, r4, r5, r6, r7, r8, r9, rLink>;
+0x842005A2        4CD8                       rts;
+
+ <$_cvc_send_opmsg_obpm_get_params>
+0x842005A4        1CC8                       pushm <FP(=SP), rLink>;
+0x842005A6        9911                       rMAC = M[r0 + 48];
+0x842005A8        F012 20D4                  r0 = rMAC + 212;
+0x842005AC        FDEF FFFF E637             call (m) 0x482;
+
+ <Lc_cvc_send_opmsg_obpm_get_params_2>
+0x842005B2        48C8                       popm <FP, rLink>;
+0x842005B4        4CD8                       rts;
+
+ <$_cvc_send_opmsg_obpm_get_defaults>
+0x842005B6        1CC8                       pushm <FP(=SP), rLink>;
+0x842005B8        9911                       rMAC = M[r0 + 48];
+0x842005BA        F012 20D4                  r0 = rMAC + 212;
+0x842005BE        FDEF FFFF EB35             call (m) 0x532;
+
+ <Lc_cvc_send_opmsg_obpm_get_defaults_2>
+0x842005C4        48C8                       popm <FP, rLink>;
+0x842005C6        4CD8                       rts;
+
+ <$_cvc_send_opmsg_obpm_set_params>
+0x842005C8        1CF1                       pushm <FP(=SP), r4, rLink>;
+0x842005CA        9916                       r4 = M[r0 + 48];
+0x842005CC        F062 20D4                  r0 = r4 + 212;
+0x842005D0        FDFF F000 E223             call (m) 0x612;
+0x842005D6        2041                       rMAC = Null + 1;
+0x842005D8        BFB1                       M[r4 + 120] = rMAC;
+
+ <Lc_cvc_send_opmsg_obpm_set_params_2>
+0x842005DA        48F1                       popm <FP, r4, rLink>;
+0x842005DC        4CD8                       rts;
+
+ <$_cvc_send_opmsg_obpm_get_status>
+0x842005DE        1DF2                       pushm <FP(=SP), r4, r5, rLink>, SP = SP + 0x10;
+0x842005E0        0011                       rMAC = r0 + Null;
+0x842005E2        001A                       r0 = r1 + Null;
+0x842005E4        0023                       r1 = r2 + Null;
+0x842005E6        002C                       r2 = r3 + Null;
+0x842005E8        990F                       r5 = M[rMAC + 48];
+0x842005EA        98FE                       r4 = M[r5 + 44];
+0x842005EC        1101                       rMAC = FP + 16;
+0x842005EE        1C09                       pushm <rMAC>;
+0x842005F0        F005 4054                  r3 = Null + 84;
+0x842005F4        FDFF F001 E335             call (m) 0x868;
+0x842005FA        4C7F                       SP = SP + -4;
+0x842005FC        0410                       Null = r0 - Null;
+0x842005FE        6203                       if NE jump (m) Lc_cvc_send_opmsg_obpm_get_status_3;
+
+ <Lc_cvc_send_opmsg_obpm_get_status_2>
+0x84200600        0002                       r0 = Null + Null;
+0x84200602        6E5E                       jump (m) Lc_cvc_send_opmsg_obpm_get_status_6;
+
+ <Lc_cvc_send_opmsg_obpm_get_status_3>
+0x84200604        D824                       r2 = M[FP + 16];
+0x84200606        605B                       if EQ jump (m) Lc_cvc_send_opmsg_obpm_get_status_5;
+
+ <Lc_cvc_send_opmsg_obpm_get_status_4>
+0x84200608        F073 2074                  r1 = r5 + 116;
+0x8420060C        F072 2080                  r0 = r5 + 128;
+0x84200610        FDFF F15D E227             call (m) 0x2c056;
+0x84200616        DE22                       M[FP + 16] = r0;
+0x84200618        D824                       r2 = M[FP + 16];
+0x8420061A        8873                       r1 = M[r4 + 4];
+0x8420061C        E832                       r0 = M[r4 + Null];
+0x8420061E        FDFF F15D E139             call (m) 0x2c056;
+0x84200624        DE22                       M[FP + 16] = r0;
+0x84200626        D824                       r2 = M[FP + 16];
+0x84200628        88F3                       r1 = M[r4 + 12];
+0x8420062A        88B2                       r0 = M[r4 + 8];
+0x8420062C        FDFF F15D E12B             call (m) 0x2c056;
+0x84200632        DE22                       M[FP + 16] = r0;
+0x84200634        8871                       rMAC = M[r4 + 4];
+0x84200636        EE08                       M[rMAC + Null] = Null;
+0x84200638        88B1                       rMAC = M[r4 + 8];
+0x8420063A        EE08                       M[rMAC + Null] = Null;
+0x8420063C        88F1                       rMAC = M[r4 + 12];
+0x8420063E        EE08                       M[rMAC + Null] = Null;
+0x84200640        D824                       r2 = M[FP + 16];
+0x84200642        8973                       r1 = M[r4 + 20];
+0x84200644        8932                       r0 = M[r4 + 16];
+0x84200646        FDFF F15D E031             call (m) 0x2c056;
+0x8420064C        DE22                       M[FP + 16] = r0;
+0x8420064E        D824                       r2 = M[FP + 16];
+0x84200650        89F3                       r1 = M[r4 + 28];
+0x84200652        89B2                       r0 = M[r4 + 24];
+0x84200654        FDFF F15D E023             call (m) 0x2c056;
+0x8420065A        DE22                       M[FP + 16] = r0;
+0x8420065C        D824                       r2 = M[FP + 16];
+0x8420065E        9873                       r1 = M[r4 + 36];
+0x84200660        9832                       r0 = M[r4 + 32];
+0x84200662        FDFF F15C EF35             call (m) 0x2c056;
+0x84200668        DE22                       M[FP + 16] = r0;
+0x8420066A        D824                       r2 = M[FP + 16];
+0x8420066C        98F3                       r1 = M[r4 + 44];
+0x8420066E        98B2                       r0 = M[r4 + 40];
+0x84200670        FDFF F15C EF27             call (m) 0x2c056;
+0x84200676        DE22                       M[FP + 16] = r0;
+0x84200678        D824                       r2 = M[FP + 16];
+0x8420067A        9973                       r1 = M[r4 + 52];
+0x8420067C        F072 8828                  r0 = M[r5 + 160];
+0x84200680        FDFF F15C EE37             call (m) 0x2c056;
+0x84200686        DE22                       M[FP + 16] = r0;
+0x84200688        D824                       r2 = M[FP + 16];
+0x8420068A        99F3                       r1 = M[r4 + 60];
+0x8420068C        99B2                       r0 = M[r4 + 56];
+0x8420068E        FDFF F15C EE29             call (m) 0x2c056;
+0x84200694        DE22                       M[FP + 16] = r0;
+0x84200696        D824                       r2 = M[FP + 16];
+0x84200698        A873                       r1 = M[r4 + 68];
+0x8420069A        A832                       r0 = M[r4 + 64];
+0x8420069C        FDFF F15C ED3B             call (m) 0x2c056;
+0x842006A2        DE22                       M[FP + 16] = r0;
+0x842006A4        D824                       r2 = M[FP + 16];
+0x842006A6        A8B2                       r0 = M[r4 + 72];
+0x842006A8        0003                       r1 = Null + Null;
+0x842006AA        FDFF F15C ED2D             call (m) 0x2c056;
+0x842006B0        99B1                       rMAC = M[r4 + 56];
+0x842006B2        EE08                       M[rMAC + Null] = Null;
+0x842006B4        99F1                       rMAC = M[r4 + 60];
+0x842006B6        EE08                       M[rMAC + Null] = Null;
+0x842006B8        A831                       rMAC = M[r4 + 64];
+0x842006BA        EE08                       M[rMAC + Null] = Null;
+
+ <Lc_cvc_send_opmsg_obpm_get_status_5>
+0x842006BC        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_opmsg_obpm_get_status_6>
+0x842006BE        49F2                       SP = SP - 0x10, popm <FP, r4, r5, rLink>;
+0x842006C0        4CD8                       rts;
+
+ <$_cvc_send_opmsg_set_ucid>
+0x842006C2        1CF3                       pushm <FP(=SP), r4, r5, r6, rLink>;
+0x842006C4        0910                       r6 = r0 + Null;
+0x842006C6        F086 880C                  r4 = M[r6 + 48];
+0x842006CA        F062 20D4                  r0 = r4 + 212;
+0x842006CE        FDEF FFFF EF25             call (m) 0x6b2;
+0x842006D4        0017                       r5 = r0 + Null;
+0x842006D6        F061 8839                  rMAC = M[r4 + 228];
+0x842006DA        C28A                       r0 = rMAC AND 0x3f;
+0x842006DC        5412                       r0 = r0 LSHIFT 1;
+0x842006DE        B8B1                       rMAC = M[r4 + 104];
+0x842006E0        C68B                       r1 = rMAC AND 0xffff;
+0x842006E2        559B                       r1 = r1 LSHIFT 7;
+0x842006E4        129B                       r1 = r1 OR r0;
+0x842006E6        F042 F005 4BA9             r3 = Null + 69207977;
+0x842006EC        0004                       r2 = Null + Null;
+0x842006EE        0842                       r0 = r6 + Null;
+0x842006F0        FDFF F125 E835             call (m) 0x25204;
+0x842006F6        003A                       r0 = r5 + Null;
+
+ <Lc_cvc_send_opmsg_set_ucid_2>
+0x842006F8        48F3                       popm <FP, r4, r5, r6, rLink>;
+0x842006FA        4CD8                       rts;
+
+ <$_cvc_send_opmsg_get_ps_id>
+0x842006FC        1CC8                       pushm <FP(=SP), rLink>;
+0x842006FE        0019                       rMAC = r1 + Null;
+0x84200700        9912                       r0 = M[r0 + 48];
+0x84200702        1C29                       pushm <r3>;
+0x84200704        B893                       r1 = M[r0 + 104];
+0x84200706        0025                       r3 = r2 + Null;
+0x84200708        F002 44D4                  r0 = r0 + 212;
+0x8420070C        000C                       r2 = rMAC + Null;
+0x8420070E        FDEF FFFF EE25             call (m) 0x6d2;
+0x84200714        4C7F                       SP = SP + -4;
+
+ <Lc_cvc_send_opmsg_get_ps_id_2>
+0x84200716        48C8                       popm <FP, rLink>;
+0x84200718        4CD8                       rts;
+
+ <$_MakeStandardResponse_SND>
+0x8420071A        1CF1                       pushm <FP(=SP), r4, rLink>;
+0x8420071C        0016                       r4 = r0 + Null;
+0x8420071E        20C3                       r1 = Null + 3;
+0x84200720        2302                       r0 = Null + 12;
+0x84200722        FDFF F023 E82D             call (m) 0x4e2e;
+0x84200728        0410                       Null = r0 - Null;
+0x8420072A        6203                       if NE jump (m) Lc_MakeStandardResponse_SND_3;
+
+ <Lc_MakeStandardResponse_SND_2>
+0x8420072C        0002                       r0 = Null + Null;
+0x8420072E        6E06                       jump (m) Lc_MakeStandardResponse_SND_4;
+
+ <Lc_MakeStandardResponse_SND_3>
+0x84200730        EE16                       M[r0 + Null] = r4;
+0x84200732        8E90                       M[r0 + 8] = Null;
+0x84200734        F001 6000                  rMAC = Null + 4096;
+0x84200738        8E51                       M[r0 + 4] = rMAC;
+
+ <Lc_MakeStandardResponse_SND_4>
+0x8420073A        48F1                       popm <FP, r4, rLink>;
+0x8420073C        4CD8                       rts;
+
+ <$_cvc_send_ups_set_state>
+0x8420073E        1C48                       pushm <FP(=SP)>;
+0x84200740        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_ups_set_state_2>
+0x84200742        4848                       popm <FP>;
+0x84200744        4CD8                       rts;
+
+ <$_ups_state_snd>
+0x84200746        1C48                       pushm <FP(=SP)>;
+0x84200748        D9F9                       rMAC = M[FP + -4];
+0x8420074A        9912                       r0 = M[r0 + 48];
+0x8420074C        24A8                       Null = r3 - 2;
+0x8420074E        620B                       if NE jump (m) Lc_ups_state_snd_4;
+
+ <Lc_ups_state_snd_2>
+0x84200750        D5E3                       r1 = MHS[FP + -8];
+0x84200752        6209                       if NE jump (m) Lc_ups_state_snd_4;
+
+ <Lc_ups_state_snd_3>
+0x84200754        E80B                       r1 = M[rMAC + Null];
+0x84200756        569B                       r1 = r1 LSHIFT 16;
+0x84200758        8849                       rMAC = M[rMAC + 4];
+0x8420075A        12C9                       rMAC = rMAC OR r1;
+0x8420075C        C689                       rMAC = rMAC AND 0xffff;
+0x8420075E        AFD1                       M[r0 + 92] = rMAC;
+0x84200760        2041                       rMAC = Null + 1;
+0x84200762        BF91                       M[r0 + 120] = rMAC;
+
+ <Lc_ups_state_snd_4>
+0x84200764        2042                       r0 = Null + 1;
+
+ <Lc_ups_state_snd_5>
+0x84200766        4848                       popm <FP>;
+0x84200768        4CD8                       rts;
+
+ <$_cvc_send_check_all_connected>
+0x8420076A        89D1                       rMAC = M[r0 + 28];
+0x8420076C        8909                       rMAC = M[rMAC + 16];
+0x8420076E        6203                       if NE jump (m) Lc_cvc_send_check_all_connected_3;
+
+ <Lc_cvc_send_check_all_connected_2>
+0x84200770        0002                       r0 = Null + Null;
+0x84200772        6E1A                       jump (m) Lc_cvc_send_check_all_connected_12;
+
+ <Lc_cvc_send_check_all_connected_3>
+0x84200774        8891                       rMAC = M[r0 + 8];
+0x84200776        8909                       rMAC = M[rMAC + 16];
+0x84200778        61FC                       if EQ jump (m) Lc_cvc_send_check_all_connected_2;
+
+ <Lc_cvc_send_check_all_connected_4>
+0x8420077A        88D1                       rMAC = M[r0 + 12];
+0x8420077C        8909                       rMAC = M[rMAC + 16];
+0x8420077E        61F9                       if EQ jump (m) Lc_cvc_send_check_all_connected_2;
+
+ <Lc_cvc_send_check_all_connected_5>
+0x84200780        F021 8823                  rMAC = M[r0 + 140];
+0x84200784        2448                       Null = rMAC - 1;
+0x84200786        600F                       if EQ jump (m) Lc_cvc_send_check_all_connected_11;
+
+ <Lc_cvc_send_check_all_connected_6>
+0x84200788        8913                       r1 = M[r0 + 16];
+0x8420078A        891B                       r1 = M[r1 + 16];
+0x8420078C        61F2                       if EQ jump (m) Lc_cvc_send_check_all_connected_2;
+
+ <Lc_cvc_send_check_all_connected_7>
+0x8420078E        2488                       Null = rMAC - 2;
+0x84200790        F009 E095                  if LS jump (m) Lc_cvc_send_check_all_connected_11;
+
+ <Lc_cvc_send_check_all_connected_8>
+0x84200794        8953                       r1 = M[r0 + 20];
+0x84200796        891B                       r1 = M[r1 + 16];
+0x84200798        61EC                       if EQ jump (m) Lc_cvc_send_check_all_connected_2;
+
+ <Lc_cvc_send_check_all_connected_9>
+0x8420079A        2508                       Null = rMAC - 4;
+0x8420079C        6204                       if NE jump (m) Lc_cvc_send_check_all_connected_11;
+
+ <Lc_cvc_send_check_all_connected_10>
+0x8420079E        8991                       rMAC = M[r0 + 24];
+0x842007A0        8909                       rMAC = M[rMAC + 16];
+0x842007A2        61E7                       if EQ jump (m) Lc_cvc_send_check_all_connected_2;
+
+ <Lc_cvc_send_check_all_connected_11>
+0x842007A4        2042                       r0 = Null + 1;
+
+ <Lc_cvc_send_check_all_connected_12>
+0x842007A6        4CD8                       rts;
+
+ <$_ups_params_snd>
+0x842007A8        1CF1                       pushm <FP(=SP), r4, rLink>;
+0x842007AA        002B                       r1 = r3 + Null;
+0x842007AC        9916                       r4 = M[r0 + 48];
+0x842007AE        D5E5                       r3 = MHS[FP + -8];
+0x842007B0        D9FC                       r2 = M[FP + -4];
+0x842007B2        F062 20D4                  r0 = r4 + 212;
+0x842007B6        FDEF FFFF EA3D             call (m) 0x712;
+0x842007BC        2041                       rMAC = Null + 1;
+0x842007BE        BFB1                       M[r4 + 120] = rMAC;
+0x842007C0        000A                       r0 = rMAC + Null;
+
+ <Lc_ups_params_snd_2>
+0x842007C2        48F1                       popm <FP, r4, rLink>;
+0x842007C4        4CD8                       rts;
+
+ <$_cvc_send_release_constants>
+0x842007C6        4CD8                       rts;
+
+ <Lc_cvc_send_config_1>
+0x842007C8        1CF1                       pushm <FP(=SP), r4, rLink>;
+0x842007CA        0016                       r4 = r0 + Null;
+0x842007CC        B8B2                       r0 = M[r4 + 104];
+0x842007CE        F007 F001 4208             rMAC = Null + 7340552;
+0x842007D4        6E07                       jump (m) Lc_cvc_send_config_4;
+
+ <Lc_cvc_send_config_2>
+0x842007D6        205B                       r1 = r1 + 1;
+0x842007D8        2124                       r2 = r2 + 4;
+0x842007DA        2518                       Null = r1 - 4;
+0x842007DC        F009 E08F                  if LS jump (m) Lc_cvc_send_config_6;
+
+ <Lc_cvc_send_config_3>
+0x842007E0        2A09                       rMAC = rMAC + 24;
+
+ <Lc_cvc_send_config_4>
+0x842007E2        E80D                       r3 = M[rMAC + Null];
+0x842007E4        604C                       if EQ jump (m) Lc_cvc_send_config_17;
+
+ <Lc_cvc_send_config_5>
+0x842007E6        0003                       r1 = Null + Null;
+0x842007E8        210C                       r2 = rMAC + 4;
+
+ <Lc_cvc_send_config_6>
+0x842007EA        F42F C300                  Null = M[r2] - r0;
+0x842007EE        63F4                       if NE jump (m) Lc_cvc_send_config_2;
+
+ <Lc_cvc_send_config_7>
+0x842007F0        0032                       r0 = r4 + Null;
+0x842007F2        4CD5                       call r3;
+0x842007F4        F061 8821                  rMAC = M[r4 + 132];
+0x842007F8        2448                       Null = rMAC - 1;
+0x842007FA        6010                       if EQ jump (m) Lc_cvc_send_config_12;
+
+ <Lc_cvc_send_config_8>
+0x842007FC        2488                       Null = rMAC - 2;
+0x842007FE        6017                       if EQ jump (m) Lc_cvc_send_config_13;
+
+ <Lc_cvc_send_config_9>
+0x84200800        24C8                       Null = rMAC - 3;
+0x84200802        601E                       if EQ jump (m) Lc_cvc_send_config_14;
+
+ <Lc_cvc_send_config_10>
+0x84200804        2508                       Null = rMAC - 4;
+0x84200806        6225                       if NE jump (m) Lc_cvc_send_config_15;
+
+ <Lc_cvc_send_config_11>
+0x84200808        F001 40F0                  rMAC = Null + 240;
+0x8420080C        F061 8E2E                  M[r4 + 184] = rMAC;
+0x84200810        F051 7380                  rMAC = Null + 48000;
+0x84200814        F061 8E2F                  M[r4 + 188] = rMAC;
+0x84200818        6E23                       jump (m) Lc_cvc_send_config_16;
+
+ <Lc_cvc_send_config_12>
+0x8420081A        F001 4078                  rMAC = Null + 120;
+0x8420081E        F061 8E2E                  M[r4 + 184] = rMAC;
+0x84200822        F011 7A80                  rMAC = Null + 16000;
+0x84200826        F061 8E2F                  M[r4 + 188] = rMAC;
+0x8420082A        6E1A                       jump (m) Lc_cvc_send_config_16;
+
+ <Lc_cvc_send_config_13>
+0x8420082C        F001 4078                  rMAC = Null + 120;
+0x84200830        F061 8E2E                  M[r4 + 184] = rMAC;
+0x84200834        F021 79C0                  rMAC = Null + 24000;
+0x84200838        F061 8E2F                  M[r4 + 188] = rMAC;
+0x8420083C        6E11                       jump (m) Lc_cvc_send_config_16;
+
+ <Lc_cvc_send_config_14>
+0x8420083E        F001 40F0                  rMAC = Null + 240;
+0x84200842        F061 8E2E                  M[r4 + 184] = rMAC;
+0x84200846        F031 7900                  rMAC = Null + 32000;
+0x8420084A        F061 8E2F                  M[r4 + 188] = rMAC;
+0x8420084E        6E08                       jump (m) Lc_cvc_send_config_16;
+
+ <Lc_cvc_send_config_15>
+0x84200850        3B01                       rMAC = Null + 60;
+0x84200852        F061 8E2E                  M[r4 + 184] = rMAC;
+0x84200856        F001 7B40                  rMAC = Null + 8000;
+0x8420085A        F061 8E2F                  M[r4 + 188] = rMAC;
+
+ <Lc_cvc_send_config_16>
+0x8420085E        2041                       rMAC = Null + 1;
+0x84200860        BFB1                       M[r4 + 120] = rMAC;
+0x84200862        2082                       r0 = Null + 2;
+0x84200864        BEF2                       M[r4 + 108] = r0;
+0x84200866        F061 8E20                  M[r4 + 128] = rMAC;
+0x8420086A        F061 2080                  rMAC = r4 + 128;
+0x8420086E        AF71                       M[r4 + 84] = rMAC;
+0x84200870        F061 20AC                  rMAC = r4 + 172;
+0x84200874        F061 8E28                  M[r4 + 160] = rMAC;
+0x84200878        2042                       r0 = Null + 1;
+0x8420087A        6E02                       jump (m) Lc_cvc_send_config_18;
+
+ <Lc_cvc_send_config_17>
+0x8420087C        0002                       r0 = Null + Null;
+
+ <Lc_cvc_send_config_18>
+0x8420087E        48F1                       popm <FP, r4, rLink>;
+0x84200880        4CD8                       rts;
+
+ <$kdc_start>
+0x84200882        F007 F002 4000             r0 = Null + 7340032;
+0x84200888        F007 F002 4028             r0 = Null + 7340072;
+0x8420088E        F007 F002 4050             r0 = Null + 7340112;
+0x84200894        F007 F002 4078             r0 = Null + 7340152;
+0x8420089A        F007 F002 40A0             r0 = Null + 7340192;
+0x842008A0        F007 F002 40C8             r0 = Null + 7340232;
+0x842008A6        F007 F002 4118             r0 = Null + 7340312;
+0x842008AC        F007 F002 40F0             r0 = Null + 7340272;
+0x842008B2        F007 F002 4140             r0 = Null + 7340352;
+0x842008B8        F007 F002 4168             r0 = Null + 7340392;
+0x842008BE        F020 41B0                  Null = Null + 16816;
+
+ <$_CVC_SEND_CAP_Config_headset_1mic>
+0x842008C2        0004                       r2 = Null + Null;
+0x842008C4        0005                       r3 = Null + Null;
+0x842008C6        FFF8 F803 4004             I3 = Null + -8388604;
+0x842008CC        FFF8 F817 59A4             I7 = Null + -8376924;
+0x842008D2        710C                       r10 = Null + 1;
+0x842008D4        6E21                       jump (m) $cvc_send.dyn_config;
+
+ <$_CVC_SEND_CAP_Config_headset_2mic_binaural>
+0x842008D6        2084                       r2 = Null + 2;
+0x842008D8        6E02                       jump (m) $M.CVC_SEND_CAP.config.headset_2mic.Config_headset_2mic;
+
+ <$_CVC_SEND_CAP_Config_headset_2mic_mono>
+0x842008DA        2044                       r2 = Null + 1;
+
+ <$M.CVC_SEND_CAP.config.headset_2mic.Config_headset_2mic>
+0x842008DC        0005                       r3 = Null + Null;
+0x842008DE        FFF8 F803 5078             I3 = Null + -8386440;
+0x842008E4        FFF8 F817 5BE4             I7 = Null + -8376348;
+0x842008EA        7114                       r10 = Null + 2;
+0x842008EC        6E15                       jump (m) $cvc_send.dyn_config;
+
+ <$_CVC_SEND_CAP_Config_speaker_1mic>
+0x842008EE        0004                       r2 = Null + Null;
+0x842008F0        2045                       r3 = Null + 1;
+0x842008F2        FFF8 F803 6A28             I3 = Null + -8382936;
+0x842008F8        FFF8 F817 6334             I7 = Null + -8375500;
+0x842008FE        710C                       r10 = Null + 1;
+0x84200900        6E0B                       jump (m) $cvc_send.dyn_config;
+
+ <$_CVC_SEND_CAP_Config_speaker_2mic>
+0x84200902        20C4                       r2 = Null + 3;
+0x84200904        2045                       r3 = Null + 1;
+0x84200906        FFF8 F803 7B86             I3 = Null + -8380538;
+0x8420090C        FFF8 F817 69A4             I7 = Null + -8374876;
+0x84200912        7114                       r10 = Null + 2;
+0x84200914        6E01                       jump (m) $cvc_send.dyn_config;
+
+ <$cvc_send.dyn_config>
+0x84200916        F02C 8E23                  M[r0 + 140] = r10;
+0x8420091A        F023 8E21                  M[r0 + 132] = r1;
+0x8420091E        F024 8E24                  M[r0 + 144] = r2;
+0x84200922        F025 8E22                  M[r0 + 136] = r3;
+0x84200926        089C                       r2 = I3 + Null;
+0x84200928        08BD                       r3 = I7 + Null;
+0x8420092A        F024 8E26                  M[r0 + 152] = r2;
+0x8420092E        F025 8E27                  M[r0 + 156] = r3;
+0x84200932        4CD8                       rts;
+
+ <$_CVC_SEND_CAP_Create>
+0x84200934        F000 CF3D                  push rLink;
+0x84200938        F0C0 E040                  pushm <r8, r9>;
+0x8420093C        0912                       r8 = r0 + Null;
+0x8420093E        0852                       r0 = r8 + Null;
+0x84200940        F0A3 8826                  r1 = M[r8 + 152];
+0x84200944        F0A4 8821                  r2 = M[r8 + 132];
+0x84200948        FDFF F007 E033             call (m) 0x175a;
+0x8420094E        0010                       Null = r0 + Null;
+0x84200950        6079                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x84200952        F0A2 2034                  r0 = r8 + 52;
+0x84200956        FDFF F35D E92A             call 0x6c480;
+0x8420095C        F0A2 880D                  r0 = M[r8 + 52];
+0x84200960        6071                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x84200962        F0A2 2038                  r0 = r8 + 56;
+0x84200966        FDFF F38B E522             call 0x72008;
+0x8420096C        F0A2 880E                  r0 = M[r8 + 56];
+0x84200970        6069                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x84200972        F0A4 8822                  r2 = M[r8 + 136];
+0x84200976        2424                       r2 = r2 - 0;
+0x84200978        F0A3 881F                  r1 = M[r8 + 124];
+0x8420097C        F0A2 2050                  r0 = r8 + 80;
+0x84200980        FDFF F38B E73C             call 0x7207c;
+0x84200986        F0A2 8814                  r0 = M[r8 + 80];
+0x8420098A        605C                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x8420098C        F0A3 881F                  r1 = M[r8 + 124];
+0x84200990        F0A2 203C                  r0 = r8 + 60;
+0x84200994        FDFF F387 E53C             call 0x71850;
+0x8420099A        F0A2 880F                  r0 = M[r8 + 60];
+0x8420099E        6052                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x842009A0        2044                       r2 = Null + 1;
+0x842009A2        F0A2 8822                  r0 = M[r8 + 136];
+0x842009A6        2450                       Null = r0 - 1;
+0x842009A8        F001 C004                  if NE r2 = Null + Null;
+0x842009AC        F0A2 8823                  r0 = M[r8 + 140];
+0x842009B0        2450                       Null = r0 - 1;
+0x842009B2        F000 C004                  if EQ r2 = Null + Null;
+0x842009B6        F0A2 2040                  r0 = r8 + 64;
+0x842009BA        F0A3 881F                  r1 = M[r8 + 124];
+0x842009BE        FDFF F387 E626             call 0x71884;
+0x842009C4        F0A2 8810                  r0 = M[r8 + 64];
+0x842009C8        603D                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x842009CA        F0A2 8823                  r0 = M[r8 + 140];
+0x842009CE        2450                       Null = r0 - 1;
+0x842009D0        600B                       if EQ jump (m) $M.CVC_SEND_CAP.Create.jp_no_asf_share;
+0x842009D2        F0A2 2044                  r0 = r8 + 68;
+0x842009D6        F0A3 881F                  r1 = M[r8 + 124];
+0x842009DA        FDFF F39C E52E             call 0x74288;
+0x842009E0        F0A2 8811                  r0 = M[r8 + 68];
+0x842009E4        602F                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+
+ <$M.CVC_SEND_CAP.Create.jp_no_asf_share>
+0x842009E6        F0A2 2048                  r0 = r8 + 72;
+0x842009EA        F0A3 881F                  r1 = M[r8 + 124];
+0x842009EE        FDFF F370 E526             call 0x6ea94;
+0x842009F4        F0A2 8812                  r0 = M[r8 + 72];
+0x842009F8        6025                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x842009FA        F0A2 204C                  r0 = r8 + 76;
+0x842009FE        F0A3 881F                  r1 = M[r8 + 124];
+0x84200A02        FDFF F39D E926             call 0x74528;
+0x84200A08        F0A2 8813                  r0 = M[r8 + 76];
+0x84200A0C        601B                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x84200A0E        F0A2 2080                  r0 = r8 + 128;
+0x84200A12        F0A2 8E15                  M[r8 + 84] = r0;
+0x84200A16        F0A2 205C                  r0 = r8 + 92;
+0x84200A1A        F0A2 8E18                  M[r8 + 96] = r0;
+0x84200A1E        0852                       r0 = r8 + Null;
+0x84200A20        F0A3 8826                  r1 = M[r8 + 152];
+0x84200A24        F0A4 8827                  r2 = M[r8 + 156];
+0x84200A28        F0A5 8821                  r3 = M[r8 + 132];
+0x84200A2C        FDFF F007 EE23             call (m) 0x19ee;
+0x84200A32        0010                       Null = r0 + Null;
+0x84200A34        6007                       if EQ jump (m) $M.CVC_SEND_CAP.Create.create_failed;
+0x84200A36        0002                       r0 = Null + Null;
+
+ <$M.CVC_SEND_CAP.Create.create_done>
+0x84200A38        F0C0 E060                  popm <r8, r9>;
+0x84200A3C        F400 CF3D                  pop rLink;
+0x84200A40        4CD8                       rts;
+
+ <$M.CVC_SEND_CAP.Create.create_failed>
+0x84200A42        2042                       r0 = Null + 1;
+0x84200A44        6FFA                       jump (m) $M.CVC_SEND_CAP.Create.create_done;
+
+ <$_CVC_SEND_CAP_Destroy>
+0x84200A46        F000 CF3D                  push rLink;
+0x84200A4A        F000 CF3A                  push r8;
+0x84200A4E        0912                       r8 = r0 + Null;
+0x84200A50        FDFF F3B6 E83C             call 0x7776c;
+0x84200A56        F0A2 8801                  r0 = M[r8 + 4];
+0x84200A5A        FDF1 F007 EB21             if NE call (m) 0x19ba;
+0x84200A60        F0A0 8E01                  M[r8 + 4] = Null;
+0x84200A64        F0A2 880D                  r0 = M[r8 + 52];
+0x84200A68        FDF1 F35D E130             if NE call 0x6c498;
+0x84200A6E        F0A0 8E0D                  M[r8 + 52] = Null;
+0x84200A72        F0A2 8811                  r0 = M[r8 + 68];
+0x84200A76        FDF1 F39C E13A             if NE call 0x742b0;
+0x84200A7C        F0A0 8E11                  M[r8 + 68] = Null;
+0x84200A80        F0A2 8810                  r0 = M[r8 + 64];
+0x84200A84        FDF1 F387 E228             if NE call 0x718cc;
+0x84200A8A        F0A0 8E10                  M[r8 + 64] = Null;
+0x84200A8E        F0A2 880F                  r0 = M[r8 + 60];
+0x84200A92        FDF1 F387 E13A             if NE call 0x718cc;
+0x84200A98        F0A0 8E0F                  M[r8 + 60] = Null;
+0x84200A9C        F0A2 8812                  r0 = M[r8 + 72];
+0x84200AA0        FDF1 F36F EF2C             if NE call 0x6ea8c;
+0x84200AA6        F0A0 8E12                  M[r8 + 72] = Null;
+0x84200AAA        F0A2 880E                  r0 = M[r8 + 56];
+0x84200AAE        FDF1 F38A EA32             if NE call 0x72000;
+0x84200AB4        F0A0 8E0E                  M[r8 + 56] = Null;
+0x84200AB8        F0A2 8814                  r0 = M[r8 + 80];
+0x84200ABC        FDF1 F38A EB24             if NE call 0x72020;
+0x84200AC2        F0A0 8E14                  M[r8 + 80] = Null;
+0x84200AC6        F0A2 8813                  r0 = M[r8 + 76];
+0x84200ACA        FDF1 F39D E122             if NE call 0x744ec;
+0x84200AD0        F0A0 8E13                  M[r8 + 76] = Null;
+0x84200AD4        F0A2 8800                  r0 = M[r8 + 0];
+0x84200AD8        FDF1 F008 EE2D             if NE call (m) 0x1ca4;
+0x84200ADE        F0A0 8E00                  M[r8 + 0] = Null;
+0x84200AE2        F400 CF3A                  pop r8;
+0x84200AE6        F400 CF3D                  pop rLink;
+0x84200AEA        4CD8                       rts;
+
+ <$_CVC_SEND_CAP_Initialize>
+0x84200AEC        BF90                       M[r0 + 120] = Null;
+0x84200AEE        9893                       r1 = M[r0 + 40];
+0x84200AF0        9852                       r0 = M[r0 + 36];
+0x84200AF2        FF7C F61F E5D5             jump (m) 0x315c6;
+
+ <$_CVC_SEND_CAP_Process>
+0x84200AF8        F000 CF3D                  push rLink;
+0x84200AFC        F000 CF3A                  push r8;
+0x84200B00        0912                       r8 = r0 + Null;
+0x84200B02        F0A2 8800                  r0 = M[r8 + 0];
+0x84200B06        F0A3 8801                  r1 = M[r8 + 4];
+0x84200B0A        FDF1 F007 E033             if NE call (m) 0x191c;
+0x84200B10        0852                       r0 = r8 + Null;
+0x84200B12        F0A0 881E                  Null = M[r8 + 120];
+0x84200B16        FFF1 FFFF EE37             if NE call (m) $_CVC_SEND_CAP_Initialize;
+0x84200B1C        F0A3 8820                  r1 = M[r8 + 128];
+0x84200B20        F0A4 881D                  r2 = M[r8 + 116];
+0x84200B24        FDFF F3AE E82C             call 0x76830;
+0x84200B2A        F0A4 880B                  r2 = M[r8 + 44];
+0x84200B2E        2624                       r2 = r2 - 8;
+0x84200B30        F0A3 8816                  r1 = M[r8 + 88];
+0x84200B34        89E5                       r3 = M[r2 + 28];
+0x84200B36        E82D                       r3 = M[r3 + Null];
+0x84200B38        8E1D                       M[r1 + 0] = r3;
+0x84200B3A        89A5                       r3 = M[r2 + 24];
+0x84200B3C        E82D                       r3 = M[r3 + Null];
+0x84200B3E        8E5D                       M[r1 + 4] = r3;
+0x84200B40        F0A0 8801                  Null = M[r8 + 4];
+0x84200B44        FDF1 F002 EA33             if NE call (m) 0x1096;
+0x84200B4A        F400 CF3A                  pop r8;
+0x84200B4E        F400 CF3D                  pop rLink;
+0x84200B52        4CD8                       rts;
+
+ <$_cvc_send_opmsg_get_voice_quality>
+0x84200B54        2042                       r0 = Null + 1;
+0x84200B56        4CD8                       rts;
+
+ <$cvc.init.root>
+0x84200B58        F090 2401                  Null = r7 - 1;
+0x84200B5C        F001 C009                  if NE r7 = Null + Null;
+0x84200B60        F0B9 8E08                  M[r9 + 32] = r7;
+0x84200B64        F0BA 8E07                  M[r9 + 28] = r8;
+0x84200B68        F0B8 8802                  r6 = M[r9 + 8];
+0x84200B6C        F082 8800                  r0 = M[r6 + 0];
+0x84200B70        F083 8801                  r1 = M[r6 + 4];
+0x84200B74        F0B2 8E0A                  M[r9 + 40] = r0;
+0x84200B78        F0B3 8E0B                  M[r9 + 44] = r1;
+0x84200B7C        F0A0 2402                  Null = r8 - 2;
+0x84200B80        600E                       if EQ jump (m) $M.CVC_SEND.module_init.root.end_CE_fixed_param;
+0x84200B82        F080 8E7F                  M[r6 + 508] = Null;
+0x84200B86        F082 8842                  r0 = M[r6 + 264];
+0x84200B8A        F082 8E43                  M[r6 + 268] = r0;
+0x84200B8E        2043                       r1 = Null + 1;
+0x84200B90        F020 245A                  Null = r0 - 90;
+0x84200B94        F001 C003                  if NE r1 = Null + Null;
+0x84200B98        F0B3 8E09                  M[r9 + 36] = r1;
+
+ <$M.CVC_SEND.module_init.root.end_CE_fixed_param>
+0x84200B9C        F082 883F                  r0 = M[r6 + 252];
+0x84200BA0        F0B3 8811                  r1 = M[r9 + 68];
+0x84200BA4        009A                       r0 = r1 + r0;
+0x84200BA6        F0B2 8E12                  M[r9 + 72] = r0;
+0x84200BAA        F0B0 8E0C                  M[r9 + 48] = Null;
+0x84200BAE        F0B0 8E0D                  M[r9 + 52] = Null;
+0x84200BB2        F0B0 8E0E                  M[r9 + 56] = Null;
+0x84200BB6        4CD8                       rts;
+
+ <$cvc.init.harm>
+0x84200BB8        2042                       r0 = Null + 1;
+0x84200BBA        F0A2 8E03                  M[r8 + 12] = r0;
+0x84200BBE        4CD8                       rts;
+
+ <$cvc.init.harm_export>
+0x84200BC0        F0B3 8803                  r1 = M[r9 + 12];
+0x84200BC4        281A                       r0 = r1 + 16;
+0x84200BC6        F0A2 8E33                  M[r8 + 204] = r0;
+0x84200BCA        8ED8                       M[r1 + 12] = Null;
+0x84200BCC        4CD8                       rts;
+
+ <$cvc.init.oms_in>
+0x84200BCE        F0B3 8807                  r1 = M[r9 + 28];
+0x84200BD2        2418                       Null = r1 - 0;
+0x84200BD4        63F6                       if NE jump (m) $cvc.init.harm_export;
+0x84200BD6        F0A0 8E33                  M[r8 + 204] = Null;
+0x84200BDA        4CD8                       rts;
+
+ <$cvc.mc.oms_in>
+0x84200BDC        F0B3 880B                  r1 = M[r9 + 44];
+0x84200BE0        C05A                       r0 = r1 AND 0x2;
+0x84200BE2        FD00 CDC0                  if EQ rts;
+0x84200BE6        F0B3 880A                  r1 = M[r9 + 40];
+0x84200BEA        C55A                       r0 = r1 AND 0x800;
+0x84200BEC        FD00 CDC0                  if EQ rts;
+0x84200BF0        F0B2 8810                  r0 = M[r9 + 64];
+0x84200BF4        4CD8                       rts;
+
+ <$cvc.mc.dmss_rnr>
+0x84200BF6        F0A0 8E24                  M[r8 + 144] = Null;
+0x84200BFA        F0B3 880B                  r1 = M[r9 + 44];
+0x84200BFE        C25A                       r0 = r1 AND 0x20;
+0x84200C00        FD01 CDC0                  if NE rts;
+0x84200C04        F0B2 880C                  r0 = M[r9 + 48];
+0x84200C08        FD01 CDC0                  if NE rts;
+0x84200C0C        F0B2 8808                  r0 = M[r9 + 32];
+0x84200C10        FD01 CDC0                  if NE rts;
+0x84200C14        2083                       r1 = Null + 2;
+0x84200C16        F0B0 8810                  Null = M[r9 + 64];
+0x84200C1A        F020 CE43                  if EQ r1 = Null + 1;
+0x84200C1E        F0B4 8804                  r2 = M[r9 + 16];
+0x84200C22        F044 882F                  r2 = M[r2 + 188];
+0x84200C26        F0B5 8807                  r3 = M[r9 + 28];
+0x84200C2A        24A8                       Null = r3 - 2;
+0x84200C2C        600F                       if EQ jump (m) $M.CVC_SEND.module_control.dmss.residule_noise_reduction.rnr_auto;
+0x84200C2E        F000 F800 F040 2400        Null = r2 - 33554432;
+0x84200C36        FD0A CDC0                  if GE rts;
+0x84200C3A        F0B4 880F                  r2 = M[r9 + 60];
+0x84200C3E        24E0                       Null = r2 - 3;
+0x84200C40        FD0A CDC0                  if GE rts;
+0x84200C44        F0A3 8E24                  M[r8 + 144] = r1;
+0x84200C48        4CD8                       rts;
+
+ <$M.CVC_SEND.module_control.dmss.residule_noise_reduction.rnr_auto>
+0x84200C4A        F600 F040 2400             Null = r2 - 25165824;
+0x84200C50        FD0A CDC0                  if GE rts;
+0x84200C54        F0A3 8E24                  M[r8 + 144] = r1;
+0x84200C58        4CD8                       rts;
+
+ <$cvc.mc.dmss_tp>
+0x84200C5A        F0B3 880B                  r1 = M[r9 + 44];
+0x84200C5E        C1DA                       r0 = r1 AND 0x10;
+0x84200C60        FD01 CDC0                  if NE rts;
+0x84200C64        F0B2 8808                  r0 = M[r9 + 32];
+0x84200C68        FD01 CDC0                  if NE rts;
+0x84200C6C        F0B3 8802                  r1 = M[r9 + 8];
+0x84200C70        F032 8842                  r0 = M[r1 + 264];
+0x84200C74        F022 245A                  r0 = r0 - 90;
+0x84200C78        FD01 CDC0                  if NE rts;
+0x84200C7C        F0B3 8804                  r1 = M[r9 + 16];
+0x84200C80        F033 882A                  r1 = M[r1 + 168];
+0x84200C84        F0B0 880C                  Null = M[r9 + 48];
+0x84200C88        F001 C003                  if NE r1 = Null + Null;
+0x84200C8C        F0B0 880D                  Null = M[r9 + 52];
+0x84200C90        F001 C003                  if NE r1 = Null + Null;
+0x84200C94        F0A3 8E2F                  M[r8 + 188] = r1;
+0x84200C98        4CD8                       rts;
+
+ <$cvc.init.aec510>
+0x84200C9A        F0B5 8802                  r3 = M[r9 + 8];
+0x84200C9E        F054 884C                  r2 = M[r3 + 304];
+0x84200CA2        F0A4 8E4D                  M[r8 + 308] = r2;
+0x84200CA6        F0B2 880A                  r0 = M[r9 + 40];
+0x84200CAA        C0D4                       r2 = r0 AND 0x4;
+0x84200CAC        F0A4 8E61                  M[r8 + 388] = r2;
+0x84200CB0        C054                       r2 = r0 AND 0x2;
+0x84200CB2        F0A4 8E62                  M[r8 + 392] = r2;
+0x84200CB6        C5D4                       r2 = r0 AND 0x1000;
+0x84200CB8        F0A4 8E64                  M[r8 + 400] = r2;
+0x84200CBC        4CD8                       rts;
+
+ <$cvc.init.vsm_fdnlp>
+0x84200CBE        F0B4 880A                  r2 = M[r9 + 40];
+0x84200CC2        C162                       r0 = r2 AND 0x8;
+0x84200CC4        F0A2 8E1E                  M[r8 + 120] = r0;
+0x84200CC8        4CD8                       rts;
+
+ <$cvc.init.aec510.lrm>
+0x84200CCA        F0B3 880A                  r1 = M[r9 + 40];
+0x84200CCE        C01A                       r0 = r1 AND 0x1;
+0x84200CD0        FD01 CDC0                  if NE rts;
+0x84200CD4        F0B8 8802                  r6 = M[r9 + 8];
+0x84200CD8        2043                       r1 = Null + 1;
+0x84200CDA        F0A3 8E5F                  M[r8 + 380] = r1;
+0x84200CDE        2043                       r1 = Null + 1;
+0x84200CE0        F0A3 8E60                  M[r8 + 384] = r1;
+0x84200CE4        4CD8                       rts;
+
+ <$cvc.mc.aec510>
+0x84200CE6        F0B3 880A                  r1 = M[r9 + 40];
+0x84200CEA        C01A                       r0 = r1 AND 0x1;
+0x84200CEC        F0B2 8E10                  M[r9 + 64] = r0;
+0x84200CF0        FD01 CDC0                  if NE rts;
+0x84200CF4        F0B3 8807                  r1 = M[r9 + 28];
+0x84200CF8        2418                       Null = r1 - 0;
+0x84200CFA        FD01 CDC0                  if NE rts;
+0x84200CFE        F0B3 8801                  r1 = M[r9 + 4];
+0x84200D02        E81B                       r1 = M[r1 + Null];
+0x84200D04        24DB                       r1 = r1 - 3;
+0x84200D06        F020 CE42                  if EQ r0 = Null + 1;
+0x84200D0A        F0B2 8E10                  M[r9 + 64] = r0;
+0x84200D0E        4CD8                       rts;
+
+ <$cvc.mc.aec510_cng>
+0x84200D10        F0B2 8810                  r0 = M[r9 + 64];
+0x84200D14        4CD8                       rts;
+
+ <$cvc.aec510_lrm.gain_mapping>
+0x84200D16        F0B0 8810                  Null = M[r9 + 64];
+0x84200D1A        FD01 CDC0                  if NE rts;
+0x84200D1E        FF7C FEAF ED96             jump 0x763b4;
+
+ <$cvc.mc.ref_delay>
+0x84200D24        F0B4 880A                  r2 = M[r9 + 40];
+0x84200D28        C5E2                       r0 = r2 AND 0x1000;
+0x84200D2A        F0B0 8810                  Null = M[r9 + 64];
+0x84200D2E        F000 C002                  if EQ r0 = Null + Null;
+0x84200D32        4CD8                       rts;
+
+ <$cvc.aec_ref.filter_bank.analysis>
+0x84200D34        F0B4 880A                  r2 = M[r9 + 40];
+0x84200D38        C5E2                       r0 = r2 AND 0x1000;
+0x84200D3A        C020                       Null = r2 AND 0x1;
+0x84200D3C        F000 C002                  if EQ r0 = Null + Null;
+0x84200D40        0010                       Null = r0 + Null;
+0x84200D42        FD01 CDC0                  if NE rts;
+0x84200D46        FF7C FE2F E382             jump 0x71ec8;
+
+ <$cvc.event.echo_flag>
+0x84200D4C        F0A2 8807                  r0 = M[r8 + 28];
+0x84200D50        F090 8820                  Null = M[r7 + 128];
+0x84200D54        F021 CE42                  if NE r0 = Null + 1;
+0x84200D58        F0B2 8E0D                  M[r9 + 52] = r0;
+0x84200D5C        4CD8                       rts;
+
+ <$cvc.init.aed100>
+0x84200D5E        F004 405A                  r2 = Null + 90;
+0x84200D62        F0B3 8802                  r1 = M[r9 + 8];
+0x84200D66        F032 8842                  r0 = M[r1 + 264];
+0x84200D6A        F0B0 8808                  Null = M[r9 + 32];
+0x84200D6E        F401 C002                  if NE r0 = r2 + Null;
+0x84200D72        F0A2 8E01                  M[r8 + 4] = r0;
+0x84200D76        4CD8                       rts;
+
+ <$cvc.mc.aed100>
+0x84200D78        F0B5 8813                  r3 = M[r9 + 76];
+0x84200D7C        F0B4 8804                  r2 = M[r9 + 16];
+0x84200D80        F042 882A                  r0 = M[r2 + 168];
+0x84200D84        F0B0 880C                  Null = M[r9 + 48];
+0x84200D88        F001 C002                  if NE r0 = Null + Null;
+0x84200D8C        F0B0 880D                  Null = M[r9 + 52];
+0x84200D90        F001 C002                  if NE r0 = Null + Null;
+0x84200D94        F0A2 8E02                  M[r8 + 8] = r0;
+0x84200D98        A86A                       r0 = M[r3 + 68];
+0x84200D9A        89E3                       r1 = M[r2 + 28];
+0x84200D9C        F0B0 8808                  Null = M[r9 + 32];
+0x84200DA0        F301 C002                  if NE r0 = r1 + Null;
+0x84200DA4        F0A2 8E03                  M[r8 + 12] = r0;
+0x84200DA8        0002                       r0 = Null + Null;
+0x84200DAA        4CD8                       rts;
+
+ <$cvc.init.agc400>
+0x84200DAC        F0A3 8803                  r1 = M[r8 + 12];
+0x84200DB0        8E18                       M[r1 + 0] = Null;
+0x84200DB2        8E58                       M[r1 + 4] = Null;
+0x84200DB4        8E98                       M[r1 + 8] = Null;
+0x84200DB6        4CD8                       rts;
+
+ <$cvc.mc.agc400>
+0x84200DB8        F0A6 8803                  r4 = M[r8 + 12];
+0x84200DBC        F0B7 8802                  r5 = M[r9 + 8];
+0x84200DC0        8874                       r2 = M[r4 + 4];
+0x84200DC2        F424 CE44                  if NEG r2 = r2 + 1;
+0x84200DC6        F073 883D                  r1 = M[r5 + 244];
+0x84200DCA        F0B0 880D                  Null = M[r9 + 52];
+0x84200DCE        F031 C204                  if NE r2 = Null - r1;
+0x84200DD2        8E74                       M[r4 + 4] = r2;
+0x84200DD4        88B5                       r3 = M[r4 + 8];
+0x84200DD6        F524 CE45                  if NEG r3 = r3 + 1;
+0x84200DDA        F073 883E                  r1 = M[r5 + 248];
+0x84200DDE        F0B0 880E                  Null = M[r9 + 56];
+0x84200DE2        F030 C205                  if EQ r3 = Null - r1;
+0x84200DE6        8EB5                       M[r4 + 8] = r3;
+0x84200DE8        0003                       r1 = Null + Null;
+0x84200DEA        1360                       Null = r2 OR r3;
+0x84200DEC        F020 CE43                  if EQ r1 = Null + 1;
+0x84200DF0        8E33                       M[r4 + 0] = r1;
+0x84200DF2        F0B3 880A                  r1 = M[r9 + 40];
+0x84200DF6        C4DA                       r0 = r1 AND 0x400;
+0x84200DF8        4CD8                       rts;
+
+ <$cvc.mgdc_persist.init>
+0x84200DFA        F0B3 880B                  r1 = M[r9 + 44];
+0x84200DFE        C4D8                       Null = r1 AND 0x400;
+0x84200E00        FD01 CDC0                  if NE rts;
+0x84200E04        F092 E800                  r0 = M[r7 + Null];
+0x84200E08        F0A2 8E08                  M[r8 + 32] = r0;
+0x84200E0C        4CD8                       rts;
+
+ <$cvc.mgdc_persist.state_upload>
+0x84200E0E        F0A2 8808                  r0 = M[r8 + 32];
+0x84200E12        F002 EE09                  M[Null + r7] = r0;
+0x84200E16        4CD8                       rts;
+
+ <$cvc.mc.mgdc100>
+0x84200E18        F0B2 8808                  r0 = M[r9 + 32];
+0x84200E1C        2450                       Null = r0 - 1;
+0x84200E1E        FD00 CDC0                  if EQ rts;
+0x84200E22        2083                       r1 = Null + 2;
+0x84200E24        F0A4 8806                  r2 = M[r8 + 24];
+0x84200E28        E820                       Null = M[r2 + Null];
+0x84200E2A        F021 CE43                  if NE r1 = Null + 1;
+0x84200E2E        F0B0 880D                  Null = M[r9 + 52];
+0x84200E32        F001 C003                  if NE r1 = Null + Null;
+0x84200E36        F0B0 880C                  Null = M[r9 + 48];
+0x84200E3A        F001 C003                  if NE r1 = Null + Null;
+0x84200E3E        F0A3 8E15                  M[r8 + 84] = r1;
+0x84200E42        0002                       r0 = Null + Null;
+0x84200E44        F0A0 8809                  Null = M[r8 + 36];
+0x84200E48        FD01 CDC0                  if NE rts;
+0x84200E4C        F0B3 880B                  r1 = M[r9 + 44];
+0x84200E50        C05A                       r0 = r1 AND 0x2;
+0x84200E52        4CD8                       rts;
+
+ <$cvc.mgdc.harm_dynamic>
+0x84200E54        F0B4 8808                  r2 = M[r9 + 32];
+0x84200E58        2460                       Null = r2 - 1;
+0x84200E5A        FD00 CDC0                  if EQ rts;
+0x84200E5E        F092 8800                  r0 = M[r7 + 0];
+0x84200E62        F093 8801                  r1 = M[r7 + 4];
+0x84200E66        24E0                       Null = r2 - 3;
+0x84200E68        F300 C002                  if EQ r0 = r1 + Null;
+0x84200E6C        8852                       r0 = M[r0 + 4];
+0x84200E6E        F0A2 8E00                  M[r8 + 0] = r0;
+0x84200E72        4CD8                       rts;
+
+ <$cvc.init.ndvc100>
+0x84200E74        F0B3 880A                  r1 = M[r9 + 40];
+0x84200E78        C55A                       r0 = r1 AND 0x800;
+0x84200E7A        F0A2 8E00                  M[r8 + 0] = r0;
+0x84200E7E        4CD8                       rts;
+
+ <$cvc.init.asf100>
+0x84200E80        F0B3 880A                  r1 = M[r9 + 40];
+0x84200E84        C2DA                       r0 = r1 AND 0x40;
+0x84200E86        F0B3 8807                  r1 = M[r9 + 28];
+0x84200E8A        2418                       Null = r1 - 0;
+0x84200E8C        F021 CE42                  if NE r0 = Null + 1;
+0x84200E90        F0B0 8809                  Null = M[r9 + 36];
+0x84200E94        F020 CE42                  if EQ r0 = Null + 1;
+0x84200E98        F0A2 8E3D                  M[r8 + 244] = r0;
+0x84200E9C        F0B3 880B                  r1 = M[r9 + 44];
+0x84200EA0        C3DA                       r0 = r1 AND 0x100;
+0x84200EA2        F0A2 8E3E                  M[r8 + 248] = r0;
+0x84200EA6        4CD8                       rts;
+
+ <$cvc.mc.asf100>
+0x84200EA8        F0B3 8807                  r1 = M[r9 + 28];
+0x84200EAC        2498                       Null = r1 - 2;
+0x84200EAE        6009                       if EQ jump (m) $M.CVC_SEND.module_control.asf100.end_beam0_switch;
+0x84200EB0        0002                       r0 = Null + Null;
+0x84200EB2        F0B3 880F                  r1 = M[r9 + 60];
+0x84200EB6        245B                       r1 = r1 - 1;
+0x84200EB8        F02B CE42                  if LT r0 = Null + 1;
+0x84200EBC        F0A2 8E06                  M[r8 + 24] = r0;
+
+ <$M.CVC_SEND.module_control.asf100.end_beam0_switch>
+0x84200EC0        F0B2 8808                  r0 = M[r9 + 32];
+0x84200EC4        FD01 CDC0                  if NE rts;
+0x84200EC8        F0B3 880B                  r1 = M[r9 + 44];
+0x84200ECC        C01A                       r0 = r1 AND 0x1;
+0x84200ECE        4CD8                       rts;
+
+ <$cvc.user.dms100.wnr.initialize>
+0x84200ED0        F0B2 880A                  r0 = M[r9 + 40];
+0x84200ED4        C2D0                       Null = r0 AND 0x40;
+0x84200ED6        FD01 CDC0                  if NE rts;
+0x84200EDA        FF7C FDDF E3FA             jump 0x6f8d4;
+
+ <$cvc.init.dms100>
+0x84200EE0        F0B4 8802                  r2 = M[r9 + 8];
+0x84200EE4        F042 887F                  r0 = M[r2 + 508];
+0x84200EE8        F0A2 8E1A                  M[r8 + 104] = r0;
+0x84200EEC        0002                       r0 = Null + Null;
+0x84200EEE        F0B3 8807                  r1 = M[r9 + 28];
+0x84200EF2        2418                       Null = r1 - 0;
+0x84200EF4        F021 CE42                  if NE r0 = Null + 1;
+0x84200EF8        F0B0 8809                  Null = M[r9 + 36];
+0x84200EFC        F020 CE42                  if EQ r0 = Null + 1;
+0x84200F00        F0A2 8E20                  M[r8 + 128] = r0;
+0x84200F04        F0B4 880B                  r2 = M[r9 + 44];
+0x84200F08        C3E2                       r0 = r2 AND 0x100;
+0x84200F0A        F0A2 8E1C                  M[r8 + 112] = r0;
+0x84200F0E        C462                       r0 = r2 AND 0x200;
+0x84200F10        F0A2 8E1B                  M[r8 + 108] = r0;
+0x84200F14        F0B3 880A                  r1 = M[r9 + 40];
+0x84200F18        C35A                       r0 = r1 AND 0x80;
+0x84200F1A        F0A2 8E1E                  M[r8 + 120] = r0;
+0x84200F1E        C258                       Null = r1 AND 0x20;
+0x84200F20        FFF0 E9A1                  if EQ jump (m) $cvc.init.harm_export;
+0x84200F24        F0A0 8E33                  M[r8 + 204] = Null;
+0x84200F28        4CD8                       rts;
+
+ <$cvc.mc.dms100>
+0x84200F2A        0002                       r0 = Null + Null;
+0x84200F2C        F0B3 8807                  r1 = M[r9 + 28];
+0x84200F30        2498                       Null = r1 - 2;
+0x84200F32        FD00 CDC0                  if EQ rts;
+0x84200F36        F0B0 8808                  Null = M[r9 + 32];
+0x84200F3A        FD01 CDC0                  if NE rts;
+0x84200F3E        F0A4 8804                  r2 = M[r8 + 16];
+0x84200F42        88A4                       r2 = M[r2 + 8];
+0x84200F44        F0B3 880F                  r1 = M[r9 + 60];
+0x84200F48        2518                       Null = r1 - 4;
+0x84200F4A        F00A C004                  if GE r2 = Null + Null;
+0x84200F4E        F0A4 8E30                  M[r8 + 192] = r2;
+0x84200F52        4CD8                       rts;
+
+ <$cvc.mc.dms_out>
+0x84200F54        F0B2 880A                  r0 = M[r9 + 40];
+0x84200F58        C1D2                       r0 = r0 AND 0x10;
+0x84200F5A        4CD8                       rts;
+
+ <$hpf.process>
+0x84200F5C        F0B2 880A                  r0 = M[r9 + 40];
+0x84200F60        F122 0000                  r0 = r0 AND 0x2000;
+0x84200F64        FD01 CDC0                  if NE rts;
+0x84200F68        713C                       r10 = Null + 7;
+0x84200F6A        0A50                       I0 = r8 + Null;
+0x84200F6C        F092 8800                  r0 = M[r7 + 0];
+0x84200F70        0A11                       I1 = r0 + Null;
+0x84200F72        F092 8801                  r0 = M[r7 + 4];
+0x84200F76        0A15                       I5 = r0 + Null;
+0x84200F78        F535 D032                  Null = Null + Null, r0 = M[I1,4], r1 = M[I5,4];
+0x84200F7C        F041 C030                  Null = Null + Null, r2 = M[I0,4];
+0x84200F80        4C09                       do (m) $M.hpf.process.hpf_loop;
+0x84200F82        F434 D032                  Null = Null + Null, r0 = M[I1,0], r1 = M[I5,0];
+0x84200F86        F400 C972                  r0 = r0 * r2 (frac);
+0x84200F8A        F441 C973                  r1 = r1 * r2 (frac), r2 = M[I0,4];
+0x84200F8E        F5B5 D03A                  Null = Null + Null, M[I1,4] = r0, M[I5,4] = r1;
+
+ <$M.hpf.process.hpf_loop>
+0x84200F92        4CD8                       rts;
+
+ <$M.CVC_SEND.Set_PassThroughGains_1MIC>
+0x84200F94        F0A6 E800                  r4 = M[r8 + Null];
+0x84200F98        2470                       Null = r4 - 1;
+0x84200F9A        6A04                       if GT jump (m) $M.CVC_SEND.PASS_THROUGH.passthroughgains_1mic;
+0x84200F9C        0002                       r0 = Null + Null;
+0x84200F9E        2043                       r1 = Null + 1;
+0x84200FA0        6E05                       jump (m) $M.CVC_SEND.PASS_THROUGH.setgains_1mic;
+
+ <$M.CVC_SEND.PASS_THROUGH.passthroughgains_1mic>
+0x84200FA2        F094 8800                  r2 = M[r7 + 0];
+0x84200FA6        8822                       r0 = M[r2 + 0];
+0x84200FA8        8863                       r1 = M[r2 + 4];
+
+ <$M.CVC_SEND.PASS_THROUGH.setgains_1mic>
+0x84200FAA        F092 8E01                  M[r7 + 4] = r0;
+0x84200FAE        F093 8E03                  M[r7 + 12] = r1;
+0x84200FB2        4CD8                       rts;
+
+ <$M.CVC_SEND.Set_PassThroughGains_2MIC>
+0x84200FB4        F094 8800                  r2 = M[r7 + 0];
+0x84200FB8        E827                       r5 = M[r2 + Null];
+0x84200FBA        003A                       r0 = r5 + Null;
+0x84200FBC        F0A6 E800                  r4 = M[r8 + Null];
+0x84200FC0        2530                       Null = r4 - 4;
+0x84200FC2        F000 C007                  if EQ r5 = Null + Null;
+0x84200FC6        6009                       if EQ jump (m) $M.CVC_SEND.PASS_THROUGH.passthroughgains;
+0x84200FC8        2570                       Null = r4 - 5;
+0x84200FCA        F000 C002                  if EQ r0 = Null + Null;
+0x84200FCE        6005                       if EQ jump (m) $M.CVC_SEND.PASS_THROUGH.passthroughgains;
+0x84200FD0        0007                       r5 = Null + Null;
+0x84200FD2        0002                       r0 = Null + Null;
+0x84200FD4        2043                       r1 = Null + 1;
+0x84200FD6        6E02                       jump (m) $M.CVC_SEND.PASS_THROUGH.setgains;
+
+ <$M.CVC_SEND.PASS_THROUGH.passthroughgains>
+0x84200FD8        8863                       r1 = M[r2 + 4];
+
+ <$M.CVC_SEND.PASS_THROUGH.setgains>
+0x84200FDA        F092 8E01                  M[r7 + 4] = r0;
+0x84200FDE        F097 8E02                  M[r7 + 8] = r5;
+0x84200FE2        F093 8E03                  M[r7 + 12] = r1;
+0x84200FE6        4CD8                       rts;
+
+ <$M.CVC_SEND.stream_map_select>
+0x84200FE8        F0B2 8801                  r0 = M[r9 + 4];
+0x84200FEC        E812                       r0 = M[r0 + Null];
+0x84200FEE        2303                       r1 = Null + 12;
+0x84200FF0        2550                       Null = r0 - 5;
+0x84200FF2        6008                       if EQ jump (m) $M.CVC_SEND.PASS_THROUGH.set_input_ptr;
+0x84200FF4        2803                       r1 = Null + 16;
+0x84200FF6        2590                       Null = r0 - 6;
+0x84200FF8        6005                       if EQ jump (m) $M.CVC_SEND.PASS_THROUGH.set_input_ptr;
+0x84200FFA        2903                       r1 = Null + 20;
+0x84200FFC        25D0                       Null = r0 - 7;
+0x84200FFE        6002                       if EQ jump (m) $M.CVC_SEND.PASS_THROUGH.set_input_ptr;
+0x84201000        2203                       r1 = Null + 8;
+
+ <$M.CVC_SEND.PASS_THROUGH.set_input_ptr>
+0x84201002        F094 E803                  r2 = M[r7 + r1];
+0x84201006        F0A4 8E00                  M[r8 + 0] = r2;
+0x8420100A        4CD8                       rts;
+========================================================================
+datadump
+========================================================================
+
+------------------------------------------------------------------------
+Region: .const_data_api
+------------------------------------------------------------------------
+0xFF802DA4	$M.CVC_SEND_CAP.headset_data_1mic.DynTable_Linker
+        00000001 0000FFFF 0000008C 000100E1 
+        00031631 000100E4 000600C8 000100E7 
+        0006AB88 000100EA 0006AB88 000100ED 
+        00074584 000100EE 04200D25 000100F0 
+        04200D35 000100F3 000600C8 000100F6 
+        0006E948 000100F9 04200D4D 000100FC 
+        00071EC8 000100FF 04200F5D 00010102 
+        0006F144 00010105 0006EFB4 00010108 
+        000743E8 00010109 04200CE7 0001010B 
+        0006F664 0001010C 04200F2B 0001010E 
+        0006F85C 0001010F 04200F55 00010111 
+        000766B8 00010112 04200D79 00010114 
+        00075F58 00010115 04200D11 00010117 
+        00075928 00010118 04200D11 0001011A 
+        00071F7C 0001011D 000600C8 00010120 
+        0006ABD8 00010123 0006EBEC 00010124 
+        04200DB9 00010126 0006AB34 00010129 
+        0006AB88 0001012C 0003166F 00010130 
+        04200B59 00010133 00060084 00010136 
+        00071F5C 00010139 00071E90 0001013C 
+        0006F06C 0001013D 04200BB9 0001013F 
+        0006EF20 00010140 04200E75 00010142 
+        00060084 00010145 0006E908 00010148 
+        00071E90 0001014B 000742EC 0001014C 
+        04200C9B 0001014E 00075EB4 0001014F 
+        04200CBF 00010151 0006F3FC 00010152 
+        04200EE1 00010154 04200ED1 00010157 
+        0007665C 00010158 04200D5F 0001015A 
+        00060084 0001015D 0006EAD0 0001015E 
+        04200DAD 000101C2 00031631 000101C5 
+        0006AB88 000101C8 0006AB88 000101CB 
+        04200F95 000101CE 0006ABD8 000101D1 
+        0006AB88 000101D4 0003166F 00010229 
+        00031739 0001022A 000317D1 00010236 
+        00031739 00010237 000317D1 00010243 
+        000316BF 00010244 0003172B 00005432 
+
+0xFF802FE4	$M.CVC_SEND_CAP.headset_data_2mic.DynTable_Linker
+        00000001 0000FFFF 000000D0 0001000B 
+        000739DC 00010074 00031631 00010077 
+        000600C8 0001007A 000600C8 0001007D 
+        0006AB88 00010080 0006AB88 00010083 
+        0006AB88 00010086 00074584 00010087 
+        04200D25 00010089 04200D35 0001008C 
+        000600C8 0001008F 0006E948 00010092 
+        04200D4D 00010095 00071EC8 00010098 
+        04200F5D 0001009B 00071EC8 0001009E 
+        04200F5D 000100A1 000721CC 000100A2 
+        04200E19 000100A4 04200E0F 000100A7 
+        04200E55 000100AA 0006F144 000100AD 
+        0006F664 000100AE 04200BDD 000100B0 
+        0006EFB4 000100B3 000743E8 000100B4 
+        04200CE7 000100B6 0006D87C 000100B9 
+        000724CC 000100BA 04200EA9 000100BC 
+        0006D884 000100BF 0006D93C 000100C0 
+        04200BF7 000100C2 0006F664 000100C3 
+        04200F2B 000100C5 0006F85C 000100C6 
+        04200F55 000100C8 0006DC98 000100CB 
+        0006E040 000100CC 04200C5B 000100CE 
+        000766B8 000100CF 04200D79 000100D1 
+        04200D17 000100D4 00075F58 000100D5 
+        04200D11 000100D7 00075928 000100D8 
+        04200D11 000100DA 0006DAD8 000100DD 
+        00071F7C 000100E0 000600C8 000100E3 
+        0006ABD8 000100E6 0006EBEC 000100E7 
+        04200DB9 000100E9 0006AB34 000100EC 
+        0006AB88 000100EF 0003166F 0001020C 
+        04200B59 0001020F 00060084 00010212 
+        00060084 00010215 00071F5C 00010218 
+        00071E90 0001021B 00071E90 0001021E 
+        0006F06C 0001021F 04200BB9 00010221 
+        00072120 00010224 04200DFB 00010227 
+        0006F254 00010228 04200BCF 0001022A 
+        0006EF20 0001022B 04200E75 0001022D 
+        00060084 00010230 0006E908 00010233 
+        00071E90 00010236 000742EC 00010237 
+        04200C9B 00010239 00075EB4 0001023A 
+        04200CBF 0001023C 04200CCB 0001023F 
+        0006E1F0 00010242 000723F4 00010243 
+        04200E81 00010245 0006F3FC 00010246 
+        04200EE1 00010248 0007665C 00010249 
+        04200D5F 0001024B 00060084 0001024E 
+        0006EAD0 0001024F 04200DAD 000102EB 
+        00031631 000102EE 0006AB88 000102F1 
+        0006AB88 000102F4 0006AB88 000102F7 
+        04200FB5 000102FA 0006AC60 000102FD 
+        0006AB88 00010300 0003166F 0001035B 
+        00031739 0001035C 000317D1 00010368 
+        00031739 00010369 000317D1 00010375 
+        00031739 00010376 000317D1 00010382 
+        000316BF 00010383 0003172B 00005432 
+
+0xFF803334	$M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Linker
+        00000001 0000FFFF 00000098 0001013B 
+        00031631 0001013E 000600C8 00010141 
+        0006AB88 00010144 0006AB88 00010147 
+        00074584 00010148 04200D25 0001014A 
+        04200D35 0001014D 000600C8 00010150 
+        0006E948 00010153 04200D4D 00010156 
+        00071EC8 00010159 04200F5D 0001015C 
+        0006F144 0001015F 0006F664 00010160 
+        04200BDD 00010162 0006EFB4 00010165 
+        000743E8 00010166 04200CE7 00010168 
+        0006F664 00010169 04200F2B 0001016B 
+        0006F85C 0001016C 04200F55 0001016E 
+        000766B8 0001016F 04200D79 00010171 
+        00075F58 00010172 04200D11 00010174 
+        00075928 00010175 04200D11 00010177 
+        00071F7C 0001017A 000600C8 0001017D 
+        0006ABD8 00010180 0006EBEC 00010181 
+        04200DB9 00010183 0006AB34 00010186 
+        0006AB88 00010189 0003166F 0001018D 
+        04200B59 00010190 00060084 00010193 
+        00071F5C 00010196 00071E90 00010199 
+        0006F06C 0001019A 04200BB9 0001019C 
+        0006F254 0001019D 04200BCF 0001019F 
+        0006EF20 000101A0 04200E75 000101A2 
+        00060084 000101A5 0006E908 000101A8 
+        00071E90 000101AB 000742EC 000101AC 
+        04200C9B 000101AE 00075EB4 000101AF 
+        04200CBF 000101B1 0006F3FC 000101B2 
+        04200EE1 000101B4 04200ED1 000101B7 
+        0007665C 000101B8 04200D5F 000101BA 
+        00060084 000101BD 0006EAD0 000101BE 
+        04200DAD 000101ED 00075BB8 000101EE 
+        00075DE0 00010222 00031631 00010225 
+        0006AB88 00010228 0006AB88 0001022B 
+        04200F95 0001022E 0006ABD8 00010231 
+        0006AB88 00010234 0003166F 00010289 
+        00031739 0001028A 000317D1 00010296 
+        00031739 00010297 000317D1 000102A3 
+        000316BF 000102A4 0003172B 00005432 
+
+0xFF8035A4	$M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Linker
+        00000001 0000FFFF 000000D0 0001000B 
+        000739DC 00010074 00031631 00010077 
+        000600C8 0001007A 000600C8 0001007D 
+        0006AB88 00010080 0006AB88 00010083 
+        0006AB88 00010086 00074584 00010087 
+        04200D25 00010089 04200D35 0001008C 
+        000600C8 0001008F 0006E948 00010092 
+        04200D4D 00010095 00071EC8 00010098 
+        04200F5D 0001009B 00071EC8 0001009E 
+        04200F5D 000100A1 000721CC 000100A2 
+        04200E19 000100A4 04200E0F 000100A7 
+        04200E55 000100AA 0006F144 000100AD 
+        0006F664 000100AE 04200BDD 000100B0 
+        0006EFB4 000100B3 000743E8 000100B4 
+        04200CE7 000100B6 0006D87C 000100B9 
+        000724CC 000100BA 04200EA9 000100BC 
+        0006D884 000100BF 0006D93C 000100C0 
+        04200BF7 000100C2 0006F664 000100C3 
+        04200F2B 000100C5 0006F85C 000100C6 
+        04200F55 000100C8 0006DC98 000100CB 
+        000766B8 000100CC 04200D79 000100CE 
+        04200D17 000100D1 00075F58 000100D2 
+        04200D11 000100D4 00075928 000100D5 
+        04200D11 000100D7 0006DAD8 000100DA 
+        00071F7C 000100DD 000600C8 000100E0 
+        0006ABD8 000100E3 0006EBEC 000100E4 
+        04200DB9 000100E6 0006AB34 000100E9 
+        0006AB88 000100EC 0003166F 00010209 
+        04200B59 0001020C 00060084 0001020F 
+        00060084 00010212 00071F5C 00010215 
+        00071E90 00010218 00071E90 0001021B 
+        0006F06C 0001021C 04200BB9 0001021E 
+        00072120 00010221 04200DFB 00010224 
+        0006F254 00010225 04200BCF 00010227 
+        0006EF20 00010228 04200E75 0001022A 
+        00060084 0001022D 0006E908 00010230 
+        00071E90 00010233 000742EC 00010234 
+        04200C9B 00010236 00075EB4 00010237 
+        04200CBF 00010239 04200CCB 0001023C 
+        0006E1F0 0001023F 000723F4 00010240 
+        04200E81 00010242 0006F3FC 00010243 
+        04200EE1 00010245 0007665C 00010246 
+        04200D5F 00010248 00060084 0001024B 
+        0006EAD0 0001024C 04200DAD 000102AF 
+        00075BB8 000102B0 00075DE0 000102E8 
+        00031631 000102EB 0006AB88 000102EE 
+        0006AB88 000102F1 0006AB88 000102F4 
+        04200FB5 000102F7 0006AC60 000102FA 
+        0006AB88 000102FD 0003166F 00010358 
+        00031739 00010359 000317D1 00010365 
+        00031739 00010366 000317D1 00010372 
+        00031739 00010373 000317D1 0001037F 
+        000316BF 00010380 0003172B 00005432 
+
+
+------------------------------------------------------------------------
+Region: .const_data_api_16
+------------------------------------------------------------------------
+0xFF800004	$_CVC_SEND_CAP_headset_data_1micDynTable_Main
+0xFF800004	$M.CVC_SEND_CAP.headset_data_1mic.DynTable_Main
+        00000000 0006000B 00010000 03F60007 
+        03E20201 000103F2 03F903D1 00000010 
+        00020005 00020001 03780003 00010000 
+        0007000D 00010000 03F40008 03E10201 
+        020003E2 03F80400 04060100 00010010 
+        00030007 00010001 03370004 03F80200 
+        FFFF0001 01020062 00000000 00000001 
+        01010008 00000021 01010001 01EB0025 
+        0103851F 39990092 0000999A 00000001 
+        01010001 00000131 01020001 000001AF 
+        7FFF0190 0101FFFF 000001D8 01015E0C 
+        7FFF01DD 0101FFFF 000001EE 01090003 
+        0051025E 0051D154 1ABED154 000060E2 
+        4000001A 00800000 FD400000 00500000 
+        00000000 0107003C 05B5027F 0B1F73EB 
+        0F528A09 24015461 3AA6A36E 54FD4C30 
+        710CF3B6 0101B296 0000028C 02010780 
+        00000002 02010005 00000019 02020001 
+        0000002B FFFF0001 0001FFFF 00040000 
+        01E90101 29FB00E8 00010001 01010004 
+        00E801E9 000229FB 01AAFFFF 0000008D 
+        00010000 02300002 00030001 00010223 
+        023D0007 00080001 00010270 01300009 
+        000A0001 000101D8 01FF000B 00110101 
+        0101028A 029C0014 00170101 0101023D 
+        023D0018 001B0101 01010223 023D001C 
+        001D0101 01010293 0295001E 001F0101 
+        0101023D 0230002A 002B0101 0101028A 
+        029C002C 00310101 010102A2 02AB0033 
+        00460101 01010299 02960047 00870101 
+        010102A2 02A20088 00960101 0101029F 
+        01E00097 00980101 010101EA 028600E2 
+        00E50102 01010017 02A500E8 00EB0101 
+        010102A7 002200EF 00F10101 01010267 
+        001000F2 00F40101 010101EC 025500F7 
+        00FA0101 01010187 025500FB 00FD0101 
+        01010267 027800FE 01000101 010102A2 
+        027F0101 01040101 01010161 00000107 
+        010A0101 01010022 0087010D 01100101 
+        01010087 024A0113 01160101 01010187 
+        00220119 011B0101 01020267 0026011C 
+        011E0102 01010000 00170121 01250101 
+        010101AB 001F0127 012A0101 010102A9 
+        0286012D 01340102 01020017 00260138 
+        013B0101 01010278 0161013E 01410101 
+        01010000 01EC0143 01460101 01010255 
+        0010014A 014D0101 01010022 01870150 
+        01530101 01010087 02120155 01560101 
+        01010087 024A0159 015B0102 01010000 
+        01AB015F 01610101 01010223 00220187 
+        01890101 010101DE 025C018A 01AC0101 
+        0101023D 023D01AD 01C30101 01010286 
+        02A501C6 01C90101 010102A7 029201CC 
+        01CF0101 0101001B 02A901D2 01D50101 
+        01010286 016101DB 01DC0101 01010087 
+        028A01EC 01ED0101 0101028E 01D801FF 
+        02000101 010102A6 01DE0201 02020101 
+        010102AA 00050203 02040101 01010004 
+        01B20205 02060101 010101BA 00720207 
+        02080101 0101021A 01DE0209 020A0101 
+        010101E4 01DE020B 020C0101 010101DE 
+        01DE020D 020E0101 010101DE 02A8020F 
+        02100101 010101DE 01A60211 02130101 
+        010101DE 01E60214 02150101 010101E4 
+        01E6024A 02550101 0101028E 025E0256 
+        02700101 010101C2 01C20271 02720101 
+        010100E1 00E10273 02740101 010101C2 
+        01C20275 02760101 010101C2 01C20277 
+        02790101 01010223 02A2027C 02860101 
+        0101023D 02300287 02880101 01030223 
+        0000028A 028D0103 01010000 022302A5 
+        02A70101 01010230 023D02A9 00000201 
+        0201023D 023D0001 00170201 02010223 
+        02230018 00270201 0201023D 02A2002A 
+        FFFF0004 000D0048 00010001 0000008C 
+        0001000E 026B0001 00100000 00010001 
+        0000008A 00020012 01EF0001 00020009 
+        0000001A 00010013 00220001 00140000 
+        00010003 00000010 02780001 00020000 
+        00000026 00050015 00240001 00010001 
+        00010089 01620001 00010001 000001CD 
+        01D90001 00280000 00010001 00000020 
+        0003002E 02280001 00010000 00000235 
+        02420001 00020000 00B10000 0000003A 
+        00040000 0000000C 00020104 0104020F 
+        00020003 00120102 010401B1 002B0019 
+        001A0104 0104002C 00560023 00280104 
+        01040250 020F0029 002D0101 0102032D 
+        00AF002E 002F0101 010203F3 002D0032 
+        00340102 010403A1 014C0036 00370104 
+        010500CA 00000038 00390104 01040391 
+        0311003A 003B0104 01040291 0351003C 
+        003D0104 010402D1 010B003E 003F0104 
+        01050089 00C30040 00420101 010503AF 
+        00400043 00440105 01050104 03B80045 
+        008B0104 0103004C 0348008D 008E0104 
+        01040250 020F008F 00900102 010502A1 
+        00400091 00990104 01040042 018D009A 
+        009B0104 010401CE 004B00E0 01630103 
+        010401E0 00680188 018B0101 010403AF 
+        002F01AB 01AE0101 010403F0 000001DA 
+        02120104 01050044 00400268 026A0102 
+        01020131 0229027A 028E0105 01040040 
+        002D0292 02960105 01050338 03780299 
+        029C0105 010502B6 0338029F 02A20105 
+        020402F7 000A0003 00280203 00120294 
+        00180000 00000007 01010001 00000041 
+        02690101 01010000 02F80297 029A0101 
+        01010338 0276029D 02A00101 010102F8 
+        02B702A3 00010002 00320099 00000000 
+        000C0005 010600AA 01020002 00030105 
+        010200AC 02310012 00190105 010500D5 
+        00D6001A 00230105 01060100 01830028 
+        00290106 01030102 01E0002D 002E0102 
+        0101012F 03F1002F 00320102 0105002D 
+        01B40034 00360106 01050000 02B60037 
+        00380106 01060284 02440039 003A0105 
+        010203B8 03A1003B 003C0106 01040204 
+        03C0003D 003E0105 01050337 0235003F 
+        00420105 01050133 00F6008B 008D0105 
+        01060000 0183008E 008F0106 01030102 
+        02E20090 00990105 010100EC 03AD009A 
+        009B0106 01050081 00F500E0 01630104 
+        010500F0 01120188 018B0105 01050133 
+        00D901AB 01AE0101 010503EE 00AA01DA 
+        02120105 010200EE 0321026A 027A0104 
+        01050000 00D70292 02960106 010603C6 
+        02C4029C 029F0106 010603C6 034502A2 
+        00030205 020400B4 02580028 00010012 
+        000F0030 00010000 00400101 01020103 
+        00000041 00430101 01010000 01840044 
+        00450101 010102B6 00000091 02680101 
+        01020000 00000269 028E0101 01020000 
+        03780297 02990101 01020276 03B8029A 
+        029D0102 01020276 037802A0 02A30102 
+        543202F7 
+
+0xFF800878	$_CVC_SEND_CAP_headset_data_2micDynTable_Main
+0xFF800878	$M.CVC_SEND_CAP.headset_data_2mic.DynTable_Main
+        00000000 000A0011 00010000 0408000B 
+        03EE0201 010203D3 03F20407 03F00000 
+        000103EA 03F10400 00000010 00030007 
+        00010001 03BA0004 03B90200 00010000 
+        000D0016 00010000 0408000E 03F60201 
+        010203E4 03E403DE 03D90200 00000406 
+        03F003FF 03D30000 010003F3 001003BC 
+        00080001 00010004 00050001 020202F7 
+        008003F9 FFFF0001 01010070 0000000C 
+        01020001 00000056 00000001 01010008 
+        00000073 01010001 01EB00F6 0103851F 
+        39990163 0000999A 00000001 01020001 
+        399901BD 0000999A 01010001 0000020D 
+        01020002 00000308 7FFF0190 0101FFFF 
+        0000031B 01015E0F 7FFF0320 0101FFFF 
+        00000331 01090003 0051039D 0051D154 
+        1ABED154 000060E2 4000001A 00800000 
+        FD400000 00500000 00000000 0107003C 
+        05B503C5 0B1F73EB 0F528A09 24015461 
+        3AA6A36E 54FD4C30 710CF3B6 0101B296 
+        000003D3 02010780 0000001A 02010005 
+        00000031 02010001 00000040 02020001 
+        00000052 FFFF0001 0001FFFF 00080000 
+        02660101 00410000 032C0101 29FB00E8 
+        00010001 01010008 00000266 01010081 
+        00E8032C 000229FB 0267FFFF 000000CC 
+        00010000 036F0002 00030001 00010362 
+        03550004 00070001 0001037C 03AF0008 
+        00090001 0001020C 031B000A 000B0001 
+        00010342 02D90032 00000101 010103F5 
+        03F20001 00080101 0102032D 0000000E 
+        000F0102 01020003 00060010 00110102 
+        01020009 000C0012 00130102 0102000F 
+        00120014 00150102 01010015 03270016 
+        00670101 010103D1 03EF006A 006D0101 
+        0101037C 037C006E 00710101 0101037C 
+        03CC0075 00780102 0102003E 002F007B 
+        007E0101 010103FA 03FC0081 00840101 
+        010103F8 00F30088 008A0101 010103A6 
+        0066008B 008D0101 0101032F 03940090 
+        00930101 010102AC 03940094 00960101 
+        010103A6 03BE0097 00990101 010103F5 
+        03C5009A 009C0101 010103A6 03B7009D 
+        009F0101 010103F2 03C500A0 00A30101 
+        010102D0 02D000A6 00A80101 01010400 
+        028600A9 00AC0101 01010286 01B200AF 
+        00B20101 01010056 00F300B5 00B80101 
+        01010252 000000BB 00BE0101 01010252 
+        025200C1 00C40101 01010158 015800C7 
+        00CA0101 01010252 025200CD 00D00101 
+        01010389 03E600D2 00D30101 010100F3 
+        02AC00D6 00D90101 010100F3 025200DC 
+        00DE0101 010203A6 004D00DF 00E10102 
+        01010018 006D00E4 00E80101 01010304 
+        007100EA 00ED0101 010103FE 03CC00F0 
+        00FB0101 0101036F 03D100FC 00FD0101 
+        010103EF 03F50102 01170101 010103EC 
+        03E90118 01580101 010103F5 03F50159 
+        01670101 010103F2 03230168 01690101 
+        0101032D 03F501B2 01B30101 010203F5 
+        003E0210 02130102 0102002F 004D0217 
+        021A0101 010103BE 03B7021D 02200101 
+        01010286 02D00223 02260101 010102D0 
+        01B20229 022C0101 01010056 032F022E 
+        02310101 01010394 00660235 02380101 
+        010100F3 02AC023B 023E0101 010100F3 
+        02520241 02440101 01010000 01580247 
+        024A0101 01020389 0018024C 02500101 
+        01010304 03F50252 02530101 010103F2 
+        03E60254 02550101 010103E3 03E00256 
+        02570101 010103DD 032A025E 02610101 
+        0101015F 01B90262 02860101 01010362 
+        00F302AC 02AE0101 01010321 039B02AF 
+        02D00101 010103F5 03F202D1 02D40101 
+        01010323 01E702D6 02EC0101 010103CC 
+        03FA02EF 02F20101 010103FC 03F802F5 
+        02F80101 010203D9 005402FB 02FE0101 
+        010103FE 03CC0301 03050101 0101037C 
+        037C0306 031E0101 01010286 0158031F 
+        032E0101 01010252 03D1032F 03300101 
+        010103D5 031B0342 03430101 010103FB 
+        03F90344 03450101 010103FF 005B0346 
+        03470101 0101005A 030B0348 03490101 
+        01010313 0143034A 034B0101 01010045 
+        0046034C 034D0101 01010327 0321034E 
+        034F0101 010102D9 03210350 03510101 
+        01010321 03FD0352 03530101 01010321 
+        02CB0354 03890101 01010329 03D50394 
+        03950101 0101039D 02EB03AF 03B00101 
+        010102EB 007403B1 03B20101 01010074 
+        02EB03B3 03B40101 010102EB 02EB03B5 
+        03B60101 010102EB 035503B8 03BB0101 
+        010103F2 036203BF 03C20101 010103F5 
+        037C03CC 03CD0101 0101036F 036203CE 
+        03CF0101 01030355 000003D1 03D40103 
+        01010000 035503F8 03FA0101 01010362 
+        036F03FC 03FE0101 0101037C 03BE0400 
+        04010101 020103B7 037C0018 00190201 
+        0201037C 0355002F 00300201 02010355 
+        0362003E 003F0201 02010362 037C004E 
+        00510201 020103F5 03620054 00550201 
+        02010355 037C0056 00570201 020103DA 
+        03DB0058 00590201 000403DC 0075FFFF 
+        0003000D 015D0001 00010000 000001B7 
+        025B0001 000E0000 00010001 000003AA 
+        0001000F 01B50001 00100000 00010001 
+        0000015B 00010011 00020001 00120000 
+        00010003 00090332 00320002 00020000 
+        00000041 00010013 00F30001 00140000 
+        00010004 00000066 03B70001 00010000 
+        000003BE 004D0002 00150000 00010009 
+        00010003 00F50001 00010001 0001015A 
+        01B40001 00010001 00010265 02870001 
+        00010001 000102D3 02F90001 00010000 
+        0000031C 00020018 00A50001 00010000 
+        00000225 00010028 00720001 002E0000 
+        00010004 0000035A 03670001 00010000 
+        00000374 03810001 00020000 01470000 
+        0000006C 00050000 01AE000C 00040105 
+        010501EE 022D0005 00170107 010700FC 
+        007E0018 00190107 01060000 0372001A 
+        001B0106 010602F4 0276001C 001D0109 
+        01090372 00FC001E 001F0109 01090333 
+        00BD0020 00210109 010902F4 007E0022 
+        00230109 01080237 03C10024 00250109 
+        010801F8 03820026 00270109 010902B5 
+        003F0028 00290109 01090276 0000002A 
+        002B0109 010801B9 0343002C 002D0109 
+        0108017A 0304002E 002F0107 010501E3 
+        03B20030 00310109 0108013B 02C50032 
+        00330107 010803AA 00C30058 00590105 
+        010201B0 02860068 006F0105 010501D9 
+        01DA0070 00F40105 01080204 010400F9 
+        00FA0108 010400C3 000000FE 00FF0102 
+        01010184 04050100 01030102 01030102 
+        03100104 01050107 01070264 03680107 
+        01080107 010802E6 02850109 010A0108 
+        01080245 01C5010B 010C0108 01080145 
+        0205010D 010E0108 01070185 0327010F 
+        01100107 010702A5 02230113 015C0105 
+        010501FA 0104015E 015F0108 01080082 
+        00410160 01610104 01050145 01F0016A 
+        016B0107 010803A9 0000016C 01B10105 
+        010301F9 028801B8 01B90108 01080104 
+        00C301BA 01BB0107 0105017A 0202025A 
+        025C0107 01040223 03AD025D 025F0103 
+        010201E0 005A0260 02630107 010501E2 
+        03B10264 02880104 01050245 021602AD 
+        02B00107 01050223 01F702D2 02D50108 
+        01050104 01DD0304 03070101 01050402 
+        01AE031D 03A90102 01020206 02FE03B9 
+        03C00102 01050376 01DB03D9 03DD0103 
+        01050392 000003DE 03E00104 01050082 
+        004103E1 03E30104 010500C3 008203E4 
+        03E60104 01050104 00C303E7 03E90109 
+        020603B1 01F8000C 000D0206 02060000 
+        017A000F 00100205 02060333 00FC0012 
+        00130205 020602B5 007E0015 00160205 
+        02050237 01B8001B 004F0204 001202F9 
+        00480000 00000017 01010001 00000009 
+        000A0102 01010000 00830111 01120102 
+        01010000 00000114 01150101 010100C4 
+        03790116 01620101 01010000 000001BC 
+        02580101 01020000 00000259 03A70101 
+        01020000 000003A8 03D50101 01020000 
+        033903EA 03EC0101 01020339 037903ED 
+        03EF0101 01020276 027603F0 03F20101 
+        010202F8 02F803F3 03F50101 010202B7 
+        02B703F6 00010002 00700153 00000000 
+        000C0006 01060350 03900004 00050106 
+        010A03CF 00FC0017 0018010A 010A007E 
+        00000019 001A0109 01090372 02F4001B 
+        001C0109 010C0276 017A001D 001E010B 
+        010C02F7 013B001F 0020010B 010C02B8 
+        00FC0021 0022010B 010C0279 003F0023 
+        0024010B 010C01BC 00000025 0026010B 
+        010C017D 00BD0027 0028010B 010C023A 
+        007E0029 002A010B 010B01FB 03B4002B 
+        002C010B 010B013E 0375002D 002E010B 
+        010A00FF 0292002F 0030010A 010B0251 
+        03360031 0032010B 010A00C0 02D30033 
+        00580108 01060183 03520059 00680102 
+        0106025E 037B006F 00700106 0106037C 
+        03A600F4 00F90108 01080204 018300FA 
+        00FE0103 010202E2 015C00FF 01000101 
+        01020405 005A0103 01040103 010701E0 
+        01810105 01070107 01070385 02830108 
+        0109010B 010B0080 0040010A 010B010A 
+        010A0393 0313010C 010D010B 010A0000 
+        0353010E 010F0107 01070304 02020110 
+        01130107 01060100 039C015C 015E0104 
+        01080334 0102015F 01600108 01070081 
+        00000161 016A0106 010A0392 02D2016B 
+        016C0108 01060000 039B01B1 01B80104 
+        010800A8 020401B9 01BA0108 010A0183 
+        017A01BB 025A0106 010703A4 0100025C 
+        025D010A 010401F6 0000025F 02600102 
+        010A034E 02910263 0264010A 01060250 
+        00800288 02AD0106 010703B8 010002B0 
+        02D20106 01080399 020402D5 03040106 
+        0101037F 04020307 031D0106 01060350 
+        000003A9 03B90105 01050000 00F003C0 
+        03D90106 0104037D 013003DD 03DE0105 
+        010401E0 01B103E0 03E10105 01040261 
+        023203E3 03E40105 010402E2 02B303E6 
+        03E70105 010C0363 033C03E9 03EC010C 
+        010C037C 01B903EF 03F2010C 010C02BB 
+        023A03F5 000C0209 020901F8 0000000D 
+        000F0209 0208017A 03810010 00120209 
+        020800FC 03030013 00150209 0208007E 
+        02850016 001B0206 0206035A 01E8004F 
+        00010012 0013003C 00010000 00090101 
+        01020000 0000000A 01110101 01020103 
+        00000112 01140101 01010000 01840115 
+        01160101 01010276 00000162 01BC0101 
+        01010000 00000258 02590102 01010000 
+        000003A7 03A80102 01010000 000003D5 
+        03EA0103 01030000 004003ED 03F00102 
+        01020276 037803F3 03F60102 543202F7 
+
+0xFF801628	$_CVC_SEND_CAP_speaker_data_1micDynTable_Main
+0xFF801628	$M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Main
+        00000000 0008000E 00010000 03D70009 
+        03E50201 010203E8 040103FD 03CA0001 
+        00100407 00070000 00010003 00040001 
+        02000379 00000378 00140001 0000000C 
+        000D0001 020103D7 040803ED 04080101 
+        020203D0 04080408 03D90200 000103F6 
+        03BE0408 00010010 00030007 00010001 
+        02F70004 03F80200 FFFF0001 0102006C 
+        00000000 00000001 01010008 00000021 
+        01020001 07AE0025 0000147B 01030001 
+        39990092 0000999A 00000001 01020001 
+        399900EC 0000999A 01020001 0000018E 
+        00000001 01020001 0000020F 7FFF0190 
+        0101FFFF 00000238 01015E0C 7FFF023D 
+        0101FFFF 0000024E 01090003 005102BE 
+        0051D154 1ABED154 000060E2 4000001A 
+        00800000 FD400000 00500000 00000000 
+        0107003C 05B502DF 0B1F73EB 0F528A09 
+        24015461 3AA6A36E 54FD4C30 710CF3B6 
+        0101B296 000002EC 02010780 00000002 
+        02010005 00000019 02020001 0000002B 
+        FFFF0001 0001FFFF 00040000 02490101 
+        DE7400E6 00010001 01010004 00E60249 
+        0002948D 01B0FFFF 0000008F 00010000 
+        02900002 00030001 00010283 029D0007 
+        00080001 000102D0 018D0009 000A0001 
+        00010238 025F000B 00110101 010102EA 
+        02FC0014 00170101 0101029D 029D0018 
+        001B0101 01010283 029D001C 001D0101 
+        010102F3 02F5001E 001F0101 0101029D 
+        0290002A 002B0101 010102EA 02FC002C 
+        00310101 01010302 02F90046 00470101 
+        010102F6 030B004A 00870101 01010302 
+        03020088 00960101 010102FF 02400097 
+        00980101 0101024A 030200E1 00E20101 
+        01010302 02E6013C 013F0102 01010017 
+        03050142 01450101 01010307 00220149 
+        014B0101 010102C7 0010014C 014E0101 
+        0101024C 02B50151 01540101 010101E7 
+        02B50155 01570101 010102C7 02D80158 
+        015A0101 01010302 02DF015B 015E0101 
+        010101C1 00E10161 01640101 01010000 
+        00220167 016A0101 01010087 0087016D 
+        01700101 010102AA 01E70173 01760101 
+        01010022 02C70178 01790102 01020026 
+        0000017B 017E0101 01010017 020B0182 
+        01840101 0101001F 03090187 018A0101 
+        010202E6 00170191 01950102 01010026 
+        02D80198 019B0101 010101C1 00E1019E 
+        01A10101 01010000 024C01A3 01A60101 
+        010102B5 001001AA 01AD0101 01010022 
+        01E701B0 01B30101 01010087 027201B5 
+        01B60101 01010087 02AA01B9 01BB0102 
+        01010000 020B01BF 01C10101 01010283 
+        002201E7 01E90101 0101023E 02BC01EA 
+        020C0101 0101029D 029D020D 02230101 
+        010102E6 03050226 02290101 01010307 
+        02F2022C 022F0101 0101001B 03090232 
+        02350101 010102E6 01C1023B 023C0101 
+        01010087 02EA024C 024D0101 010102EE 
+        0238025F 02600101 01010306 023E0261 
+        02620101 0101030A 00050263 02640101 
+        01010004 02120265 02660101 0101021A 
+        00720267 02680101 0101027A 023E0269 
+        026A0101 01010244 023E026B 026C0101 
+        0101023E 023E026D 026E0101 0101023E 
+        0308026F 02700101 0101023E 02060271 
+        02730101 0101023E 02460274 02750101 
+        01010244 024602AA 02B50101 010102EE 
+        02BE02B6 02D00101 01010222 022202D1 
+        02D20101 0101013B 013B02D3 02D40101 
+        01010222 022202D5 02D60101 01010222 
+        022202D7 02D90101 01010283 030202DC 
+        02E60101 0101029D 029002E7 02E80101 
+        01010283 02830305 03070101 01010290 
+        029D0309 00000201 0201029D 029D0001 
+        00170201 02010283 02830018 00270201 
+        0201029D 0302002A FFFF0004 000D0053 
+        00010002 0000008C 00E60001 000E0000 
+        00010001 000002CB 0001000F 00E40001 
+        00100000 00010001 0000008A 00020012 
+        024F0001 00020009 0000001A 00010013 
+        00220001 00140000 00010003 00000010 
+        02D80001 00020000 00000026 00060015 
+        00240001 00010001 00010089 00E30001 
+        00010001 000101C2 022D0001 00010000 
+        00000239 00010028 00200001 002E0000 
+        00010003 00000288 02950001 00010000 
+        000002A2 00000002 003900AE 00000000 
+        000C0005 01070378 01450002 00030105 
+        0102037A 02350012 00190105 010503A3 
+        03A4001A 00230105 010703CE 01860028 
+        00290107 01040145 0000002D 002E0105 
+        01010000 03CB002F 00320102 0103002D 
+        00000033 00340106 010702C6 00000036 
+        00370106 01070348 03870038 00390107 
+        01070347 02C7003A 003B0107 01070247 
+        0307003C 003D0107 01060287 0389003E 
+        003F0106 01040307 03BC0042 00490102 
+        01070325 0207004B 004C0107 010501C7 
+        03C4008B 008D0106 010701B4 0104008E 
+        008F0107 010600C3 00000090 00990105 
+        010703BA 0041009A 009B0107 01050082 
+        03C300E0 00E70104 01070208 018600E8 
+        00E90107 01060145 025E00EA 01C30106 
+        01050100 03E001E8 01EB0104 010503BC 
+        03A7020B 020E0101 010503D4 0378023A 
+        02720105 010503BC 02F802CA 02DA0105 
+        01030208 020802EA 02ED0103 01050208 
+        03A502F2 02F60107 020503C7 03820003 
+        00280204 00120290 00420000 00000015 
+        01010001 00830040 00410102 01010000 
+        00000043 00440101 010100C4 03380045 
+        00480102 01010082 00000091 00EB0101 
+        01020000 000001EC 02C80101 01020000 
+        000002C9 02EE0101 01020000 02F802F7 
+        02F90101 010202F8 033802FA 02FC0101 
+        01020276 027602FD 02FF0101 010202F8 
+        02F80300 03020101 010202B7 02B70303 
+        00010002 003D00BA 00000000 000C0009 
+        010A01AA 03060002 00030109 010201AC 
+        002D0012 00190109 010901D5 01D6001A 
+        00230109 010A0200 03870028 0029010A 
+        01040306 0000002D 002E0107 01010000 
+        03CB002F 00320106 01030000 00000033 
+        00340109 010A02B4 01020036 0037010A 
+        010B0000 01FC0038 0039010B 010B01BC 
+        013C003A 003B010B 010B00BC 017C003C 
+        003D010B 010A00FC 0081003E 003F0109 
+        01090335 02330042 00490108 010B0000 
+        007C004B 004C0109 010903B6 01F6008B 
+        008D0109 010A0100 0285008E 008F010A 
+        01090204 00000090 00990109 010801EC 
+        0398009A 009B010A 01090183 01F500E0 
+        00E70105 010A01E0 038700E8 00E9010A 
+        010B0306 000000EA 01C30105 01090268 
+        021201E8 01EB0109 01090233 01D9020B 
+        020E0101 010903D4 01AA023A 02720109 
+        010801EE 00C002CA 02DA0102 0105020D 
+        000002EA 02ED0105 01090000 01D702F2 
+        02F6010B 010B033E 037E02F9 02FC010B 
+        010B023C 033E02FF 0302010B 020902BD 
+        01B40003 00280208 00120140 00360001 
+        00000011 01010001 01030040 00410102 
+        01010000 00000043 00440101 01010184 
+        02760045 00480102 01010102 00000091 
+        00EB0101 01020000 000001EC 02C80101 
+        01020000 000002C9 02EE0101 01020000 
+        037802F7 02FA0102 010203B8 027602FD 
+        03000102 01020378 02F70303 5432 
+
+0xFF801F86	$M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Main
+0xFF801F86	$_CVC_SEND_CAP_speaker_data_2micDynTable_Main
+        00000000 000D0016 00010000 0408000E 
+        03FD0201 010103E8 040703F8 03E80202 
+        00000408 03DA03FB 03E70000 010003F7 
+        001003F8 00070000 00010003 00040001 
+        020002B7 000003B9 001D0001 00000012 
+        00130001 02010408 040803FF 04080101 
+        010203D0 040803DB 04080202 02000401 
+        03F103EC 04080000 000003F9 03F803F0 
+        03F00001 001003B6 00080001 00010004 
+        00050001 02020183 008003F9 FFFF0001 
+        01010074 0000000C 01020001 00000056 
+        00000001 01010008 00000073 01020001 
+        07AE00F3 0000147B 01030001 39990160 
+        0000999A 00000001 01020001 399901BA 
+        0000999A 01020001 0000020A 00000002 
+        01020001 00000305 7FFF0190 0101FFFF 
+        00000318 01015E0F 7FFF031D 0101FFFF 
+        0000032E 01090003 0051039A 0051D154 
+        1ABED154 000060E2 4000001A 00800000 
+        FD400000 00500000 00000000 0107003C 
+        05B503C2 0B1F73EB 0F528A09 24015461 
+        3AA6A36E 54FD4C30 710CF3B6 0101B296 
+        000003D0 02010780 0000001A 02010005 
+        00000031 02010001 00000040 02020001 
+        00000052 FFFF0001 0001FFFF 00080000 
+        02630101 00410000 03290101 DE7400E6 
+        00010001 01010008 00000263 01010081 
+        00E60329 0002948D 025EFFFF 000000C9 
+        00010000 036C0002 00030001 0001035F 
+        03520004 00070001 00010379 03AC0008 
+        00090001 00010209 0318000A 000B0001 
+        0001033F 02D60032 00000101 010103F2 
+        03EF0001 00080101 0102032A 0000000E 
+        000F0102 01020003 00060010 00110102 
+        01020009 000C0012 00130102 0102000F 
+        00120014 00150102 01010015 03240016 
+        00670101 010103CE 03EC006A 006D0101 
+        01010379 0379006E 00710101 01010379 
+        03C90075 00780102 0102003E 002F007B 
+        007E0101 010103F7 03F90081 00840101 
+        010103F5 00F00088 008A0101 010103A3 
+        0066008B 008D0101 0101032C 03910090 
+        00930101 010102A9 03910094 00960101 
+        010103A3 03BB0097 00990101 010103F2 
+        03C2009A 009C0101 010103A3 03B4009D 
+        009F0101 010103EF 03C200A0 00A30101 
+        010102CD 02CD00A6 00A80101 010103FD 
+        028300A9 00AC0101 01010283 01AF00AF 
+        00B20101 01010056 00F000B5 00B80101 
+        0101024F 000000BB 00BE0101 0101024F 
+        024F00C1 00C40101 01010155 015500C7 
+        00CA0101 0101024F 038600CD 00CF0101 
+        010103E3 00F000D0 00D30101 010102A9 
+        00F000D6 00D90101 0101024F 03A300DB 
+        00DC0102 0102004D 001800DE 00E10101 
+        0101006D 030100E5 00E70101 01010071 
+        03FB00EA 00ED0101 010103C9 036C00F8 
+        00F90101 010103CE 03EC00FA 00FF0101 
+        010103F2 03E90114 01150101 010103E6 
+        03F20155 01560101 010103F2 03EF0164 
+        01650101 01010320 032A0166 01AF0101 
+        010103F2 03F201B0 020D0102 0102003E 
+        002F0210 02140102 0101004D 03BB0217 
+        021A0101 010103B4 0283021D 02200101 
+        010102CD 02CD0223 02260101 010101AF 
+        00560229 022B0101 0101032C 0391022E 
+        02320101 01010066 00F00235 02380101 
+        010102A9 00F0023B 023E0101 0101024F 
+        00000241 02440101 01010155 03860247 
+        02490102 01010018 0301024D 024F0101 
+        010103F2 03EF0250 02510101 010103E3 
+        03E00252 02530101 010103DD 03DA0254 
+        025B0101 01010327 015C025E 025F0101 
+        010101B6 035F0283 02A90101 010100F0 
+        031E02AB 02AC0101 01010398 03F202CD 
+        02CE0101 010103EF 032002D1 02D30101 
+        010101E4 03C902E9 02EC0101 010103F7 
+        03F902EF 02F20101 010103F5 03D602F5 
+        02F80102 01010054 03FB02FB 02FE0101 
+        010103C9 03790302 03030101 01010379 
+        0283031B 031C0101 01010155 024F032B 
+        032C0101 010103CE 03D2032D 033F0101 
+        01010318 03F80340 03410101 010103F6 
+        03FC0342 03430101 0101005B 005A0344 
+        03450101 01010308 03100346 03470101 
+        01010140 00450348 03490101 01010046 
+        0324034A 034B0101 0101031E 02D6034C 
+        034D0101 0101031E 031E034E 034F0101 
+        010103FA 031E0350 03510101 010102C8 
+        03260386 03910101 010103D2 039A0392 
+        03AC0101 010102E8 02E803AD 03AE0101 
+        01010074 007403AF 03B00101 010102E8 
+        02E803B1 03B20101 010102E8 02E803B3 
+        03B50101 01010352 03EF03B8 03BC0101 
+        0101035F 03F203BF 03C90101 01010379 
+        036C03CA 03CB0101 0101035F 035203CC 
+        03F50101 01010352 035F03F7 03F90101 
+        0101036C 037903FB 03FD0101 010103BB 
+        03B403FE 00180201 02010379 03790019 
+        002F0201 02010352 03520030 003E0201 
+        0201035F 035F003F 004E0201 02010379 
+        03F20051 00540201 0201035F 03520055 
+        00560201 02010379 03D70057 00580201 
+        020103D8 03D90059 FFFF0004 000D0075 
+        00010003 0000015A 01B40001 00010000 
+        00000258 0001000E 03A70001 000F0000 
+        00010001 000001B2 00010010 01580001 
+        00110000 00010001 00000002 00030012 
+        032F0001 00020009 00000032 00410002 
+        00130000 00010001 000000F0 00040014 
+        00660001 00010000 000003B4 03BB0001 
+        00020000 0000004D 00090015 00030001 
+        00010001 000100F2 01570001 00010001 
+        000101B1 02620001 00010001 00010284 
+        02D00001 00010001 000002F6 03190001 
+        00180000 00010002 000000A5 02220001 
+        00280000 00010001 00000072 0004002E 
+        03570001 00010000 00000364 03710001 
+        00010000 0000037E 00000002 00760165 
+        00000000 000C0008 01080000 00400004 
+        00050108 0109007F 02F40017 00180109 
+        01090276 01F80019 001A0109 0109017A 
+        00FC001B 001C0109 010C007E 0276001D 
+        001E010C 010C0000 0237001F 0020010B 
+        010C03B8 01F80021 0022010B 010C0379 
+        013B0023 0024010B 010C02BC 00FC0025 
+        0026010B 010C027D 01B90027 0028010B 
+        010C033A 017A0029 002A010B 010C02FB 
+        00BD002B 002C010B 010C023E 007E002D 
+        002E010B 010A01FF 005B002F 00300105 
+        010C03C7 003F0031 0032010B 010A01C0 
+        02220033 0058010A 01080325 00020059 
+        00680102 01080262 002B006F 00700108 
+        0108002C 005600F1 00F6010A 010A0366 
+        032500F7 00FB0104 01060000 000000FC 
+        00FD0101 010203FF 005A0100 01010103 
+        010A0000 00DC0102 0104010A 010A01E0 
+        015E0105 0106010B 010B0180 01400107 
+        0108010B 010B00C0 00400109 010A010B 
+        010B0100 0080010B 010C010A 010A019F 
+        011D010D 0110010A 0107009B 00000117 
+        01180104 010B0208 00000119 011A010A 
+        010803A7 004C0159 015B0107 010A0244 
+        02E4015C 015D010A 010502A3 0104015E 
+        01670108 010A0042 02210168 0169010A 
+        01080262 004B01AE 01B50104 010A0370 
+        036601B6 01B7010A 01090325 037201B8 
+        02570108 010A0054 009B0259 025A010A 
+        01040000 02C8025C 025D0102 010A0352 
+        005A0260 02610105 010703C6 03540285 
+        02AA0108 010A0068 009B02AD 02CF0108 
+        010A0049 036602D2 03010108 0102002F 
+        03FA0304 031A0108 01070000 00C003A6 
+        03B60106 01060208 02F803BD 03CE0103 
+        01030208 020803D1 03D60108 0105002D 
+        000003DA 03DB0107 01050140 004103DD 
+        03DE0107 01050181 008203E0 03E10107 
+        010501C2 00C303E3 03E40107 010C0203 
+        037803E6 03E9010C 010C03B8 02B503EC 
+        03EF010C 010C0337 02F603F2 000C0209 
+        02080000 0203000D 000F0208 0208037D 
+        01850010 00120208 020802FF 01070013 
+        00150208 02080281 00890016 001B0208 
+        0205000A 029A004F 00000012 00150042 
+        00010000 00090101 01020000 0000000A 
+        010E0101 01020083 0000010F 01110101 
+        01010000 00C40112 01130101 01020276 
+        00820116 015F0101 01010000 000001B9 
+        02550101 01020000 00000256 02AE0102 
+        01010000 000003A4 03A50102 01010000 
+        000003D2 03E70102 01020339 037903EA 
+        03ED0102 01020276 02F803F0 03F30102 
+        000202B7 017A0001 0000007D 000B0000 
+        0368000C 0004010B 010B03A8 03E70005 
+        00090111 010F003F 00000017 0018010E 
+        010E0372 02F40019 001A010E 010E0276 
+        01F8001B 001C010E 0111017A 0000001D 
+        001E0110 0110017A 03B1001F 00200110 
+        0110013B 03720021 00220110 011000FC 
+        02B50023 00240110 0110003F 02760025 
+        00260110 01100000 03330027 00280110 
+        011000BD 02F40029 002A0110 0110007E 
+        0237002B 002C010F 011003B9 01F8002D 
+        002E010F 0109037A 03C1002F 00300106 
+        0110039B 01B90031 0032010F 010F033B 
+        00FB0033 0058010D 010B0081 036A0059 
+        00680102 010B005A 0393006F 0070010B 
+        010B0394 03BE00F1 00F6010D 010D0102 
+        008100F7 00FB0104 01080000 000000FC 
+        00FD0101 010703FF 00000100 01010103 
+        010C0000 00810102 0104010C 010C0285 
+        01830105 0106010F 010F02FB 02BB0107 
+        0108010F 010F023B 01BB0109 010A010F 
+        010F027B 01FB010B 010C010C 010C0204 
+        0102010D 010E0111 010C0142 00000110 
+        01110111 0111003F 01C30112 01130111 
+        01020335 023A0117 01180105 010F01E0 
+        017B0119 011A010F 010B013B 03B40159 
+        015B010B 010D0258 0000015C 015D010C 
+        01060387 0204015E 015F0111 010B003F 
+        03AA0167 0168010F 010C00FA 03060169 
+        01AE010B 010503B3 034801B5 01B6010D 
+        010D0102 008101B7 01B8010F 0111007E 
+        003F01B9 02550111 010B003F 03BC0257 
+        0259010C 01020000 03A2025A 025C0105 
+        010202A0 02FA025D 02600109 010603C0 
+        039A0261 0285010A 010B0284 03D002AA 
+        02AD010C 010B0000 03B102CF 02D2010D 
+        010B0102 03970301 03040102 010B03FC 
+        0368031A 03A40111 010A003F 020403A6 
+        03B60109 01090000 01E003BD 03CE0105 
+        01050000 000003D1 03D20111 010B003F 
+        039503D6 03DA0106 010A0000 000003DB 
+        03DD0106 010A0081 008103DE 03E00106 
+        010A0102 010203E1 03E30106 010A0183 
+        018303E4 03E60111 011102B5 02F503E9 
+        000C020E 020D00FC 02FD000D 000F020E 
+        020D007E 027F0010 0012020E 020D0000 
+        02010013 0015020D 020D037B 01830016 
+        001B020B 020B0372 0000004F 00010012 
+        000E002D 00010000 000A0102 01020000 
+        0000010F 01160102 01020102 00000256 
+        02AE0102 01020000 000003A5 03E70103 
+        01030000 004003EA 03EC0101 01020000 
+        027603ED 03EF0101 01020102 037803F0 
+        03F20101 01020081 02F703F3 5432 
+
+
+------------------------------------------------------------------------
+Region: .dmconst
+------------------------------------------------------------------------
+0x00700000	$_cvc_send_1mic_nb_hs_cap_data
+        00004012 00000003 00000000 00000002 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700028	$_cvc_send_1mic_wb_hs_cap_data
+        00004013 00000003 00000000 00000002 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700050	$_cvc_send_2mic_hs_mono_nb_cap_data
+        00004014 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700078	$_cvc_send_2mic_hs_mono_wb_cap_data
+        00004015 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x007000A0	$_cvc_send_2mic_hs_binaural_nb_cap_data
+        00004016 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x007000C8	$_cvc_send_2mic_hs_binaural_wb_cap_data
+        00004017 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x007000F0	$_cvc_send_1mic_speaker_nb_cap_data
+        00004018 00000003 00000000 00000002 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700118	$_cvc_send_1mic_speaker_wb_cap_data
+        00004003 00000003 00000000 00000002 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700140	$_cvc_send_2mic_speaker_nb_cap_data
+        00004019 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700168	$_cvc_send_2mic_speaker_wb_cap_data
+        0000401A 00000003 00000000 00000003 
+        00000001 00700190 007001B8 042002E1 
+        00000000 000000E8 
+
+0x00700190	$_cvc_send_handler_table
+        04200001 042000BD 0000004B 0000006B 
+        00000029 04200127 042001C1 04200241 
+        0000017B 042002A3 
+
+0x007001B8	$_cvc_send_opmsg_handler_table
+        00001000 000001A1 00002002 04200487 
+        00002003 042005A5 00002004 042005B7 
+        00002005 042005C9 00002006 042005DF 
+        00002007 042006C3 00002008 042006FD 
+        00002016 04200B55 00000000 00000000 
+
+
+------------------------------------------------------------------------
+Region: .initc_dm1
+------------------------------------------------------------------------
+0x00700208	$_cvc_send_caps
+        042008C3 00004012 00004013 0000402D 
+        0000402E 0000402F 042008DB 00004014 
+        00004015 00004030 00004031 00004032 
+        042008D7 00004016 00004017 00004033 
+        00004034 00004035 042008EF 00004018 
+        00004003 0000403C 0000403D 0000403E 
+        04200903 00004019 0000401A 0000403F 
+        00004040 00004041 00000000 00000000 
+        00000000 00000000 00000000 00000000 
+
+0x00700298	__devtools_image_checksum
+0x00700298	$__devtools_image_checksum
+        A71CCDD8 
+

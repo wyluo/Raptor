@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <group name="kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}/Activity_Monitoring_Headset/default"/>
+    <group name="kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}/Headset/default">
+        <item name="Default">
+            <item name="deploy">device://tc/usb2tc/101/qcc3024</item>
+        </item>
+        <item name="Run on Device">
+            <item name="run">device://trb/usb2trb/174805/qcc3020</item>
+        </item>
+        <item name="breakpoints">
+            <item name="number">0</item>
+        </item>
+        <item name="preferredFormats">
+            <item name="number">0</item>
+        </item>
+        <item name="watches">
+            <item name="number">0</item>
+        </item>
+    </group>
+    <group name="kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}/Speaker/default"/>
+    <group name="kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}/Speaker_Broadcast/default"/>
+</settings>

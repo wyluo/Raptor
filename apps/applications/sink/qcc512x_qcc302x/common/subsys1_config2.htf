@@ -1,0 +1,9 @@
+file=bt2
+
+# Change bluetooth address and device name to appropriate values
+# using variable markers from the template.xml file.
+pskey_bdaddr={0x00ff02,0x7C,0x001E}
+pskey_device_name="Raptor"
+
+#add by lwy 20200615
+PSKEY_LC_MAX_TX_POWER = 8

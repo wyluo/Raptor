@@ -1,0 +1,389 @@
+================================
+PROJECT INFO 
+================================
+  project_file = D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\qcc512x_qcc302x\common\sink.x2p
+   devkit_root = C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26
+ configuration = Headset
+-PROJECT PROPERTIES-
+  IDE_PROJECT:sink
+  OUTDIR     :D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\qcc512x_qcc302x\common
+
+SOURCE FILES
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\ahi_host_trb.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\ahi_host_trb.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\ahi_host_usb.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\ahi_host_usb.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\ahi_test.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\main.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\main.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_DA7217.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_DA7217.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp_aptx_adaptive.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp_aptx_adaptive.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp_capabilities.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_a2dp_capabilities.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_accessory.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_accessory.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ahi.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ahi.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ama.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ama.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_anc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_anc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_at_commands.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_at_commands.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_clock.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_indication.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_indication.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_prompts.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_prompts.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_routing.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_routing.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_ttp.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_audio_ttp.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_auth.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_auth.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_auto_power_off.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_auto_power_off.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_browsing.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_browsing.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_browsing_channel.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_browsing_channel.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_qualification.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_avrcp_qualification.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_ble_gap.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_ble_gap.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_association.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_association.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_encryption.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_encryption.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_packetiser.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_packetiser.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_scm.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_broadcaster_scm.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_common.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_receiver.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ba_receiver.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_advertising.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_advertising.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_gap.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_gap.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_sc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_sc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_scanning.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ble_scanning.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_buttonmanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_buttonmanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_buttons.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_buttons.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_callmanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_callmanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_config.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_config.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_configmanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_configmanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_csr_features.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_csr_features.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_debug.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_development.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_device_id.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_device_id.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_devicemanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_devicemanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dfu_ps.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dfu_ps.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_display.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_display.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dormant.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dormant.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_downloadable_caps.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_downloadable_caps.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dsp_capabilities.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dsp_capabilities.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dut.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_dut.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_enum.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_event_queue.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_event_queue.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_events.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_fast_pair.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_fast_pair.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_fm.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gaia.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gaia.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ancs.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ancs.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ba.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ba.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_battery.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_battery.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_dis.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_dis.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_gatt.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_gatt.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_hid.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_hid.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_hrs.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_hrs.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ias.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_ias.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_spc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_client_spc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_common.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_common.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_db.db
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_device.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_hid_qualification.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_hid_qualification.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_hid_remote_control.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_hid_remote_control.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_init.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_init.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_manager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_manager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ama.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ama.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ba.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ba.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_battery.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_battery.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_dis.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_dis.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_fps.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_fps.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_gap.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_gap.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_gatt.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_gatt.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_hrs.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_hrs.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ias.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_ias.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_lls.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_lls.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_logging.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_logging.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_rscs.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_rscs.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_tps.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_gatt_server_tps.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hf_indicators.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hf_indicators.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hfp_data.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hfp_data.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hid.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hid.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_hid_device_service_record.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_indicators.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_indicators.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_init.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_init.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_input_manager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_input_manager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_inquiry.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_inquiry.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_ir_remote_control.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_led_err.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_led_manager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_led_manager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_leddata.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_leds.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_leds.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_link_policy.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_link_policy.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_linkloss.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_linkloss.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_main_task.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_main_task.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_malloc_debug.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_malloc_debug.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_mapc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_mapc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_multi_channel.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_multi_channel.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_multipoint.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_multipoint.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_music_processing.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_music_processing.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_nfc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_nfc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_partymode.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_partymode.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pbap.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pbap.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_peer.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_peer.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_peer_qualification.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_peer_qualification.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pio.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pio.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pio_debounce.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pio_debounce.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pmalloc_pools.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_pmalloc_pools.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_powermanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_powermanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_private_data.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_private_data.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sbc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sbc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_scan.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_scan.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_slc.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_slc.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_speech_recognition.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_speech_recognition.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sport_health.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sport_health.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sport_health_sm.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_sport_health_sm.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_spp_qualification.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_spp_qualification.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_statemanager.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_statemanager.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_states.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_swat.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_tap_ui.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_tap_ui.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_tones.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_tones.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_upgrade.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_upgrade.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_usb.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_usb.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_usb_debug.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_usb_debug.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_usb_descriptors.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_utils.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_utils.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_va_audio_tuning.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_va_audio_tuning.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_va_enable.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_va_if.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_va_if.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_volume.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_volume.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_watchdog.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_watchdog.h
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_wired.c
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\sink_wired.h
+
+CONFIG NAME = Activity_Monitoring_Headset
+PROPS
+defaultdict(<type 'str'>, {'BUILD_ID': 'C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\tools/ubuild/maker/buildid/examples/timestamp.py', 'DEFS': '__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE GATT_RSCS_SERVER ADD_STEP_TO_RSCS GATT_RSCS_SERVER ACTIVITY_MONITORING SPORTS_HEALTH_LOGGING_DISABLE TRAPSET_CORE=1 TRAPSET_PSU=1 ENABLE_AHI_USB_HOST ENABLE_BATTERY_OPERATION ENABLE_CHARGER_V2 ENABLE_USB_TYPE_C DEVICE_ID_PSKEY ENABLE_AUDIO_CLOCK ENABLE_AUDIO_TTP ENABLE_AVRCP ENABLE_BREDR_SC ENABLE_DORMANT_SUPPORT ENABLE_DOWNLOADABLE_CAPS GATT_ENABLED GATT_BATTERY_SERVER GATT_FP_SERVER GATT_HRS_SERVER GATT_DIS_SERVER ENABLE_PBAP ENABLE_USB ENABLE_WATCHDOG INCLUDE_A2DP_EXTRA_CODECS INCLUDE_APTX_ACL_SPRINT INCLUDE_DSP THREE_WAY_CALLING ENABLE_USB_HUB_SUPPORT', 'FLASH_CONFIG': '..\\..\\64Mbit_default_flash_config.py', 'CHIP_TYPE': 'qcc512x_qcc302x', 'DBG_CORE': 'app/p1', 'INCPATHS': '..\\..\\..\\..\\installed_libs\\include\\profiles\\default_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\standard', 'OUTPUT_TYPE': 'EXECUTABLE', 'SW_VARIANT': 'Headset-Gaming', 'PRIVATE_DEFS': '', 'CHIP_NAME': 'QCC3024', 'EXTRA_WARNINGS': 'FALSE', 'LIBPATHS': '..\\..\\..\\..\\installed_libs\\lib\\default_qcc512x_qcc302x\\native ..\\..\\..\\..\\installed_libs\\lib\\os\\qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\lib\\os\\qcc512x_qcc302x', 'PRIVATE_INCPATHS': '', 'STRIP_SYMBOLS': 'FALSE', 'HW_VARIANT': 'QCC3024-AA_DEV-BRD-R2-AA', 'LIBS': 'a2dp audio_output audio_mixer audio_hardware audio_ports audio_processor_speed operators chain custom_operator file_list hfp audio audio_plugin_common avrcp connection bdaddr audio_voice_hfp audio_i2s_common audio_input_voice_prompts pblock pio_common power power_onchip power_onchip_adapter region sdp_parse gain_utils service vmal gatt gatt_device_info_server gatt_gap_server gatt_manager gatt_server gatt_client gatt_heart_rate_client gatt_transmit_power_server gatt_battery_server gatt_imm_alert_server gatt_imm_alert_client usb_device_class display display_plugin_midas upgrade byte_utils_hydra audio_input_a2dp audio_input_analogue audio_input_i2s audio_input_common audio_plugin_music_variants audio_plugin_voice_variants audio_input_usb tws_packetiser audio_input_tws gaia gatt_hid_client audio_config audio_music_processing ahi config_store ps_dynamic_config_store gatt_apple_notification_client gatt_device_info_client  gatt_device_info_server gatt_scan_params_client gatt_link_loss_server gatt_battery_client gatt_heart_rate_server obex md5 pbapc audio_input_spdif rtime packetiser_helper system_clock tws_synchronised_control audio_instance hid_upgrade hid audio_plugin_forwarding audio_output_tws audio_voice_common audio_voice_usb resource_manager rwcp_server anc audio_voice_assistant_low_power local_device  gatt_running_speed_cadence_server sport_health_algorithms sport_health_hub sport_health_driver sport_health_logging sport_health_driver_imu_bmi160 sport_health_driver_ppg_max30102 spp_common spps sppc transport_adaptation transport_manager voice_assistant_audio_manager protobuf gatt_fast_pair_server audio_anc_tuning rsa_pss_constants rsa_decrypt cryptoalgo', 'OUTPUT': 'sink', 'DEFAULT_LIBS': 'usb_early_init', 'BUILD_TYPE': 'DEBUG', 'PRESERVED_LIBS': 'qcc512x_qcc302x'})
+
+CONFIG NAME = Headset
+PROPS
+defaultdict(<type 'str'>, {'BUILD_ID': 'C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\tools/ubuild/maker/buildid/examples/timestamp.py', 'DEFS': '__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE TRAPSET_CORE=1 TRAPSET_PSU=1 ENABLE_AHI_USB_HOST ENABLE_BATTERY_OPERATION ENABLE_CHARGER_V2 ENABLE_USB_TYPE_C BLE_ENABLED_WHEN_OFF DEVICE_ID_PSKEY ENABLE_DISPLAY ENABLE_DISPLAY_MIDAS ENABLE_AUDIO_CLOCK ENABLE_AUDIO_TTP ENABLE_AVRCP ENABLE_BREDR_SC ENABLE_DORMANT_SUPPORT ENABLE_DOWNLOADABLE_CAPS GATT_IAS_CLIENT ENABLE_GAIA GATT_ENABLED GATT_ANCS_CLIENT GATT_BATTERY_SERVER GATT_FP_SERVER GATT_IAS_SERVER GATT_IAS_SERVER GATT_LLS_SERVER GATT_TPS_SERVER ENABLE_UPGRADE ENABLE_USB ENABLE_USB_HID_UPGRADE ENABLE_WATCHDOG GATT_GAIA_SERVER INCLUDE_A2DP_EXTRA_CODECS INCLUDE_APTX_ACL_SPRINT INCLUDE_DSP THREE_WAY_CALLING ENABLE_USB_AUDIO_APP_STEREO_DESCRIPTORS ENABLE_USB_HUB_SUPPORT', 'FLASH_CONFIG': '..\\..\\32Mbit_default_flash_config.py', 'CHIP_TYPE': 'qcc512x_qcc302x', 'DBG_CORE': 'app/p1', 'INCPATHS': '..\\..\\..\\..\\installed_libs\\include\\profiles\\default_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\standard', 'OUTPUT_TYPE': 'EXECUTABLE', 'SW_VARIANT': 'Headset-Gaming', 'PRIVATE_DEFS': '', 'CHIP_NAME': 'QCC3024', 'EXTRA_WARNINGS': 'FALSE', 'LIBPATHS': '..\\..\\..\\..\\installed_libs\\lib\\default_qcc512x_qcc302x\\native ..\\..\\..\\..\\installed_libs\\lib\\os\\qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\lib\\os\\qcc512x_qcc302x', 'PRIVATE_INCPATHS': '', 'STRIP_SYMBOLS': 'FALSE', 'HW_VARIANT': 'QCC3024-AA_DEV-BRD-R2-AA', 'LIBS': 'a2dp audio_output audio_mixer audio_hardware audio_ports audio_processor_speed operators chain custom_operator file_list hfp audio audio_plugin_common avrcp connection bdaddr audio_voice_hfp audio_i2s_common audio_input_voice_prompts pblock pio_common power power_onchip power_onchip_adapter region sdp_parse gain_utils service vmal gatt gatt_device_info_server gatt_gap_server gatt_manager gatt_server gatt_client gatt_heart_rate_client gatt_transmit_power_server gatt_battery_server gatt_imm_alert_server gatt_imm_alert_client usb_device_class display display_plugin_midas upgrade byte_utils_hydra audio_input_a2dp audio_input_analogue audio_input_i2s audio_input_common audio_plugin_music_variants audio_plugin_voice_variants audio_input_usb tws_packetiser audio_input_tws gaia gatt_hid_client audio_config audio_music_processing ahi config_store ps_dynamic_config_store gatt_apple_notification_client gatt_device_info_client gatt_device_info_server gatt_scan_params_client gatt_link_loss_server gatt_battery_client gatt_heart_rate_server obex md5 pbapc audio_input_spdif rtime packetiser_helper system_clock tws_synchronised_control audio_instance hid_upgrade hid audio_plugin_forwarding audio_output_tws audio_voice_common audio_voice_usb resource_manager rwcp_server anc audio_voice_assistant_low_power local_device spp_common spps sppc transport_adaptation transport_manager voice_assistant_audio_manager protobuf gatt_fast_pair_server audio_anc_tuning rsa_pss_constants rsa_decrypt cryptoalgo', 'OUTPUT': 'sink', 'DEFAULT_LIBS': 'usb_early_init', 'BUILD_TYPE': 'DEBUG', 'PRESERVED_LIBS': 'qcc512x_qcc302x'})
+
+CONFIG NAME = Speaker
+PROPS
+defaultdict(<type 'str'>, {'BUILD_ID': 'C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\tools/ubuild/maker/buildid/examples/timestamp.py', 'DEFS': '__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE TRAPSET_CORE=1 TRAPSET_PSU=1 ENABLE_AHI_USB_HOST ENABLE_BATTERY_OPERATION ENABLE_CHARGER_V2 ENABLE_USB_TYPE_C BLE_ENABLED_WHEN_OFF DEVICE_ID_PSKEY ENABLE_DISPLAY ENABLE_DISPLAY_MIDAS ENABLE_AUDIO_CLOCK ENABLE_AUDIO_TTP ENABLE_AVRCP ENABLE_BREDR_SC ENABLE_DORMANT_SUPPORT ENABLE_DOWNLOADABLE_CAPS GATT_IAS_CLIENT ENABLE_GAIA GATT_ENABLED GATT_ANCS_CLIENT GATT_BATTERY_SERVER GATT_FP_SERVER GATT_IAS_SERVER GATT_BATTERY_SERVER_PEER GATT_IAS_SERVER GATT_LLS_SERVER GATT_TPS_SERVER GATT_BATTERY_SERVER_REMOTE GATT_BATTERY_CLIENT GATT_DIS_CLIENT GATT_SPC_CLIENT GATT_HID_CLIENT ENABLE_PBAP ENABLE_PEER_BATTERY_LEVEL ENABLE_PEER PEER_TWS PEER_AVRCP ENABLE_UPGRADE ENABLE_USB ENABLE_USB_AUDIO ENABLE_USB_HID_UPGRADE ENABLE_WATCHDOG ENABLE_WIRED GATT_GAIA_SERVER INCLUDE_A2DP_EXTRA_CODECS INCLUDE_APTX_ACL_SPRINT INCLUDE_DSP THREE_WAY_CALLING ENABLE_USB_AUDIO_APP_STEREO_DESCRIPTORS ENABLE_USB_HUB_SUPPORT', 'FLASH_CONFIG': '..\\..\\64Mbit_default_flash_config.py', 'CHIP_TYPE': 'qcc512x_qcc302x', 'DBG_CORE': 'app/p1', 'INCPATHS': '..\\..\\..\\..\\installed_libs\\include\\profiles\\default_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\standard', 'OUTPUT_TYPE': 'EXECUTABLE', 'SW_VARIANT': 'Speaker_with_TWS', 'PRIVATE_DEFS': '', 'CHIP_NAME': 'QCC3024', 'EXTRA_WARNINGS': 'FALSE', 'LIBPATHS': '..\\..\\..\\..\\installed_libs\\lib\\default_qcc512x_qcc302x\\native ..\\..\\..\\..\\installed_libs\\lib\\os\\qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\lib\\os\\qcc512x_qcc302x', 'PRIVATE_INCPATHS': '', 'STRIP_SYMBOLS': 'FALSE', 'HW_VARIANT': 'QCC3024-AA_DEV-BRD-R2-AA', 'LIBS': 'a2dp audio_output audio_mixer audio_hardware audio_ports audio_processor_speed operators chain custom_operator file_list hfp audio audio_plugin_common avrcp connection bdaddr audio_voice_hfp audio_i2s_common audio_input_voice_prompts pblock pio_common power power_onchip power_onchip_adapter region sdp_parse gain_utils service vmal gatt gatt_device_info_server gatt_gap_server gatt_manager gatt_server gatt_client gatt_heart_rate_client gatt_transmit_power_server gatt_battery_server gatt_imm_alert_server gatt_imm_alert_client usb_device_class display display_plugin_midas upgrade byte_utils_hydra audio_input_a2dp audio_input_analogue audio_input_i2s audio_input_common audio_plugin_music_variants audio_plugin_voice_variants audio_input_usb tws_packetiser audio_input_tws gaia gatt_hid_client audio_config audio_music_processing ahi config_store ps_dynamic_config_store gatt_apple_notification_client gatt_device_info_client  gatt_device_info_server gatt_scan_params_client gatt_link_loss_server gatt_battery_client gatt_heart_rate_server obex md5 pbapc audio_input_spdif rtime packetiser_helper system_clock tws_synchronised_control audio_instance hid_upgrade hid audio_plugin_forwarding audio_output_tws audio_voice_common audio_voice_usb resource_manager rwcp_server anc audio_voice_assistant_low_power local_device spp_common spps sppc transport_adaptation transport_manager voice_assistant_audio_manager protobuf gatt_fast_pair_server audio_anc_tuning rsa_pss_constants rsa_decrypt cryptoalgo', 'OUTPUT': 'sink', 'DEFAULT_LIBS': 'usb_early_init', 'BUILD_TYPE': 'DEBUG', 'PRESERVED_LIBS': 'qcc512x_qcc302x'})
+
+CONFIG NAME = Speaker_Broadcast
+PROPS
+defaultdict(<type 'str'>, {'BUILD_ID': 'C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\tools/ubuild/maker/buildid/examples/timestamp.py', 'DEFS': '__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE BROADCAST_PACKETISER_IS_CONTROLLED_BY_APP TRAPSET_CORE=1 TRAPSET_PSU=1 AFH_UPDATE_METHOD_SYNC_TRAIN ENABLE_AHI_USB_HOST ENABLE_BATTERY_OPERATION ENABLE_CHARGER_V2 ENABLE_USB_TYPE_C BLE_ENABLED_WHEN_OFF DEVICE_ID_PSKEY ENABLE_DISPLAY ENABLE_DISPLAY_MIDAS ENABLE_AUDIO_CLOCK ENABLE_AUDIO_TTP ENABLE_AVRCP ENABLE_BREDR_SC ENABLE_DORMANT_SUPPORT ENABLE_DOWNLOADABLE_CAPS GATT_IAS_CLIENT ENABLE_GAIA GATT_ENABLED GATT_ANCS_CLIENT GATT_BATTERY_SERVER GATT_FP_SERVER GATT_IAS_SERVER GATT_BATTERY_SERVER_PEER GATT_IAS_SERVER GATT_LLS_SERVER GATT_TPS_SERVER GATT_BATTERY_SERVER_REMOTE GATT_BATTERY_CLIENT GATT_DIS_CLIENT GATT_SPC_CLIENT GATT_HID_CLIENT ENABLE_PBAP ENABLE_BROADCAST_AUDIO ENABLE_UPGRADE ENABLE_USB ENABLE_USB_AUDIO ENABLE_USB_HID_UPGRADE ENABLE_WATCHDOG ENABLE_WIRED GATT_GAIA_SERVER INCLUDE_APTX_ACL_SPRINT INCLUDE_DSP THREE_WAY_CALLING ENABLE_USB_AUDIO_APP_STEREO_DESCRIPTORS ENABLE_USB_HUB_SUPPORT', 'FLASH_CONFIG': '..\\..\\64Mbit_default_flash_config.py', 'CHIP_TYPE': 'qcc512x_qcc302x', 'DBG_CORE': 'app/p1', 'INCPATHS': '..\\..\\..\\..\\installed_libs\\include\\profiles\\default_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x ..\\..\\..\\..\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\firmware_qcc512x_qcc302x\\app C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\include\\standard', 'OUTPUT_TYPE': 'EXECUTABLE', 'SW_VARIANT': 'Speaker_with_BA', 'PRIVATE_DEFS': '', 'CHIP_NAME': 'QCC3024', 'EXTRA_WARNINGS': 'FALSE', 'LIBPATHS': '..\\..\\..\\..\\installed_libs\\lib\\default_qcc512x_qcc302x\\native ..\\..\\..\\..\\installed_libs\\lib\\os\\qcc512x_qcc302x C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\apps\\installed_libs\\lib\\os\\qcc512x_qcc302x', 'PRIVATE_INCPATHS': '', 'STRIP_SYMBOLS': 'FALSE', 'HW_VARIANT': 'QCC3024-AA_DEV-BRD-R2-AA', 'LIBS': 'a2dp audio_output audio_mixer audio_hardware audio_ports audio_processor_speed operators chain custom_operator file_list hfp audio audio_plugin_common avrcp connection bdaddr audio_voice_hfp audio_i2s_common audio_input_voice_prompts pblock pio_common power power_onchip power_onchip_adapter region sdp_parse gain_utils service vmal gatt gatt_device_info_server gatt_gap_server gatt_manager gatt_server gatt_client gatt_heart_rate_client gatt_transmit_power_server gatt_battery_server gatt_imm_alert_server gatt_imm_alert_client usb_device_class display display_plugin_midas upgrade byte_utils_hydra audio_input_a2dp audio_input_analogue audio_input_i2s audio_input_common audio_plugin_music_variants audio_plugin_voice_variants audio_input_usb tws_packetiser audio_input_tws gaia gatt_hid_client audio_config audio_music_processing ahi config_store ps_dynamic_config_store gatt_apple_notification_client gatt_device_info_client gatt_device_info_server gatt_scan_params_client gatt_link_loss_server gatt_battery_client gatt_heart_rate_server obex md5 pbapc audio_input_spdif rtime packetiser_helper system_clock tws_synchronised_control audio_instance hid_upgrade hid audio_plugin_forwarding anc audio_voice_common audio_voice_usb audio_output_broadcast broadcast_cmd broadcast_packetiser erasure_coding broadcast broadcast_context gatt_broadcast_server gatt_broadcast_client scm scm_transport broadcast_stream_service_record audio_input_broadcast afh_channel_map resource_manager rwcp_server anc audio_voice_assistant_low_power local_device spp_common spps sppc transport_adaptation transport_manager voice_assistant_audio_manager protobuf gatt_fast_pair_server audio_anc_tuning rsa_pss_constants rsa_decrypt cryptoalgo', 'OUTPUT': 'sink', 'DEFAULT_LIBS': 'usb_early_init', 'BUILD_TYPE': 'DEBUG', 'PRESERVED_LIBS': 'qcc512x_qcc302x'})
+------------------------------------
+DEVKIT INFO 
+------------------------------------
+  Param -d =  C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26
+  Script =  C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/ubuild/ubuild.py
+  XML FILE = C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\merge_ubuild.chk
+-KITIDENT-
+  compatibility_list:['{34E71291-920E-4fe0-8871-5F119C8D0E40}']
+  uuid              :{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}
+  checksum          :4f7d43da67eab9fee1b3281d4115cc6b
+  URI               :kitres://{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}
+  build_time        :1576071077.869456
+  filter            :qcc3400;qcc512*;qcc302*;qcc303*
+  version           :6.4.2
+  build             :26
+  dependencies      :
+            
+  fsprefix          :qcc512x_qcc302x
+  devkit_group      :{BBAC163C-41BE-4ce7-B236-236F15FF18CA}
+  target            :x86
+-TOP LEVEL ELEMENTS-
+  info          :True
+  commands      :True
+  toolchain     :True
+  ext_id        :True
+  doc           :True
+  ext_info      :True
+  locks         :True
+  plugins       :True
+  id            :True
+  configurations:True
+    -COMMANDS-
+      coredumpWithAppsSqif:{'run': './tools/python27/python.exe', 'description': 'Coredump all sub-systems including apps sqif'}
+      eraseApps           :{'run': './tools/python27/python.exe', 'description': 'Run pydbg to erase the apps area'}
+      config_tool         :{'run': './tools/bin/ADKConfigTool.exe', 'description': 'Run the config tool'}
+      setMemoryOption     :{'run': './tools/python27/python.exe', 'description': 'Setup Memory Module Type to support'}
+      scramble_aspk       :{'run': './tools/python27/python.exe', 'description': 'Scramble ASPK'}
+      deploy              :{'run': './tools/python27/python.exe', 'description': 'Deploys an ADK Project binary to a device'}
+      make                :{'run': 'bin/make.exe', 'description': 'GNU Make'}
+      coredump            :{'run': './tools/python27/python.exe', 'description': 'Coredump all sub-systems'}
+      versions_workspace  :{'run': './tools/python27/python.exe', 'description': 'Discover versions of various workspace files'}
+      privateLibExport    :{'run': './tools/python27/python.exe', 'description': 'Import a private private library into a project'}
+      buildDFU            :{'run': './tools/python27/python.exe', 'description': 'Collect or build input files and create DFU file'}
+      build               :{'run': './tools/python27/python.exe', 'description': 'Builds an ADK Project'}
+      clean               :{'run': './tools/python27/python.exe', 'description': 'Clean an ADK Project'}
+      pydbgCoredump       :{'run': './tools/python27/python.exe', 'description': 'Run pydbg on a coredump'}
+      dfu_setup           :{'run': './tools/python27/python.exe', 'description': 'Setup DFU security'}
+      buildFlashImage     :{'run': './tools/python27/python.exe', 'description': 'Generate a single flash image file'}
+      versions_devkit     :{'run': './tools/python27/python.exe', 'description': 'Discover versions of various devkit files'}
+      privateLibImport    :{'run': './tools/python27/python.exe', 'description': 'Import a private private library into a project'}
+====================
+-TOOLS-
+  system:{'device': 'plugins/debugger/device_control_hydra.dll', 'core_groups': {'app': {'p1': 'plugins/debugger/core_debug_kalimba.dll'}, 'audio': {'p0': 'plugins/debugger/core_debug_kalimba.dll', 'p1': 'plugins/debugger/core_debug_kalimba.dll'}}}
+
+>>> [C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin/make.exe SDK=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools DEVKIT_ROOT=C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26 -s -j4 build -f D:/3024_sink/Raptor_ADK64226_QCC3024_20200615/apps/applications/sink/qcc512x_qcc302x/common/sink.headset.mak MAKEFILE_RULES_DIR=C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools]
+
+
+
+
+
+
+
+C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/bin
+Using C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools/Makefile.rules
+SDK is C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools
+BUILDING FOR qcc512x_qcc302x
+Default
+Using Default prompts in image directory. Updating prompts from ../../sink_prompts/headset to customer_ro_filesystem/*
+Creating Audio prompts directories
+12 File(s) copied
+12 File(s) copied
+File not found - *.txt
+0 File(s) copied
+Compiling ..\..\sink_avrcp.c
+Generating build_id_str.c
+BUILD_ID_STRING = QTIL ADK 2020-06-22 09:10:46 @1592788246
+BUILD_ID_NUMBER = 1592788246
+Compiling build_id_str.c
+Linking
+text	   data	    bss	    dec	    hex	filename
+505876	   1380	      0	 507256	  7bd78	depend_Headset_qcc512x_qcc302x/sink.elf
+
+
+

@@ -1,0 +1,46 @@
+---- lwy Matches (45 in 12 files) ----
+main.c (apps\applications\sink) line 184 : //add by lwy 20200615
+main.c (apps\applications\sink) line 220 : My_hsTaskData My_theSink;//add by lwy 20200615
+sinkPowerProcessEventPower in main.c (apps\applications\sink) :                 PioSetPio(AMP,1,1);//add by lwy 20200615
+sinkPowerProcessEventPower in main.c (apps\applications\sink) :                 //add by lwy 20200615
+sinkPowerProcessEventPower in main.c (apps\applications\sink) :                 //add by lwy 20200615
+sinkPowerProcessEventPower in main.c (apps\applications\sink) :                 //add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :     uint8 payload[1];//add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :         //add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) : 			PioSetPio(AMP, 1, 0);// add by lwy disable amp
+handleUEMessage in main.c (apps\applications\sink) :             //add by lwy 2020015
+handleUEMessage in main.c (apps\applications\sink) :                 //add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :                 MessageSendLater(&theSink.task, EventUsrEnterPairing, 0, 500);//add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :             MessageSendLater(&theSink.task, EventUsrBleStartBonding, 0, D_SEC(1));//add by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :        //case EventUsrFmRxOn://modify by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :        //case EventUsrFmRxOff://modify by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :        //case EventUsrFmRxTuneUp://modify by lwy 20200615
+handleUEMessage in main.c (apps\applications\sink) :        //case EventUsrFmRxTuneDown://modify by lwy 20200615
+sink_avrcp.c (apps\applications\sink) line 61 : //add by lwy 20200615
+setPlayStatus in sink_avrcp.c (apps\applications\sink) :     //add by lwy 20200615
+ButtonsInitHardware in sink_buttons.c (apps\applications\sink) :         //add by lwy 20200615
+ButtonsMessageHandler in sink_buttons.c (apps\applications\sink) :             //add by lwy 20200615
+ButtonsMessageHandler in sink_buttons.c (apps\applications\sink) :             //add by lwy 20200615
+DA7217_Nonetone_Universal in sink_DA7217.c (apps\applications\sink) : 	MessageSendLater(&theSink.task, EventUsrGaiaUser2, 0, 100);//add by lwy
+DA7217_Power_Off in sink_DA7217.c (apps\applications\sink) :     MessageSendLater(&theSink.task, EventUsrGaiaUser2, 0, 0);//add by lwy
+AVRCP_Update_Sleeptime in sink_DA7217.c (apps\applications\sink) :         MessageSendLater(&theSink.task, EventUsrGaiaUser2, 0, 0);//add by lwy
+AVRCP_Update_Sleeptime_NoneVoice in sink_DA7217.c (apps\applications\sink) : 		MessageSendLater(&theSink.task, EventUsrGaiaUser2, 0, 0);//add by lwy
+App_Control_DA7217_Vol in sink_DA7217.c (apps\applications\sink) :     MessageSendLater(&theSink.task, EventUsrGaiaUser2, 0, 0);//add by lwy enable AMP
+sink_debug.h (apps\applications\sink) line 35 :     //add by lwy 20200616
+sink_gaia.c (apps\applications\sink) line 57 : //add by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //add by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //modify by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //modify by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //add by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //add by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //modify by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //modify by lwy 20200615
+gaia_handle_control_command in sink_gaia.c (apps\applications\sink) :         //add by lwy 20200615
+sink_gaia.c (apps\applications\sink) line 5203 : //add by lwy 20200615
+sink_gaia.h (apps\applications\sink) line 161 : bool gaiaGetBdAddrGaiaDevice_1(void);//add by lwy 20200615
+InitEarlyUserFeatures in sink_init.c (apps\applications\sink) :     //modify by lwy 20200615
+InitEarlyUserFeatures in sink_init.c (apps\applications\sink) :     //add by lwy 20200615
+powerManagerHandleChargeState in sink_powermanager.c (apps\applications\sink) :                 //add by lwy 20200615
+sink_powermanager.h (apps\applications\sink) line 24 : //add by lwy 20200615
+sink_private_data.h (apps\applications\sink) line 52 : //add by lwy 20200615
+usb_device_class.c (apps\libs\usb_device_class) line 23 : //add by lwy 20200615
