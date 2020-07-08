@@ -1,0 +1,88 @@
+Deploying Headset to 'device://tc/usb2tc/101/qcc3024'
+Using FLASH_CONFIG D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\32Mbit_default_flash_config.py
+Processing project D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\qcc512x_qcc302x\common\sink.x2p
+Loading elf symbols from D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\apps\applications\sink\qcc512x_qcc302x\common\depend_Headset_qcc512x_qcc302x\sink.elf
+  .text_reset block starting at 0x00000000, 104 bytes
+  .slt block starting at 0x00000080, 8 bytes
+  .slt_app block starting at 0x00000088, 4 bytes
+  .text_tcm block starting at 0x0000008c, 390 bytes
+  .text block starting at 0x00000212, 438010 bytes
+  .text_private block starting at 0x0006b10c, 3936 bytes
+  .const block starting at 0x0006c06c, 52528 bytes
+  .const_private block starting at 0x00078d9c, 2856 bytes
+  .initc block starting at 0x000798c4, 1376 bytes
+Done.
+Created c:\users\lwy\appdata\local\temp\tmpffbenf\sink.xuv
+Already have a app/p1
+Already have a app/p1
+flash0 
+{ 'encrypt': False,
+  'flash_device': { 'alt_image_offset': 2097152,
+                    'block_size': 65536,
+                    'boot_block_size': None},
+  'flash_image': { 'bank': 'bank0',
+                   'flash_image_xuv': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpku5hzt\\flash_image.xuv'},
+  'layout': [ ( 'curator_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'src_file_signed': False}),
+              ( 'apps_p0',
+                { 'authenticate': True,
+                  'capacity': 655360,
+                  'src_file_signed': True}),
+              ( 'apps_p1',
+                { 'authenticate': False,
+                  'capacity': 524288,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpffbenf\\sink.xuv'}),
+              ( 'device_ro_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'inline_auth_hash': True}),
+              ('rw_config', { 'capacity': 131072}),
+              ('rw_fs', { 'capacity': 65536}),
+              ('ro_cfg_fs', { 'authenticate': False, 'capacity': 131072}),
+              ('ro_fs', { 'authenticate': False, 'capacity': 327680})]}
+Padding c:\users\lwy\appdata\local\temp\tmpffbenf\sink.xuv address 0x0 with [(104, 24)]
+Apps SQIF encryption Nonce 021b895b6e50b1ba45f0d2ef5d33cc3d
+Boot Image - offset 0x0, size 0x10000
+Image Header:
+Offset 0x00010000 curator_fs          capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00020000 apps_p0             capacity 0x000a0000  size 0x0009fff0  unused 0x00000010
+Offset 0x000c0000 apps_p1             capacity 0x00080000  size 0x00079e24  unused 0x000061dc
+Offset 0x00140000 device_ro_fs        capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00150000 rw_config           capacity 0x00020000  size 0x00020000  unused 0x00000000
+Offset 0x00170000 rw_fs               capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00180000 ro_cfg_fs           capacity 0x00020000  size 0x00020000  unused 0x00000000
+Offset 0x001a0000 ro_fs               capacity 0x00050000  size 0x00050000  unused 0x00000000
+ apps_p0            Hash ptr    0x100 Hash size  0x9fff0
+
+Block size: 65536 Bytes
+
+     Name      |   Capacity    |     Used      |    Unused     |  Image size   |
+               |    Blocks     |    Blocks     |    Blocks     |    Bytes      |
+curator_fs     |       1       |       1       |       0       |      65536    |
+apps_p0        |      10       |      10       |       0       |     655344    |
+apps_p1        |       8       |       8       |       0       |     499236    |
+device_ro_fs   |       1       |       1       |       0       |      65536    |
+rw_config      |       2       |       2       |       0       |     131072    |
+rw_fs          |       1       |       1       |       0       |      65536    |
+ro_cfg_fs      |       2       |       2       |       0       |     131072    |
+ro_fs          |       5       |       5       |       0       |     327680    |
+Totals:        |      30       |      30       |       0       |    1941012    |
+
+Writing 'c:\users\lwy\appdata\local\temp\tmpku5hzt\flash_image.xuv'
+Build completed
+
+C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\bin\nvscmd.exe burn c:\users\lwy\appdata\local\temp\tmpku5hzt\flash_image.xuv -deviceid 4 0 -usbdbg 101 -nvstype sqif
+nvscmd, version 3.2.2.144 Release
+Copyright (c) 2010-2019 Qualcomm Technologies International, Ltd.
+All Rights Reserved.
+Qualcomm Technologies International, Ltd. Confidential and Proprietary.
+
+
+Program the SQIF with a single XUV file...
+...
+Verify the NVS against a single file...
+.Verify Passed
+
+Success

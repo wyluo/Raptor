@@ -1,0 +1,687 @@
+Archive member included because of file (symbol)
+
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o ($_cvc_send_1mic_nb_hs_cap_data)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o) ($_CVC_SEND_CAP_Config_headset_1mic)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o) ($M.CVC_SEND_CAP.headset_data_1mic.DynTable_Main)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o) ($M.CVC_SEND_CAP.headset_data_2mic.DynTable_Main)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o) ($M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Main)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o) ($M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Main)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o) ($cvc.init.root)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o) ($M.CVC_SEND.Set_PassThroughGains_1MIC)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+                              D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o) ($cbuffer.READ_ADDR_FIELD)
+D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ PM?$M.CVC_SEND_CAP.config.auto_1mic__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ PM?$M.CVC_SEND_CAP.config.auto_2mic__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ PM?$M.CVC_SEND_CAP.config.speaker_3mic__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ PM?$M.CVC_SEND_CAP.config.speaker_4mic__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ PM?$M.CVC_SEND.module_init.stream_purge__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ PM?$M.CVC_SEND.module_init.filter_bank.stream_connect__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ PM?$M.CVC_SEND.module_control.nc__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ PM?$cbops.rate_monitor_op.set_rate_monitor_new_amount_ptr__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ PM?$cbops.rate_monitor_op.set_rate_monitor_new_amount_ptr__maxim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ PM?$cbops.rate_monitor_op.rate_monitor_op_initialise__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ PM?$cbops.rate_monitor_op.rate_monitor_op_initialise__maxim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .text          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ .data          0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ .bss           0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ DEBUG_TRACE_STRINGS?L_log_fmt
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ pm?$_stream_delegate_rate_adjust_set_target_rate__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ pm?$_stream_delegate_rate_adjust_set_passthrough_mode__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ pm?$_stream_delegate_rate_adjust_set_current_rate__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+ pm?_stream_delegate_rate_adjust_message_callback__minim
+                0x00000000        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x04002000                PM_RAM_CODE_START_ADDRESS = 0x4002000
+                0x00000001                DUAL_CORE_ENABLED = 0x1
+                0x00000100                PATCH_RESERVED_RAM = 0x100
+                0x00040000                $DATA_RAM_SIZE_BYTES = 0x40000
+                0x00000c00                $STACK_SIZE_BYTES = 0xc00
+                0x04200000                $PM_RAM_START_ADDRESS = 0x4200000
+                0x00100000                $DATA_PM_RAM_WINDOW = 0x100000
+                0x00700000                $DATA_RAM_START_ADDRESS = 0x700000
+                0x00740000                $DATA_RAM_END_ADDRESS = ($DATA_RAM_START_ADDRESS + $DATA_RAM_SIZE_BYTES)
+                0xff800004                $DM2_RAM_BASE_ADDRESS = 0xff800004
+                0x00000060                $PRESERVE_BLOCK_SIZE_BYTES = 0x60
+                0x84200000                $CODE_MAGIC$ = 0x84200000
+                0x04200000                __CODE_ram_address = $PM_RAM_START_ADDRESS
+                0x84200000                . = ($CODE_MAGIC$ ALIGN 0x4)
+
+.text_reset     0x84200000        0x0 load address 0x04200000
+                0x84200000                $MEM_MAP_CODE_START = <code 343> (.)
+ *(RESET_PM*)
+
+.text_maxim
+ *.o(PM_MAXIM\?*__maxim)
+ *.o(*PM_FLASH\?*__maxim)
+ *.o(*PM*\?*__maxim)
+ *.o(*pm*\?*__maxim)
+
+.text_maxim_private
+ *.po(PM_MAXIM\?*__maxim)
+ *.po(*PM_FLASH\?*__maxim)
+ *.po(*PM*\?*__maxim)
+
+.text_minim     0x84200000     0x100c
+ *.o(PM_KEEP\?*)
+ *.o(*pm*\?*__minim)
+ pm?$_cvc_send_create__minim
+                0x84200000       0xbc D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x84200000                $_cvc_send_create
+ pm?$_cvc_send_destroy__minim
+                0x842000bc       0x6a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842000bc                $_cvc_send_destroy
+ pm?$_cvc_send_connect__minim
+                0x84200126       0x9a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x84200126                $_cvc_send_connect
+ pm?$_cvc_send_disconnect__minim
+                0x842001c0       0x80 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842001c0                $_cvc_send_disconnect
+ pm?$_cvc_send_buffer_details__minim
+                0x84200240       0x62 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x84200240                $_cvc_send_buffer_details
+ pm?$_cvc_send_get_sched_info__minim
+                0x842002a2       0x3e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842002a2                $_cvc_send_get_sched_info
+ pm?$_cvc_send_process_data__minim
+                0x842002e0      0x1a6 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842002e0                $_cvc_send_process_data
+ pm?$_cvc_send_opmsg_obpm_set_control__minim
+                0x84200486      0x11e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x84200486                $_cvc_send_opmsg_obpm_set_control
+ pm?$_cvc_send_opmsg_obpm_get_params__minim
+                0x842005a4       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842005a4                $_cvc_send_opmsg_obpm_get_params
+ pm?$_cvc_send_opmsg_obpm_get_defaults__minim
+                0x842005b6       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842005b6                $_cvc_send_opmsg_obpm_get_defaults
+ pm?$_cvc_send_opmsg_obpm_set_params__minim
+                0x842005c8       0x16 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842005c8                $_cvc_send_opmsg_obpm_set_params
+ pm?$_cvc_send_opmsg_obpm_get_status__minim
+                0x842005de       0xe4 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842005de                $_cvc_send_opmsg_obpm_get_status
+ pm?$_cvc_send_opmsg_set_ucid__minim
+                0x842006c2       0x3a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842006c2                $_cvc_send_opmsg_set_ucid
+ pm?$_cvc_send_opmsg_get_ps_id__minim
+                0x842006fc       0x1e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842006fc                $_cvc_send_opmsg_get_ps_id
+ pm?$_MakeStandardResponse_SND__minim
+                0x8420071a       0x24 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x8420071a                $_MakeStandardResponse_SND
+ pm?$_cvc_send_ups_set_state__minim
+                0x8420073e        0x8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x8420073e                $_cvc_send_ups_set_state
+ pm?$_ups_state_snd__minim
+                0x84200746       0x24 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x84200746                $_ups_state_snd
+ pm?$_cvc_send_check_all_connected__minim
+                0x8420076a       0x3e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x8420076a                $_cvc_send_check_all_connected
+ pm?$_ups_params_snd__minim
+                0x842007a8       0x1e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842007a8                $_ups_params_snd
+ pm?$_cvc_send_release_constants__minim
+                0x842007c6        0x2 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x842007c6                $_cvc_send_release_constants
+ pm?_cvc_send_config__minim
+                0x842007c8       0xba D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ *.o(PM_FLASH\?*__minim)
+ *.o(*PM*\?*__minim)
+ PM?$M.kdc_start__minim
+                0x84200882       0x40 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+                0x84200882                $kdc_start
+ PM?$M.CVC_SEND_CAP.config.headset_1mic__minim
+                0x842008c2       0x14 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x842008c2                $_CVC_SEND_CAP_Config_headset_1mic
+ PM?$M.CVC_SEND_CAP.config.headset_2mic__minim
+                0x842008d6       0x18 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x842008d6                $_CVC_SEND_CAP_Config_headset_2mic_binaural
+                0x842008dc                $M.CVC_SEND_CAP.config.headset_2mic.Config_headset_2mic
+                0x842008da                $_CVC_SEND_CAP_Config_headset_2mic_mono
+ PM?$M.CVC_SEND_CAP.config.speaker_1mic__minim
+                0x842008ee       0x14 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x842008ee                $_CVC_SEND_CAP_Config_speaker_1mic
+ PM?$M.CVC_SEND_CAP.config.speaker_2mic__minim
+                0x84200902       0x14 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200902                $_CVC_SEND_CAP_Config_speaker_2mic
+ PM?$M.CVC_SEND_CAP.dyn_config__minim
+                0x84200916       0x1e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200916                $cvc_send.dyn_config
+ PM?$M.CVC_SEND_CAP.Create__minim
+                0x84200934      0x112 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200a38                $M.CVC_SEND_CAP.Create.create_done
+                0x84200a42                $M.CVC_SEND_CAP.Create.create_failed
+                0x84200934                $_CVC_SEND_CAP_Create
+                0x842009e6                $M.CVC_SEND_CAP.Create.jp_no_asf_share
+ PM?$M.CVC_SEND_CAP.Destroy__minim
+                0x84200a46       0xa6 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200a46                $_CVC_SEND_CAP_Destroy
+ PM?$M.CVC_SEND_CAP.Initialize__minim
+                0x84200aec        0xc D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200aec                $_CVC_SEND_CAP_Initialize
+ PM?$M.CVC_SEND_CAP.Process__minim
+                0x84200af8       0x5c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200af8                $_CVC_SEND_CAP_Process
+ PM?$M.cvc_send_opmsg_get_voice_quality__minim
+                0x84200b54        0x4 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+                0x84200b54                $_cvc_send_opmsg_get_voice_quality
+ PM?$M.CVC_SEND.module_init.root__minim
+                0x84200b58       0x60 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200b58                $cvc.init.root
+                0x84200b9c                $M.CVC_SEND.module_init.root.end_CE_fixed_param
+ PM?$M.CVC_SEND.module_init.harmonicity__minim
+                0x84200bb8        0x8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200bb8                $cvc.init.harm
+ PM?$M.CVC_SEND.module_init.harmonicity_export__minim
+                0x84200bc0        0xe D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200bc0                $cvc.init.harm_export
+ PM?$M.CVC_SEND.module_init.oms_in__minim
+                0x84200bce        0xe D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200bce                $cvc.init.oms_in
+ PM?$M.CVC_SEND.module_control.oms_in__minim
+                0x84200bdc       0x1a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200bdc                $cvc.mc.oms_in
+ PM?$M.CVC_SEND.module_control.dmss.residule_noise_reduction__minim
+                0x84200bf6       0x64 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200c4a                $M.CVC_SEND.module_control.dmss.residule_noise_reduction.rnr_auto
+                0x84200bf6                $cvc.mc.dmss_rnr
+ PM?$M.CVC_SEND.module_control.dmss.target_protection__minim
+                0x84200c5a       0x40 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200c5a                $cvc.mc.dmss_tp
+ PM?$M.CVC_SEND.module_init.aec510__minim
+                0x84200c9a       0x4c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200c9a                $cvc.init.aec510
+                0x84200cca                $cvc.init.aec510.lrm
+                0x84200cbe                $cvc.init.vsm_fdnlp
+ PM?$M.CVC_SEND.module_control.aec510__minim
+                0x84200ce6       0x30 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d10                $cvc.mc.aec510_cng
+                0x84200ce6                $cvc.mc.aec510
+                0x84200d10                $cvc.mc.aec510_nlp
+ PM?$M.CVC_SEND.module_control.aec510_lrm__minim
+                0x84200d16        0xe D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d16                $cvc.aec510_lrm.gain_mapping
+ PM?$M.CVC_SEND.module_control.aec_ref_delay__minim
+                0x84200d24       0x10 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d24                $cvc.mc.ref_delay
+ PM?$M.CVC_SEND.module_control.aec_ref.filter_bank.analysis__minim
+                0x84200d34       0x18 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d34                $cvc.aec_ref.filter_bank.analysis
+ PM?$M.CVC_SEND.event.echo_flag__minim
+                0x84200d4c       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d4c                $cvc.event.echo_flag
+ PM?$M.CVC_SEND.module_init.aed100__minim
+                0x84200d5e       0x1a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d5e                $cvc.init.aed100
+ PM?$M.CVC_SEND.module_control.aed100__minim
+                0x84200d78       0x34 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200d78                $cvc.mc.aed100
+ PM?$M.CVC_SEND.module_init.agc400__minim
+                0x84200dac        0xc D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200dac                $cvc.init.agc400
+ PM?$M.CVC_SEND.module_control.agc400__minim
+                0x84200db8       0x42 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200db8                $cvc.mc.agc400
+ PM?$M.CVC_SEND.module_init.mgdc_persist__minim
+                0x84200dfa       0x14 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200dfa                $cvc.mgdc_persist.init
+ PM?$M.CVC_SEND.event.mgdc_persist__minim
+                0x84200e0e        0xa D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200e0e                $cvc.mgdc_persist.state_upload
+ PM?$M.CVC_SEND.module_control.mgdc100__minim
+                0x84200e18       0x3c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200e18                $cvc.mc.mgdc100
+ PM?$M.CVC_SEND.event.mgdc_harm_dynamic__minim
+                0x84200e54       0x20 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200e54                $cvc.mgdc.harm_dynamic
+ PM?$M.CVC_SEND.module_init.ndvc100__minim
+                0x84200e74        0xc D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200e74                $cvc.init.ndvc100
+ PM?$M.CVC_SEND.module_init.asf100__minim
+                0x84200e80       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200e80                $cvc.init.asf100
+ PM?$M.CVC_SEND.module_control.asf100__minim
+                0x84200ea8       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200ec0                $M.CVC_SEND.module_control.asf100.end_beam0_switch
+                0x84200ea8                $cvc.mc.asf100
+ PM?$M.CVC_SEND.user.wnr_oms.init__minim
+                0x84200ed0       0x10 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200ed0                $cvc.user.dms100.wnr.initialize
+ PM?$M.CVC_SEND.module_init.dms100__minim
+                0x84200ee0       0x4a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200ee0                $cvc.init.dms100
+ PM?$M.CVC_SEND.module_control.dms100__minim
+                0x84200f2a       0x2a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200f2a                $cvc.mc.dms100
+ PM?$M.CVC_SEND.module_control.dms_out__minim
+                0x84200f54        0x8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200f54                $cvc.mc.dms_out
+ CVCLIB_PM?$M.hpf.process__minim
+                0x84200f5c       0x38 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+                0x84200f92                $M.hpf.process.hpf_loop
+                0x84200f5c                $hpf.process
+ PM?$M.CVC_SEND.PASS_THROUGH__minim
+                0x84200f94       0x78 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+                0x84200fd8                $M.CVC_SEND.PASS_THROUGH.passthroughgains
+                0x84200fa2                $M.CVC_SEND.PASS_THROUGH.passthroughgains_1mic
+                0x84200f94                $M.CVC_SEND.Set_PassThroughGains_1MIC
+                0x84200fda                $M.CVC_SEND.PASS_THROUGH.setgains
+                0x84200fb4                $M.CVC_SEND.Set_PassThroughGains_2MIC
+                0x84200faa                $M.CVC_SEND.PASS_THROUGH.setgains_1mic
+                0x84200fe8                $M.CVC_SEND.stream_map_select
+                0x84201002                $M.CVC_SEND.PASS_THROUGH.set_input_ptr
+
+.text_minim_private
+                0x8420100c        0x0
+ *.po(PM_KEEP\?*)
+ *.po(*pm*\?*__minim)
+ *.po(*PM*\?*__minim)
+                0x8420100c                $MEM_MAP_CODE_END = <code 343> (.)
+                0x0000100c                __CODE_RAM_SIZE = ($MEM_MAP_CODE_END - $MEM_MAP_CODE_START)
+                0x0420100c                __DM2_ram_address = ((__CODE_ram_address + __CODE_RAM_SIZE) ALIGN 0x4)
+                0xff800004                . = $DM2_RAM_BASE_ADDRESS
+                0xff800004                $DM2_START_ADDRESS = .
+
+.initc_dm2_private
+                0xff800004        0x0 load address 0x0420100c
+                0xff800004                $MEM_MAP_DM2_INITC_START = <code 343> (.)
+ *(*DM_SPI_COMMS*)
+ *.po(*DM2\?*)
+ *.po(*dm2\?*)
+
+.initc_dm2      0xff800004        0x0
+ *.o(*DM2\?*)
+ *.o(*dm2\?*)
+                0xff800004                $MEM_MAP_DM2_INITC_END = <code 343> (.)
+                0x00000000                $DM2_INIT_SIZE_BYTES = ($MEM_MAP_DM2_INITC_END - $MEM_MAP_DM2_INITC_START)
+                0xff800004                $DM2_END_ADDRESS = .
+                0x0420100c                __const_data_api_address = ((__DM2_ram_address + $DM2_INIT_SIZE_BYTES) ALIGN 0x4)
+                0xff800004                . = (. ALIGN 0x4)
+
+.const_data_api_16
+                0xff800004     0x2da0 load address 0x0420100c
+                0xff800004                $CONST16_START = <code 343> (.)
+ *.o(const16\?*)
+ *.o(CONST16\?*)
+ CONST16?$M.CVC_SEND_CAP.headset_data_1mic.DynTable_Main
+                0xff800004      0x874 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+                0xff800004                $_CVC_SEND_CAP_headset_data_1micDynTable_Main
+                0xff800004                $M.CVC_SEND_CAP.headset_data_1mic.DynTable_Main
+ CONST16?$M.CVC_SEND_CAP.headset_data_2mic.DynTable_Main
+                0xff800878      0xdb0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+                0xff800878                $M.CVC_SEND_CAP.headset_data_2mic.DynTable_Main
+                0xff800878                $_CVC_SEND_CAP_headset_data_2micDynTable_Main
+ CONST16?$M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Main
+                0xff801628      0x95e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+                0xff801628                $_CVC_SEND_CAP_speaker_data_1micDynTable_Main
+                0xff801628                $M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Main
+ CONST16?$M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Main
+                0xff801f86      0xe1e D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+                0xff801f86                $_CVC_SEND_CAP_speaker_data_2micDynTable_Main
+                0xff801f86                $M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Main
+
+.const_data_api_16_private
+                0xff802da4        0x0
+ *.po(const16\?*)
+ *.po(CONST16\?*)
+                0xff802da4                $CONST16_END = <code 343> (.)
+
+.const_data_api
+                0xff802da4      0xb50 load address 0x04203dac
+                0xff802da4                $CONST32_START = <code 343> (.)
+ *.o(const\?*)
+ *.o(CONST\?*)
+ CONST?$M.CVC_SEND_CAP.headset_data_1mic.DynTable_Linker
+                0xff802da4      0x240 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+                0xff802da4                $M.CVC_SEND_CAP.headset_data_1mic.DynTable_Linker
+ CONST?$M.CVC_SEND_CAP.headset_data_2mic.DynTable_Linker
+                0xff802fe4      0x350 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+                0xff802fe4                $M.CVC_SEND_CAP.headset_data_2mic.DynTable_Linker
+ CONST?$M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Linker
+                0xff803334      0x270 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+                0xff803334                $M.CVC_SEND_CAP.speaker_data_1mic.DynTable_Linker
+ CONST?$M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Linker
+                0xff8035a4      0x350 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+                0xff8035a4                $M.CVC_SEND_CAP.speaker_data_2mic.DynTable_Linker
+
+.const_data_api_private
+                0xff8038f4        0x0
+ *.po(const\?*)
+ *.po(CONST\?*)
+                0xff8038f4                $CONST32_END = <code 343> (.)
+                0x000038f0                $CONST_DATA_API_SIZE_BYTES = ($CONST32_END - $CONST16_START)
+                0x042048fc                __CONST_ram_address = ((__const_data_api_address + $CONST_DATA_API_SIZE_BYTES) ALIGN 0x4)
+                0x00700000                . = ($DATA_RAM_START_ADDRESS ALIGN 0x4)
+                0x00700000                $DM1_START_ADDRESS = .
+
+.dmconst        0x00700000      0x208 load address 0x042048fc
+                0x00700000                $MEM_MAP_CONST_START = <code 343> (.)
+ *.o(DMCONST*)
+ *.o(dmconst*)
+ dmconst?$_cvc_send_1mic_nb_hs_cap_data
+                0x00700000       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700000                $_cvc_send_1mic_nb_hs_cap_data
+ dmconst?$_cvc_send_1mic_wb_hs_cap_data
+                0x00700028       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700028                $_cvc_send_1mic_wb_hs_cap_data
+ dmconst?$_cvc_send_2mic_hs_mono_nb_cap_data
+                0x00700050       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700050                $_cvc_send_2mic_hs_mono_nb_cap_data
+ dmconst?$_cvc_send_2mic_hs_mono_wb_cap_data
+                0x00700078       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700078                $_cvc_send_2mic_hs_mono_wb_cap_data
+ dmconst?$_cvc_send_2mic_hs_binaural_nb_cap_data
+                0x007000a0       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x007000a0                $_cvc_send_2mic_hs_binaural_nb_cap_data
+ dmconst?$_cvc_send_2mic_hs_binaural_wb_cap_data
+                0x007000c8       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x007000c8                $_cvc_send_2mic_hs_binaural_wb_cap_data
+ dmconst?$_cvc_send_1mic_speaker_nb_cap_data
+                0x007000f0       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x007000f0                $_cvc_send_1mic_speaker_nb_cap_data
+ dmconst?$_cvc_send_1mic_speaker_wb_cap_data
+                0x00700118       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700118                $_cvc_send_1mic_speaker_wb_cap_data
+ dmconst?$_cvc_send_2mic_speaker_nb_cap_data
+                0x00700140       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700140                $_cvc_send_2mic_speaker_nb_cap_data
+ dmconst?$_cvc_send_2mic_speaker_wb_cap_data
+                0x00700168       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700168                $_cvc_send_2mic_speaker_wb_cap_data
+ dmconst?$_cvc_send_handler_table
+                0x00700190       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700190                $_cvc_send_handler_table
+ dmconst?$_cvc_send_opmsg_handler_table
+                0x007001b8       0x50 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x007001b8                $_cvc_send_opmsg_handler_table
+
+.dmconst_private
+                0x00700208        0x0
+ *.po(DMCONST*)
+ *.po(dmconst*)
+                0x00700208                $MEM_MAP_CONST_END = <code 343> (.)
+                0x00000208                $CONST_SIZE_BYTES = ($MEM_MAP_CONST_END - $MEM_MAP_CONST_START)
+                0x04204b04                __DM1_ram_address = ((__CONST_ram_address + $CONST_SIZE_BYTES) ALIGN 0x4)
+                0x00700208                . = (. ALIGN 0x4)
+
+.initc_dm1      0x00700208       0x94 load address 0x04204b04
+                0x00700208                $MEM_MAP_DM1_INITC_START = <code 343> (.)
+ *.o(*DM1\?*)
+ *.o(*dm1\?*)
+ *.o(dm\?*)
+ dm?$_cvc_send_caps
+                0x00700208       0x90 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+                0x00700208                $_cvc_send_caps
+ *.o(DM\?*)
+ .initc_dm1     0x00700298        0x4 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+                0x00700298                __devtools_image_checksum
+
+.initc_dm1_private
+                0x0070029c        0x0
+ *.po(*DM1\?*)
+ *.po(*dm1\?*)
+ *.po(dm\?*)
+ *.po(DM\?*)
+                0x0070029c                $MEM_MAP_DM1_INITC_END = <code 343> (.)
+                0x00000094                $INITC_DM1_SIZE = ($MEM_MAP_DM1_INITC_END - $MEM_MAP_DM1_INITC_START)
+                0x04204b98                __DATA_zero_init_address = ((__DM1_ram_address + $INITC_DM1_SIZE) ALIGN 0x4)
+
+.zeroinit       0x0070029c        0x0 load address 0x04204b98
+                0x0070029c                $MEM_MAP_BSS_START = <code 343> (.)
+ *.o(dmzi*)
+ *.o(DMZI*)
+ *.o(*DM1_ZI\?*)
+ *.o(*dm1_zi\?*)
+
+.zeroinit_private
+                0x0070029c        0x0
+ *.po(dmzi*)
+ *.po(DMZI*)
+ *.po(*DM1_ZI\?*)
+ *.po(*dm1_zi\?*)
+                0x0070029c                $MEM_MAP_BSS_END = <code 343> (.)
+                0x0073f3a0                . = (($DATA_RAM_END_ADDRESS - $PRESERVE_BLOCK_SIZE_BYTES) - $STACK_SIZE_BYTES)
+
+.stack          0x0073f3a0        0x0
+                0x0073f3a0                $MEM_MAP_STACK_START = <code 343> (.)
+ *(STACK_DM*)
+                0x0073f3a0                $MEM_MAP_STACK_END = <code 343> (.)
+                0x0073ffa0                . = ($DATA_RAM_END_ADDRESS - $PRESERVE_BLOCK_SIZE_BYTES)
+
+.preserve       0x0073ffa0        0x0
+                0x0073ffa0                $MEM_PRESERVE_START = <code 343> (.)
+ *(DM_PRESERVE_BLOCK*)
+                0x0073ffa0                $MEM_PRESERVE_END = <code 343> (.)
+                0x0073ffa0                $DM1_END_ADDRESS = .
+                0x15500000                . = 0x15500000
+
+debug_strings
+ *(DEBUG_TRACE_STRINGS*)
+                0x00000000                $MEM_MAP_BSS_LENGTH_DWORDS = ((SIZEOF (.zeroinit) + 0x3) / 0x4)
+                0x00104b04                $MEM_MAP_DM1_INITC_ROM_ADDR = ($DATA_PM_RAM_WINDOW + <code 343> ((__DM1_ram_address - __CODE_ram_address)))
+                0x00700000                $DM1_REGION.__Base = $DM1_START_ADDRESS
+                0x0073ffa0                $DM1_REGION.__Limit = $DM1_END_ADDRESS
+                0xff800004                $DM2_REGION.__Base = $DM2_START_ADDRESS
+                0xff800004                $DM2_REGION.__Limit = $DM2_END_ADDRESS
+                0x00000025                $DM1_INIT_SIZE_DWORDS = ((SIZEOF (.initc_dm1) + 0x3) / 0x4)
+                0x0010100c                $MEM_MAP_DM2_INITC_ROM_ADDR = ($DATA_PM_RAM_WINDOW + <code 343> ((__DM2_ram_address - __CODE_ram_address)))
+                0x00000000                $DM2_INIT_SIZE_DWORDS = (($DM2_INIT_SIZE_BYTES + 0x3) / 0x4)
+                0xff800004                $DM_DNLD_CONST16_REGION.__Base = $CONST16_START
+                0xff802da3                $DM_DNLD_CONST16_REGION.__Limit = ($CONST16_END - 0x1)
+                0xff802da4                $DM_DNLD_CONST32_REGION.__Base = $CONST32_START
+                0xff8038f3                $DM_DNLD_CONST32_REGION.__Limit = ($CONST32_END - 0x1)
+                0x00700000                $DMCONST_DNLD_REGION.__Base = $MEM_MAP_CONST_START
+                0x00700207                $DMCONST_DNLD_REGION.__Limit = ($MEM_MAP_CONST_END - 0x1)
+                0x00700298                $__devtools_image_checksum = __devtools_image_checksum
+START GROUP
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\audio_pios\debugbin\libaudio_pios.a
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\op_data_access\debugbin\libop_data_access.a
+LOAD D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a
+LOAD C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\audio\kalimba_ROM_4786\kymera\output\stre_rom_v02_release\build\debugbin\kymera_stre_audio.elf
+LOAD C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\kcc\lib\QCC302x_audio\libc.a
+LOAD C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\kcc\lib\QCC302x_audio\libfle.a
+LOAD C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\kcc\lib\QCC302x_audio\libcrt.a
+END GROUP
+OUTPUT(D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugbin\download_cvc_send.elf elf32-littlekalimba)
+
+.debug_comment  0x00000000      0x4fe
+ .debug_comment
+                0x00000000       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_comment
+                0x00000068       0xab D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_comment
+                0x00000113       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_comment
+                0x0000017b       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_comment
+                0x000001e3       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_comment
+                0x0000024b       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_comment
+                0x000002b3       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_comment
+                0x0000031b       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_comment
+                0x00000383       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_comment
+                0x000003eb       0x68 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_comment
+                0x00000453       0xab D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_line     0x00000000     0x6378
+ .debug_line    0x00000000       0xe3 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_line    0x000000e3     0x3317 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_line    0x000033fa      0x593 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_line    0x0000398d       0xc8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_line    0x00003a55       0xc8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_line    0x00003b1d       0xc8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_line    0x00003be5       0xc8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_line    0x00003cad      0xa6a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_line    0x00004717      0x14f D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_line    0x00004866       0xaf D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_line    0x00004915     0x1a63 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_info     0x00000000     0xbddd
+ .debug_info    0x00000000      0x142 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_info    0x00000142     0x8efc D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_info    0x0000903e      0x36a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_info    0x000093a8      0x1df D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_info    0x00009587      0x1df D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_info    0x00009766      0x1df D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_info    0x00009945      0x1df D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_info    0x00009b24      0x76b D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_info    0x0000a28f       0xe6 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_info    0x0000a375      0x154 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_info    0x0000a4c9     0x1914 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_abbrev   0x00000000      0x6c6
+ .debug_abbrev  0x00000000       0x69 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_abbrev  0x00000069      0x21b D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_abbrev  0x00000284       0x67 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_abbrev  0x000002eb       0x63 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_abbrev  0x0000034e       0x63 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_abbrev  0x000003b1       0x63 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_abbrev  0x00000414       0x63 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_abbrev  0x00000477       0x67 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_abbrev  0x000004de       0x69 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_abbrev  0x00000547       0x67 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_abbrev  0x000005ae      0x118 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_aranges  0x00000000      0x300
+ .debug_aranges
+                0x00000000       0x20 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_aranges
+                0x00000020       0xc0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_aranges
+                0x000000e0       0x88 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_aranges
+                0x00000168        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_aranges
+                0x00000168        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_aranges
+                0x00000168        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_aranges
+                0x00000168        0x0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_aranges
+                0x00000168      0x118 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_aranges
+                0x00000280       0x20 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_aranges
+                0x000002a0       0x28 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_aranges
+                0x000002c8       0x38 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_pubnames
+                0x00000000      0x6fc
+ .debug_pubnames
+                0x00000000       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+ .debug_pubnames
+                0x00000012      0x40a D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_pubnames
+                0x0000041c       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_pubnames
+                0x0000042e       0x7c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_1mic.o)
+ .debug_pubnames
+                0x000004aa       0x7c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_headset_2mic.o)
+ .debug_pubnames
+                0x00000526       0x7c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_1mic.o)
+ .debug_pubnames
+                0x000005a2       0x7c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_speaker_2mic.o)
+ .debug_pubnames
+                0x0000061e       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_pubnames
+                0x00000630       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(pass_through.o)
+ .debug_pubnames
+                0x00000642       0x12 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
+ .debug_pubnames
+                0x00000654       0xa8 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_comment.1
+                0x00000000       0x30
+ .debug_comment
+                0x00000000       0x30 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+
+.note.ABI-tag   0x00000000       0x10
+ .note.ABI-tag  0x00000000       0x10 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\download\debugobj\kdc_start.o
+
+.debug_loc      0x00000000      0xde3
+ .debug_loc     0x00000000      0xc8b D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_loc     0x00000c8b      0x158 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_frame    0x00000000      0x44c
+ .debug_frame   0x00000000      0x37c D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send.o)
+ .debug_frame   0x0000037c       0xd0 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\stream\debugbin\libstream.a(stream_delegate_rate_adjust.o)
+
+.debug_ranges   0x00000000      0x1b0
+ .debug_ranges  0x00000000       0x80 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(cvc_send_proc.o)
+ .debug_ranges  0x00000080      0x110 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\capabilities\cvc_send\debugbin\libcvc_send.a(config_functions.o)
+ .debug_ranges  0x00000190       0x20 D:\3024_sink\Raptor_ADK64226_QCC3024_20200615\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\cbops\debugbin\libcbops.a(cbops_rate_monitor_operator_extra.o)
